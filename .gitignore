@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# uv
+.venv/
+
+# Environment
+.env
+
+# Bible data (downloaded)
+.bible_data/
+
+# Knowledge Graph data (generated artifacts — logic is tracked, data is not)
+src/kg/data/
+
+# Logs
+.logs/
+
+# Message history (saved by summarization middleware)
+.message_history/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
