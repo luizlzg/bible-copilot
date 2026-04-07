@@ -7,9 +7,25 @@ Usage:
 """
 
 import os
+import warnings
 from uuid import uuid4
 
 from dotenv import load_dotenv
+
+# LangGraph's Runtime dataclass uses a generic `context: ContextT = None` that
+# Pydantic can't resolve to the concrete schema at serialization time, so it warns
+# when the MemorySaver checkpointer serializes a Runtime object carrying our context.
+# The serialization is functionally correct — this is a known LangGraph gap.
+warnings.filterwarnings(
+    "ignore",
+    message=r".*field_name='context'.*",
+    category=UserWarning,
+)
+warnings.filterwarnings(
+    "ignore",
+    message=r".*Pydantic serializer warnings.*",
+    category=UserWarning,
+)
 from fastapi import FastAPI
 from langchain.messages import HumanMessage
 from langgraph.checkpoint.memory import MemorySaver
