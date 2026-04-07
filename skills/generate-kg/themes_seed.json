@@ -1,0 +1,4006 @@
+{
+  "eras": [
+    {
+      "id": "creation",
+      "label": "Criação e Origens",
+      "order": 1,
+      "description": "Os primórdios da humanidade desde a criação até a dispersão das nações em Babel.",
+      "approximate_period": "~até 2000 AC"
+    },
+    {
+      "id": "patriarchs",
+      "label": "Patriarcas",
+      "order": 2,
+      "description": "A era de Abraão, Isaque e Jacó — as promessas fundacionais da aliança e a formação das 12 tribos.",
+      "approximate_period": "~2000-1800 AC"
+    },
+    {
+      "id": "exodus_wilderness",
+      "label": "Êxodo e Deserto",
+      "order": 3,
+      "description": "Escravidão no Egito, libertação, aliança no Sinai e 40 anos no deserto.",
+      "approximate_period": "~1446-1406 AC"
+    },
+    {
+      "id": "conquest",
+      "label": "Conquista",
+      "order": 4,
+      "description": "A entrada e conquista de Canaã sob a liderança de Josué.",
+      "approximate_period": "~1406-1375 AC"
+    },
+    {
+      "id": "judges",
+      "label": "Juízes",
+      "order": 5,
+      "description": "Período sem rei centralizado, com ciclos de pecado, opressão e libertação por juízes.",
+      "approximate_period": "~1375-1050 AC"
+    },
+    {
+      "id": "united_kingdom",
+      "label": "Reino Unido",
+      "order": 6,
+      "description": "Israel unificado sob Saul, Davi e Salomão — o auge do poder e a construção do templo.",
+      "approximate_period": "~1050-930 AC"
+    },
+    {
+      "id": "divided_kingdom",
+      "label": "Reino Dividido",
+      "order": 7,
+      "description": "Divisão em Israel (norte) e Judá (sul), declínio espiritual e queda de ambos os reinos.",
+      "approximate_period": "~930-586 AC"
+    },
+    {
+      "id": "exile",
+      "label": "Exílio",
+      "order": 8,
+      "description": "O povo deportado para a Assíria (722 AC) e Babilônia (586 AC), vivendo fora da terra prometida.",
+      "approximate_period": "~722-539 AC"
+    },
+    {
+      "id": "return_rebuild",
+      "label": "Retorno e Reconstrução",
+      "order": 9,
+      "description": "Retorno a Jerusalém sob Zorobabel, Esdras e Neemias para reconstruir templo, muros e identidade.",
+      "approximate_period": "~539-430 AC"
+    },
+    {
+      "id": "life_of_christ",
+      "label": "Vida de Cristo",
+      "order": 10,
+      "description": "O nascimento, ministério, morte e ressurreição de Jesus Cristo",
+      "approximate_period": "~4 AC - 30 DC"
+    },
+    {
+      "id": "early_church",
+      "label": "Igreja Primitiva",
+      "order": 11,
+      "description": "O nascimento e expansão da igreja cristã através do Mediterrâneo",
+      "approximate_period": "~30 - 95 DC"
+    },
+    {
+      "id": "end_times",
+      "label": "Fim dos Tempos",
+      "order": 12,
+      "description": "Visões proféticas sobre o juízo final, a segunda vinda de Cristo e a nova criação",
+      "approximate_period": "Futuro escatológico"
+    }
+  ],
+  "themes": [
+    {
+      "id": "adoracao",
+      "label": "Adoração",
+      "type": "broad",
+      "description": "A resposta do povo de Deus à sua presença — através de sacrifícios, cânticos, orações e vida.",
+      "related_themes": [
+        "conhecimento_de_deus",
+        "gloria_de_deus",
+        "gratidao",
+        "hipocrisia_religiosa",
+        "igreja",
+        "louvor",
+        "obediencia",
+        "oracao",
+        "presenca_de_deus",
+        "sacrificio"
+      ],
+      "aliases": [
+        "adoração",
+        "culto",
+        "cultuar",
+        "louvor",
+        "praise",
+        "reverência",
+        "worship"
+      ]
+    },
+    {
+      "id": "alianca",
+      "label": "Aliança",
+      "type": "broad",
+      "description": "Os pactos formais entre Deus e seu povo, com promessas e compromissos mútuos.",
+      "related_themes": [
+        "amor_de_deus",
+        "fe",
+        "fidelidade",
+        "fidelidade_de_deus",
+        "lei",
+        "nova_alianca",
+        "obediencia",
+        "promessa",
+        "salvacao"
+      ],
+      "aliases": [
+        "God's promise",
+        "acordo com Deus",
+        "aliança",
+        "concerto",
+        "covenant",
+        "pacto",
+        "promessa",
+        "promessa de Deus"
+      ]
+    },
+    {
+      "id": "amor",
+      "label": "Amor",
+      "type": "broad",
+      "description": "O amor fiel e inabalável de Deus (hesed) e o chamado a amar a Deus e ao próximo.",
+      "related_themes": [
+        "alianca",
+        "casamento",
+        "comunidade",
+        "familia",
+        "graca",
+        "misericordia",
+        "perdao"
+      ],
+      "aliases": [
+        "God's love",
+        "afeição",
+        "amar",
+        "amizade",
+        "amor",
+        "amor de Deus",
+        "amor fiel",
+        "caridade",
+        "charity",
+        "hesed",
+        "love",
+        "ágape"
+      ]
+    },
+    {
+      "id": "amor_de_deus",
+      "label": "Amor Persistente de Deus",
+      "type": "broad",
+      "description": "O amor incondicional e perseverante de Deus que persegue seu povo mesmo em meio à infidelidade",
+      "related_themes": [
+        "misericordia",
+        "alianca",
+        "restauracao",
+        "perdao"
+      ],
+      "aliases": [
+        "amor de Deus",
+        "amor incondicional",
+        "hesed",
+        "lovingkindness",
+        "God's love",
+        "amor fiel",
+        "benignidade"
+      ]
+    },
+    {
+      "id": "autoridade_espiritual",
+      "label": "Autoridade Espiritual",
+      "type": "broad",
+      "description": "O poder e autoridade de Cristo e dos crentes sobre forças espirituais malignas",
+      "related_themes": [
+        "espirito_santo",
+        "fe",
+        "identidade"
+      ],
+      "aliases": [
+        "autoridade espiritual",
+        "guerra espiritual",
+        "armadura de Deus",
+        "spiritual authority",
+        "spiritual warfare"
+      ]
+    },
+    {
+      "id": "bencao",
+      "label": "Bênção",
+      "type": "broad",
+      "description": "O favor e a bondade de Deus derramados sobre pessoas e nações.",
+      "related_themes": [
+        "alianca",
+        "obediencia",
+        "gratidao"
+      ],
+      "aliases": [
+        "bênção",
+        "blessing",
+        "ser abençoado",
+        "blessed",
+        "favor"
+      ]
+    },
+    {
+      "id": "conhecimento_de_deus",
+      "label": "Conhecimento de Deus",
+      "type": "broad",
+      "description": "O conhecimento pessoal e relacional de Deus como fundamento da vida espiritual e moral",
+      "related_themes": [
+        "fe",
+        "obediencia",
+        "adoracao"
+      ],
+      "aliases": [
+        "knowledge of God",
+        "conhecer a Deus",
+        "intimidade com Deus",
+        "relacionamento com Deus"
+      ]
+    },
+    {
+      "id": "criacao",
+      "label": "Criação",
+      "type": "broad",
+      "description": "Deus como criador de tudo — do universo, da vida, da humanidade e do propósito.",
+      "related_themes": [
+        "adoracao",
+        "identidade",
+        "proposito",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "Deus criador",
+        "God as creator",
+        "creation",
+        "criação",
+        "natureza",
+        "obra de Deus",
+        "origem",
+        "origins"
+      ]
+    },
+    {
+      "id": "dia_do_senhor",
+      "label": "Dia do Senhor",
+      "type": "broad",
+      "description": "O grande dia escatológico de juízo e salvação em que Deus intervirá decisivamente na história",
+      "related_themes": [
+        "juizo",
+        "soberania_de_deus",
+        "esperanca",
+        "salvacao"
+      ],
+      "aliases": [
+        "dia do juízo",
+        "Day of the Lord",
+        "dia terrível",
+        "fim dos tempos",
+        "escatologia"
+      ]
+    },
+    {
+      "id": "dons_espirituais",
+      "label": "Dons Espirituais",
+      "type": "broad",
+      "description": "Capacidades dadas pelo Espírito Santo para edificação do corpo de Cristo",
+      "related_themes": [
+        "espirito_santo",
+        "igreja",
+        "comunidade"
+      ],
+      "aliases": [
+        "dons espirituais",
+        "dons do Espírito",
+        "carismas",
+        "spiritual gifts"
+      ]
+    },
+    {
+      "id": "espirito_santo",
+      "label": "Espírito Santo",
+      "type": "broad",
+      "description": "A promessa e atuação do Espírito de Deus na capacitação do povo e no cumprimento dos propósitos divinos",
+      "related_themes": [
+        "dons_espirituais",
+        "igreja",
+        "profecia",
+        "restauracao",
+        "salvacao",
+        "santificacao"
+      ],
+      "aliases": [
+        "Consolador",
+        "Espírito Santo",
+        "Espírito de Deus",
+        "Holy Spirit",
+        "Paráclito",
+        "derramamento do Espírito",
+        "poder do Espírito"
+      ]
+    },
+    {
+      "id": "exilio",
+      "label": "Exílio",
+      "type": "broad",
+      "description": "Remoção do povo de sua terra como juízo divino, e a esperança de retorno.",
+      "related_themes": [
+        "arrependimento",
+        "esperanca",
+        "juizo",
+        "recomeco",
+        "restauracao",
+        "saudade_de_deus"
+      ],
+      "aliases": [
+        "Babilônia",
+        "captivity",
+        "cativeiro",
+        "deportação",
+        "diáspora",
+        "exile",
+        "exílio"
+      ]
+    },
+    {
+      "id": "fe",
+      "label": "Fé",
+      "type": "broad",
+      "description": "Confiança ativa em Deus e em suas promessas, mesmo sem ver o cumprimento.",
+      "related_themes": [
+        "confianca",
+        "esperanca",
+        "obediencia",
+        "paciencia",
+        "salvacao"
+      ],
+      "aliases": [
+        "acreditar",
+        "belief",
+        "believe",
+        "confiança",
+        "confiança em Deus",
+        "crença",
+        "crer",
+        "faith",
+        "fé",
+        "trust",
+        "trust in God"
+      ]
+    },
+    {
+      "id": "fidelidade",
+      "label": "Fidelidade",
+      "type": "broad",
+      "description": "A firmeza de Deus em cumprir suas promessas e o chamado ao povo para ser igualmente fiel.",
+      "related_themes": [
+        "alianca",
+        "amor",
+        "casamento",
+        "confianca",
+        "fe",
+        "integridade",
+        "lealdade",
+        "obediencia"
+      ],
+      "aliases": [
+        "constância",
+        "constância de Deus",
+        "faithful",
+        "faithfulness",
+        "fidelidade",
+        "fiel",
+        "lealdade",
+        "loyalty",
+        "ser fiel"
+      ]
+    },
+    {
+      "id": "fidelidade_de_deus",
+      "label": "Fidelidade de Deus",
+      "type": "broad",
+      "description": "O caráter inabalável de Deus que cumpre suas promessas mesmo quando o povo falha.",
+      "related_themes": [
+        "alianca",
+        "misericordia",
+        "esperanca"
+      ],
+      "aliases": [
+        "fidelidade de Deus",
+        "God's faithfulness",
+        "lealdade divina",
+        "firmeza"
+      ]
+    },
+    {
+      "id": "fim_dos_tempos",
+      "label": "Fim dos Tempos",
+      "type": "broad",
+      "description": "Profecias sobre eventos futuros — juízo final, ressurreição, novo céu e nova terra.",
+      "related_themes": [
+        "juizo",
+        "ressurreicao",
+        "reino_de_deus",
+        "profecia"
+      ],
+      "aliases": [
+        "fim dos tempos",
+        "escatologia",
+        "end times",
+        "apocalipse",
+        "últimos dias"
+      ]
+    },
+    {
+      "id": "gloria_de_deus",
+      "label": "Glória de Deus",
+      "type": "broad",
+      "description": "A manifestação visível da majestade, santidade e presença de Deus.",
+      "related_themes": [
+        "santidade_de_deus",
+        "adoracao",
+        "templo"
+      ],
+      "aliases": [
+        "glória de Deus",
+        "glory of God",
+        "majestade",
+        "shekinah",
+        "presença de Deus"
+      ]
+    },
+    {
+      "id": "graca",
+      "label": "Graça",
+      "type": "broad",
+      "description": "O favor imerecido de Deus dado livremente, não por mérito humano.",
+      "related_themes": [
+        "amor",
+        "misericordia",
+        "perdao",
+        "salvacao"
+      ],
+      "aliases": [
+        "benignidade",
+        "favor de Deus",
+        "favor imerecido",
+        "grace",
+        "graça",
+        "undeserved favor",
+        "unmerited favor"
+      ]
+    },
+    {
+      "id": "guerra_espiritual",
+      "label": "Guerra Espiritual",
+      "type": "broad",
+      "description": "O conflito invisível entre forças espirituais que influencia o curso dos eventos humanos.",
+      "related_themes": [
+        "fe",
+        "oracao",
+        "protecao_divina"
+      ],
+      "aliases": [
+        "guerra espiritual",
+        "spiritual warfare",
+        "batalha espiritual",
+        "anjos e demônios"
+      ]
+    },
+    {
+      "id": "identidade_de_deus",
+      "label": "Identidade de Deus",
+      "type": "broad",
+      "description": "Quem Deus é — seus nomes, atributos e caráter revelados nas Escrituras.",
+      "related_themes": [
+        "adoracao",
+        "fe",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "identidade de Deus",
+        "who God is",
+        "nomes de Deus",
+        "names of God",
+        "caráter de Deus",
+        "atributos de Deus"
+      ]
+    },
+    {
+      "id": "idolatria",
+      "label": "Idolatria",
+      "type": "broad",
+      "description": "Colocar qualquer coisa no lugar que pertence a Deus — deuses falsos ou prioridades distorcidas.",
+      "related_themes": [
+        "adoracao",
+        "alianca",
+        "arrependimento",
+        "consequencias",
+        "dinheiro",
+        "idolatria_moderna",
+        "juizo",
+        "obediencia",
+        "pecado",
+        "tentacao"
+      ],
+      "aliases": [
+        "Baal",
+        "adoração falsa",
+        "culto pagão",
+        "false gods",
+        "falsos deuses",
+        "idolatria",
+        "idolatry",
+        "idols",
+        "prioridades erradas",
+        "ídolos"
+      ]
+    },
+    {
+      "id": "igreja",
+      "label": "Igreja",
+      "type": "broad",
+      "description": "A comunidade de crentes como corpo de Cristo, chamada a adorar, servir e testemunhar",
+      "related_themes": [
+        "comunidade",
+        "espirito_santo",
+        "lideranca"
+      ],
+      "aliases": [
+        "igreja",
+        "corpo de Cristo",
+        "assembleia",
+        "church",
+        "ekklesia"
+      ]
+    },
+    {
+      "id": "juizo",
+      "label": "Juízo",
+      "type": "broad",
+      "description": "O julgamento de Deus sobre o pecado — tanto corretivo quanto punitivo.",
+      "related_themes": [
+        "arrependimento",
+        "consequencias",
+        "consequencias_do_pecado",
+        "dia_do_senhor",
+        "justica_divina",
+        "misericordia",
+        "obediencia",
+        "pecado",
+        "segunda_vinda",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "castigo",
+        "castigo divino",
+        "condenação",
+        "divine judgment",
+        "ira de Deus",
+        "judgment",
+        "julgamento",
+        "juízo",
+        "juízo de Deus",
+        "punishment",
+        "punição",
+        "punição divina"
+      ]
+    },
+    {
+      "id": "justica_divina",
+      "label": "Justiça Divina",
+      "type": "broad",
+      "description": "A retribuição justa de Deus — o mal não ficará impune, o bem será recompensado.",
+      "related_themes": [
+        "juizo",
+        "misericordia",
+        "soberania_de_deus",
+        "vinganca_de_deus"
+      ],
+      "aliases": [
+        "divine justice",
+        "justiça de Deus",
+        "justiça divina",
+        "juízo justo",
+        "retidão divina",
+        "retribuição"
+      ]
+    },
+    {
+      "id": "justica_social",
+      "label": "Justiça Social",
+      "type": "broad",
+      "description": "O cuidado com os pobres, órfãos, viúvas e oprimidos — o coração de Deus pelos vulneráveis.",
+      "related_themes": [
+        "amor",
+        "dinheiro",
+        "injustica",
+        "justica_divina",
+        "lideranca",
+        "misericordia"
+      ],
+      "aliases": [
+        "cuidado com os pobres",
+        "desigualdade",
+        "direitos dos pobres",
+        "justiça para os pobres",
+        "justiça social",
+        "opressão",
+        "opressão dos fracos",
+        "social justice"
+      ]
+    },
+    {
+      "id": "lei",
+      "label": "Lei",
+      "type": "broad",
+      "description": "Os mandamentos e instruções de Deus para a vida do povo da aliança.",
+      "related_themes": [
+        "alianca",
+        "graca",
+        "justica",
+        "obediencia",
+        "palavra_de_deus",
+        "sabedoria",
+        "santidade"
+      ],
+      "aliases": [
+        "Torah",
+        "Torá",
+        "commandments",
+        "estatutos",
+        "law",
+        "lei",
+        "lei mosaica",
+        "mandamentos",
+        "ordenanças"
+      ]
+    },
+    {
+      "id": "libertacao",
+      "label": "Libertação",
+      "type": "broad",
+      "description": "Deus libertando seu povo da escravidão, opressão e cativeiro.",
+      "related_themes": [
+        "esperanca",
+        "protecao_divina",
+        "redencao",
+        "salvacao"
+      ],
+      "aliases": [
+        "deliverance",
+        "freedom",
+        "liberdade",
+        "libertar",
+        "libertação",
+        "livre",
+        "resgate"
+      ]
+    },
+    {
+      "id": "misericordia",
+      "label": "Misericórdia",
+      "type": "broad",
+      "description": "A compaixão de Deus que perdoa e restaura mesmo quando o juízo é merecido.",
+      "related_themes": [
+        "amor",
+        "amor_de_deus",
+        "fidelidade_de_deus",
+        "graca",
+        "perdao",
+        "restauracao",
+        "segunda_chance"
+      ],
+      "aliases": [
+        "clemência",
+        "compaixão",
+        "compassion",
+        "graça",
+        "mercy",
+        "misericórdia",
+        "piedade"
+      ]
+    },
+    {
+      "id": "nova_alianca",
+      "label": "Nova Aliança",
+      "type": "broad",
+      "description": "A promessa de Deus de um pacto novo, escrito nos corações, com perdão completo dos pecados.",
+      "related_themes": [
+        "alianca",
+        "perdao",
+        "restauracao",
+        "profecia_messianica"
+      ],
+      "aliases": [
+        "nova aliança",
+        "novo pacto",
+        "new covenant",
+        "new testament"
+      ]
+    },
+    {
+      "id": "nova_criacao",
+      "label": "Nova Criação",
+      "type": "broad",
+      "description": "A promessa de novos céus e nova terra onde habitará a justiça — a renovação definitiva de todas as coisas.",
+      "related_themes": [
+        "restauracao",
+        "esperanca",
+        "reino_de_deus",
+        "fim_dos_tempos"
+      ],
+      "aliases": [
+        "nova criação",
+        "new creation",
+        "novos céus e nova terra",
+        "renovação"
+      ]
+    },
+    {
+      "id": "novo_comeco",
+      "label": "Novo Começo",
+      "type": "broad",
+      "description": "A renovação completa que Deus promete — nova criação, nova Jerusalém, todas as coisas novas",
+      "related_themes": [
+        "esperanca",
+        "ressurreicao",
+        "vida_eterna"
+      ],
+      "aliases": [
+        "novo começo",
+        "nova criação",
+        "renovação",
+        "new beginning",
+        "new creation"
+      ]
+    },
+    {
+      "id": "novo_coracao",
+      "label": "Novo Coração",
+      "type": "broad",
+      "description": "A transformação interior que Deus promete — trocar o coração de pedra por um de carne.",
+      "related_themes": [
+        "nova_alianca",
+        "restauracao",
+        "arrependimento"
+      ],
+      "aliases": [
+        "novo coração",
+        "new heart",
+        "coração de carne",
+        "transformação interior",
+        "regeneração"
+      ]
+    },
+    {
+      "id": "novo_nascimento",
+      "label": "Novo Nascimento",
+      "type": "broad",
+      "description": "A regeneração espiritual pela qual uma pessoa se torna nova criatura em Cristo",
+      "related_themes": [
+        "salvacao",
+        "espirito_santo",
+        "identidade"
+      ],
+      "aliases": [
+        "novo nascimento",
+        "nascer de novo",
+        "regeneração",
+        "nova criatura",
+        "born again",
+        "new birth"
+      ]
+    },
+    {
+      "id": "palavra_de_deus",
+      "label": "Palavra de Deus",
+      "type": "broad",
+      "description": "As Escrituras como revelação de Deus — lâmpada para os pés, alimento para a alma.",
+      "related_themes": [
+        "lei",
+        "sabedoria",
+        "obediencia"
+      ],
+      "aliases": [
+        "Palavra de Deus",
+        "Word of God",
+        "Escrituras",
+        "Bíblia",
+        "Scripture"
+      ]
+    },
+    {
+      "id": "pecado",
+      "label": "Pecado",
+      "type": "broad",
+      "description": "A rebelião humana contra Deus e suas consequências na vida individual e comunitária.",
+      "related_themes": [
+        "arrependimento",
+        "consequencias",
+        "graca",
+        "juizo",
+        "perdao",
+        "salvacao"
+      ],
+      "aliases": [
+        "desobediência",
+        "iniquidade",
+        "pecado",
+        "queda",
+        "sin",
+        "transgression",
+        "transgressão"
+      ]
+    },
+    {
+      "id": "presenca_de_deus",
+      "label": "Presença de Deus",
+      "type": "broad",
+      "description": "Deus habitando no meio do seu povo — do tabernáculo ao templo à presença direta.",
+      "related_themes": [
+        "adoracao",
+        "santidade",
+        "alianca"
+      ],
+      "aliases": [
+        "presença de Deus",
+        "God's presence",
+        "Deus conosco",
+        "Emmanuel",
+        "tabernáculo",
+        "templo"
+      ]
+    },
+    {
+      "id": "profecia",
+      "label": "Profecia",
+      "type": "broad",
+      "description": "Declarações e predições de Deus através de seus mensageiros sobre o presente e o futuro.",
+      "related_themes": [
+        "esperanca",
+        "fe",
+        "juizo",
+        "obediencia",
+        "profecia_messianica",
+        "reino_de_deus",
+        "segunda_vinda",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "oráculo",
+        "palavra de Deus",
+        "palavra profética",
+        "profecia",
+        "profeta",
+        "profetizar",
+        "prophecy",
+        "prophet",
+        "revelação",
+        "visão"
+      ]
+    },
+    {
+      "id": "profecia_messianica",
+      "label": "Profecia Messiânica",
+      "type": "broad",
+      "description": "Profecias sobre o Messias vindouro — o Rei, o Servo Sofredor, o Filho do Homem.",
+      "related_themes": [
+        "esperanca",
+        "reino_de_deus",
+        "salvacao"
+      ],
+      "aliases": [
+        "Cristo",
+        "Messias",
+        "messianic prophecy",
+        "o Renovo",
+        "o ungido",
+        "profecia messiânica",
+        "promessa messiânica",
+        "ungido"
+      ]
+    },
+    {
+      "id": "promessa",
+      "label": "Promessa",
+      "type": "broad",
+      "description": "As promessas específicas de Deus ao seu povo e sua fidelidade em cumpri-las.",
+      "related_themes": [
+        "alianca",
+        "fe",
+        "esperanca"
+      ],
+      "aliases": [
+        "promessa",
+        "promise",
+        "promessas de Deus",
+        "God's promises",
+        "cumprimento"
+      ]
+    },
+    {
+      "id": "redencao",
+      "label": "Redenção",
+      "type": "broad",
+      "description": "O ato de resgatar alguém da escravidão, dívida ou condenação — central na história bíblica.",
+      "related_themes": [
+        "salvacao",
+        "sacrificio",
+        "libertacao"
+      ],
+      "aliases": [
+        "redenção",
+        "redemption",
+        "resgate",
+        "ransom",
+        "remidor",
+        "redeemer"
+      ]
+    },
+    {
+      "id": "reino_de_deus",
+      "label": "Reino de Deus",
+      "type": "broad",
+      "description": "O governo soberano de Deus sobre toda a criação, manifestado através de seus representantes.",
+      "related_themes": [
+        "alianca",
+        "esperanca",
+        "igreja",
+        "lideranca",
+        "nova_criacao",
+        "obediencia",
+        "profecia_messianica",
+        "restauracao",
+        "segunda_vinda",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "domínio divino",
+        "era messiânica",
+        "governo messiânico",
+        "kingdom of God",
+        "kingdom of heaven",
+        "reign",
+        "reinado",
+        "reinado de Deus",
+        "reino de Deus",
+        "reino dos céus",
+        "soberania",
+        "trono de Davi"
+      ]
+    },
+    {
+      "id": "remanescente",
+      "label": "Remanescente Fiel",
+      "type": "broad",
+      "description": "O grupo fiel que Deus preserva em meio ao juízo como semente de restauração futura",
+      "related_themes": [
+        "restauracao",
+        "esperanca",
+        "humildade",
+        "fe"
+      ],
+      "aliases": [
+        "remnant",
+        "resto fiel",
+        "sobreviventes",
+        "remanescente de Israel"
+      ]
+    },
+    {
+      "id": "responsabilidade_individual",
+      "label": "Responsabilidade Individual",
+      "type": "broad",
+      "description": "Cada pessoa responde por seus próprios atos diante de Deus — ninguém morre pelo pecado de outrem.",
+      "related_themes": [
+        "juizo",
+        "arrependimento",
+        "liberdade"
+      ],
+      "aliases": [
+        "responsabilidade individual",
+        "individual responsibility",
+        "cada um responderá",
+        "accountability"
+      ]
+    },
+    {
+      "id": "ressurreicao",
+      "label": "Ressurreição",
+      "type": "broad",
+      "description": "A promessa de que os mortos viverão novamente — ossos secos que revivem, os justos para a vida eterna.",
+      "related_themes": [
+        "esperanca",
+        "fe",
+        "fim_dos_tempos",
+        "morte",
+        "profecia_messianica"
+      ],
+      "aliases": [
+        "ressurreição",
+        "ressuscitar",
+        "resurrection",
+        "reviver",
+        "rising from the dead",
+        "vida após a morte"
+      ]
+    },
+    {
+      "id": "restauracao",
+      "label": "Restauração",
+      "type": "broad",
+      "description": "Deus trazendo de volta o que foi perdido — nação, dignidade, comunhão, esperança.",
+      "related_themes": [
+        "alianca",
+        "esperanca",
+        "misericordia",
+        "nova_alianca",
+        "nova_criacao",
+        "perdao",
+        "reino_de_deus"
+      ],
+      "aliases": [
+        "rebuild",
+        "rebuilding",
+        "recomeço",
+        "reconstrução",
+        "reedificação",
+        "renovação",
+        "restauração",
+        "restoration"
+      ]
+    },
+    {
+      "id": "sacrificio",
+      "label": "Sacrifício",
+      "type": "broad",
+      "description": "Ofertas e entregas a Deus — tanto do sistema levítico quanto de obediência pessoal.",
+      "related_themes": [
+        "adoracao",
+        "amor",
+        "perdao",
+        "profecia_messianica",
+        "salvacao",
+        "santidade"
+      ],
+      "aliases": [
+        "entrega",
+        "holocausto",
+        "oferta",
+        "offering",
+        "sacrifice",
+        "sacrifício"
+      ]
+    },
+    {
+      "id": "salvacao",
+      "label": "Salvação",
+      "type": "broad",
+      "description": "O plano de Deus para resgatar a humanidade do pecado e restaurar o relacionamento com ele.",
+      "related_themes": [
+        "alianca",
+        "esperanca",
+        "fe",
+        "graca",
+        "misericordia",
+        "perdao",
+        "profecia_messianica",
+        "redencao",
+        "sacrificio"
+      ],
+      "aliases": [
+        "deliverance",
+        "libertação",
+        "livramento",
+        "redemption",
+        "redenção",
+        "rescue",
+        "resgatar",
+        "resgate",
+        "salvation",
+        "salvação",
+        "saved",
+        "ser salvo"
+      ]
+    },
+    {
+      "id": "santidade",
+      "label": "Santidade",
+      "type": "broad",
+      "description": "A separação moral de Deus e o chamado do povo para ser separado do pecado.",
+      "related_themes": [
+        "obediencia",
+        "sacrificio",
+        "lei"
+      ],
+      "aliases": [
+        "santidade",
+        "holiness",
+        "pureza",
+        "purity",
+        "consagração",
+        "ser santo",
+        "be holy"
+      ]
+    },
+    {
+      "id": "santidade_de_deus",
+      "label": "Santidade de Deus",
+      "type": "broad",
+      "description": "A pureza absoluta e a separação de Deus de todo mal — fundamento do seu caráter.",
+      "related_themes": [
+        "gloria_de_deus",
+        "juizo",
+        "adoracao"
+      ],
+      "aliases": [
+        "santidade",
+        "holiness",
+        "santo",
+        "pureza divina"
+      ]
+    },
+    {
+      "id": "santificacao",
+      "label": "Santificação",
+      "type": "broad",
+      "description": "O processo contínuo de tornar-se santo e semelhante a Cristo pelo poder do Espírito",
+      "related_themes": [
+        "espirito_santo",
+        "obediencia",
+        "disciplina"
+      ],
+      "aliases": [
+        "santificação",
+        "santidade",
+        "purificação",
+        "sanctification",
+        "holiness"
+      ]
+    },
+    {
+      "id": "segunda_vinda",
+      "label": "Segunda Vinda",
+      "type": "broad",
+      "description": "O retorno prometido de Cristo para julgar o mundo e consumar o Reino de Deus",
+      "related_themes": [
+        "juizo",
+        "esperanca",
+        "reino_de_deus"
+      ],
+      "aliases": [
+        "segunda vinda",
+        "volta de Cristo",
+        "arrebatamento",
+        "parúsia",
+        "second coming",
+        "rapture"
+      ]
+    },
+    {
+      "id": "soberania_de_deus",
+      "label": "Soberania de Deus",
+      "type": "broad",
+      "description": "Deus está no controle de toda a história, guiando eventos para seus propósitos.",
+      "related_themes": [
+        "confianca",
+        "fe",
+        "juizo",
+        "profecia",
+        "proposito",
+        "providencia",
+        "reino_de_deus"
+      ],
+      "aliases": [
+        "Deus no controle",
+        "God's sovereignty",
+        "controle de Deus",
+        "controle divino",
+        "governo divino",
+        "poder de Deus",
+        "predestinação",
+        "providência",
+        "soberania de Deus",
+        "sovereignty",
+        "sovereignty of God",
+        "vontade de Deus"
+      ]
+    },
+    {
+      "id": "temor_de_deus",
+      "label": "Temor de Deus",
+      "type": "broad",
+      "description": "A reverência e o respeito profundo por Deus que é o início da sabedoria.",
+      "related_themes": [
+        "sabedoria",
+        "santidade_de_deus",
+        "obediencia"
+      ],
+      "aliases": [
+        "temor de Deus",
+        "fear of God",
+        "reverência",
+        "respeito a Deus"
+      ]
+    },
+    {
+      "id": "templo",
+      "label": "Templo",
+      "type": "broad",
+      "description": "O lugar da presença de Deus — do tabernáculo ao templo de Salomão, à visão do templo futuro.",
+      "related_themes": [
+        "gloria_de_deus",
+        "adoracao",
+        "santidade_de_deus"
+      ],
+      "aliases": [
+        "templo",
+        "temple",
+        "casa de Deus",
+        "santuário",
+        "tabernáculo"
+      ]
+    },
+    {
+      "id": "vida_eterna",
+      "label": "Vida Eterna",
+      "type": "broad",
+      "description": "A vida plena e sem fim que Deus oferece aos que creem em Cristo",
+      "related_themes": [
+        "salvacao",
+        "ressurreicao",
+        "esperanca"
+      ],
+      "aliases": [
+        "vida eterna",
+        "eternidade",
+        "eternal life",
+        "imortalidade"
+      ]
+    },
+    {
+      "id": "vinganca_de_deus",
+      "label": "Vingança Divina",
+      "type": "broad",
+      "description": "A retribuição justa de Deus contra os inimigos do seu povo e contra a maldade persistente",
+      "related_themes": [
+        "juizo",
+        "justica_divina",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "divine vengeance",
+        "retribuição divina",
+        "ira de Deus",
+        "God's wrath"
+      ]
+    },
+    {
+      "id": "abandonado",
+      "label": "Abandono",
+      "type": "life_situation",
+      "description": "A sensação de ter sido deixado — por pessoas ou aparentemente por Deus.",
+      "related_themes": [
+        "solidao",
+        "depressao",
+        "saudade_de_deus"
+      ],
+      "aliases": [
+        "abandono",
+        "abandonment",
+        "desamparo",
+        "forsaken"
+      ]
+    },
+    {
+      "id": "alegria",
+      "label": "Alegria",
+      "type": "life_situation",
+      "description": "A alegria profunda que vem de Deus, distinta da felicidade circunstancial.",
+      "related_themes": [
+        "adoracao",
+        "esperanca",
+        "gratidao",
+        "louvor"
+      ],
+      "aliases": [
+        "alegria",
+        "contentamento",
+        "contentment",
+        "felicidade",
+        "gozo",
+        "joy",
+        "regozijo"
+      ]
+    },
+    {
+      "id": "alegria_em_deus",
+      "label": "Alegria em Deus",
+      "type": "life_situation",
+      "description": "O gozo que transcende as circunstâncias por estar fundamentado no relacionamento com Deus",
+      "related_themes": [
+        "fe",
+        "confianca",
+        "adoracao",
+        "esperanca"
+      ],
+      "aliases": [
+        "joy in God",
+        "alegria",
+        "regozijo",
+        "gozo",
+        "contentamento",
+        "rejoicing"
+      ]
+    },
+    {
+      "id": "amizade",
+      "label": "Amizade",
+      "type": "life_situation",
+      "description": "Vínculos de companheirismo, apoio mútuo e amor fraternal.",
+      "related_themes": [
+        "comunidade",
+        "fidelidade",
+        "lealdade",
+        "solidao"
+      ],
+      "aliases": [
+        "amigo",
+        "amizade",
+        "companheirismo",
+        "friend",
+        "friendship",
+        "relacionamentos"
+      ]
+    },
+    {
+      "id": "ansiedade",
+      "label": "Ansiedade",
+      "type": "life_situation",
+      "description": "Preocupação excessiva com o futuro, falta de controle e incerteza.",
+      "related_themes": [
+        "confianca",
+        "esperanca",
+        "fe",
+        "medo",
+        "oracao",
+        "paz"
+      ],
+      "aliases": [
+        "afli",
+        "aflição",
+        "anguish",
+        "angústia",
+        "ansiedade",
+        "anxiety",
+        "nervosismo",
+        "preocupado",
+        "preocupação",
+        "worry"
+      ]
+    },
+    {
+      "id": "aproveitar_a_vida",
+      "label": "Aproveitar a Vida",
+      "type": "life_situation",
+      "description": "Desfrutar com gratidão os prazeres simples da vida como dons de Deus.",
+      "related_themes": [
+        "contentamento",
+        "gratidao",
+        "alegria",
+        "proposito"
+      ],
+      "aliases": [
+        "aproveitar a vida",
+        "enjoy life",
+        "carpe diem",
+        "desfrutar",
+        "viver bem"
+      ]
+    },
+    {
+      "id": "arrependimento",
+      "label": "Arrependimento",
+      "type": "life_situation",
+      "description": "Mudança genuína de coração e direção — reconhecer o erro e voltar-se para Deus.",
+      "related_themes": [
+        "culpa",
+        "graca",
+        "misericordia",
+        "perdao",
+        "recomeco",
+        "salvacao",
+        "segunda_chance"
+      ],
+      "aliases": [
+        "arrepender-se",
+        "arrependimento",
+        "arrependimento sincero",
+        "contrição",
+        "conversão",
+        "converter-se",
+        "mudança",
+        "mudar de vida",
+        "repent",
+        "repentance",
+        "volta a Deus",
+        "voltar para Deus"
+      ]
+    },
+    {
+      "id": "autocontrole",
+      "label": "Autocontrole",
+      "type": "life_situation",
+      "description": "A disciplina sobre impulsos, emoções e desejos — domínio próprio como virtude.",
+      "related_themes": [
+        "raiva",
+        "tentacao",
+        "sabedoria",
+        "paciencia"
+      ],
+      "aliases": [
+        "autocontrole",
+        "domínio próprio",
+        "self-control",
+        "temperança",
+        "disciplina"
+      ]
+    },
+    {
+      "id": "brevidade_da_vida",
+      "label": "Brevidade da Vida",
+      "type": "life_situation",
+      "description": "A consciência de que a vida é curta como a neblina — e como viver com sabedoria diante disso.",
+      "related_themes": [
+        "morte",
+        "proposito",
+        "sabedoria"
+      ],
+      "aliases": [
+        "brevidade da vida",
+        "brevity of life",
+        "vida é curta",
+        "mortalidade",
+        "fugacidade"
+      ]
+    },
+    {
+      "id": "caos_moral",
+      "label": "Caos Moral",
+      "type": "life_situation",
+      "description": "Sociedade sem referência moral — quando cada um faz o que bem entende.",
+      "related_themes": [
+        "lei",
+        "juizo",
+        "lideranca"
+      ],
+      "aliases": [
+        "caos moral",
+        "moral chaos",
+        "relativismo",
+        "anarquia moral",
+        "sem lei"
+      ]
+    },
+    {
+      "id": "casamento",
+      "label": "Casamento",
+      "type": "life_situation",
+      "description": "Relacionamento conjugal, seus desafios, alegrias e o design de Deus para o matrimônio.",
+      "related_themes": [
+        "alianca",
+        "amor",
+        "amor_de_deus",
+        "conflito",
+        "familia",
+        "fidelidade",
+        "lealdade",
+        "obediencia",
+        "reconciliacao",
+        "relacionamentos",
+        "sexualidade",
+        "traicao"
+      ],
+      "aliases": [
+        "casamento",
+        "cônjuge",
+        "divorce",
+        "divórcio",
+        "esposa",
+        "marido",
+        "marriage",
+        "matrimônio",
+        "relação conjugal",
+        "spouse",
+        "vida a dois",
+        "vida conjugal"
+      ]
+    },
+    {
+      "id": "celebracao",
+      "label": "Celebração",
+      "type": "life_situation",
+      "description": "Festas, memórias e comemorações como expressão de gratidão e identidade comunitária.",
+      "related_themes": [
+        "alegria",
+        "gratidao",
+        "comunidade"
+      ],
+      "aliases": [
+        "celebração",
+        "celebration",
+        "festa",
+        "comemoração"
+      ]
+    },
+    {
+      "id": "chamado",
+      "label": "Chamado",
+      "type": "life_situation",
+      "description": "Ser convocado por Deus para uma missão ou propósito específico.",
+      "related_themes": [
+        "identidade",
+        "inseguranca",
+        "obediencia",
+        "proposito"
+      ],
+      "aliases": [
+        "calling",
+        "chamado",
+        "convocação",
+        "mission",
+        "missão",
+        "vocation",
+        "vocação"
+      ]
+    },
+    {
+      "id": "ciume",
+      "label": "Ciúme",
+      "type": "life_situation",
+      "description": "Inveja e ressentimento pelo que outros têm ou são.",
+      "related_themes": [
+        "raiva",
+        "rivalidade_familiar",
+        "orgulho"
+      ],
+      "aliases": [
+        "ciúme",
+        "jealousy",
+        "inveja",
+        "envy",
+        "cobiça"
+      ]
+    },
+    {
+      "id": "cobiça",
+      "label": "Cobiça",
+      "type": "life_situation",
+      "description": "Desejo descontrolado pelo que pertence a outro — bens, posição ou pessoas.",
+      "related_themes": [
+        "ciume",
+        "dinheiro",
+        "pecado"
+      ],
+      "aliases": [
+        "cobiça",
+        "covetousness",
+        "ganância",
+        "greed",
+        "avareza"
+      ]
+    },
+    {
+      "id": "compaixao",
+      "label": "Compaixão",
+      "type": "life_situation",
+      "description": "O coração que se importa com o sofrimento alheio, refletindo o caráter de Deus",
+      "related_themes": [
+        "misericordia",
+        "amor_de_deus",
+        "justica_social"
+      ],
+      "aliases": [
+        "compassion",
+        "empatia",
+        "solidariedade",
+        "cuidado com os outros",
+        "empathy"
+      ]
+    },
+    {
+      "id": "complacencia",
+      "label": "Complacência Espiritual",
+      "type": "life_situation",
+      "description": "A indiferença espiritual de quem se acomoda e age como se Deus não interviesse no mundo",
+      "related_themes": [
+        "hipocrisia_religiosa",
+        "prioridades",
+        "idolatria_moderna"
+      ],
+      "aliases": [
+        "spiritual complacency",
+        "apatia",
+        "indiferença",
+        "frieza espiritual",
+        "lukewarmness"
+      ]
+    },
+    {
+      "id": "comunidade",
+      "label": "Comunidade",
+      "type": "life_situation",
+      "description": "Vida em conjunto como povo de Deus — pertencimento, responsabilidade mútua e unidade.",
+      "related_themes": [
+        "alianca",
+        "amizade",
+        "amor",
+        "familia",
+        "igreja",
+        "relacionamentos",
+        "solidao"
+      ],
+      "aliases": [
+        "brotherhood",
+        "church",
+        "community",
+        "companheirismo",
+        "comunidade",
+        "convivência",
+        "fellowship",
+        "igreja",
+        "irmandade",
+        "povo de Deus"
+      ]
+    },
+    {
+      "id": "confianca",
+      "label": "Confiança",
+      "type": "life_situation",
+      "description": "Depositar segurança em Deus ou em outros — e lidar com a quebra de confiança.",
+      "related_themes": [
+        "ansiedade",
+        "esperanca",
+        "fe",
+        "medo",
+        "paciencia",
+        "paz",
+        "soberania_de_deus",
+        "traicao"
+      ],
+      "aliases": [
+        "confiança",
+        "confiar",
+        "confiar em Deus",
+        "descanso",
+        "security",
+        "segurança",
+        "segurança em Deus",
+        "trust",
+        "trust in God"
+      ]
+    },
+    {
+      "id": "conflito",
+      "label": "Conflito",
+      "type": "life_situation",
+      "description": "Desentendimentos, brigas e divisões entre pessoas — e como buscar a paz e a reconciliação.",
+      "related_themes": [
+        "raiva",
+        "perdao",
+        "reconciliacao",
+        "palavras"
+      ],
+      "aliases": [
+        "conflito",
+        "conflict",
+        "briga",
+        "divisão",
+        "contenda",
+        "desentendimento"
+      ]
+    },
+    {
+      "id": "consagracao",
+      "label": "Consagração",
+      "type": "life_situation",
+      "description": "Separar-se para Deus com dedicação total — vida, recursos, tempo.",
+      "related_themes": [
+        "santidade",
+        "obediencia",
+        "adoracao"
+      ],
+      "aliases": [
+        "consagração",
+        "consecration",
+        "dedicação",
+        "dedication",
+        "separado para Deus"
+      ]
+    },
+    {
+      "id": "consequencias",
+      "label": "Consequências",
+      "type": "life_situation",
+      "description": "Os resultados inevitáveis das escolhas — boas ou más — na vida pessoal e coletiva.",
+      "related_themes": [
+        "pecado",
+        "juizo",
+        "escolha"
+      ],
+      "aliases": [
+        "consequências",
+        "consequences",
+        "resultado",
+        "resultado do pecado",
+        "colher o que plantou"
+      ]
+    },
+    {
+      "id": "consequencias_do_pecado",
+      "label": "Consequências do Pecado",
+      "type": "life_situation",
+      "description": "Os resultados inevitáveis da desobediência e da rebelião contra Deus na vida pessoal e coletiva",
+      "related_themes": [
+        "juizo",
+        "arrependimento",
+        "soberba"
+      ],
+      "aliases": [
+        "consequences of sin",
+        "colher o que plantou",
+        "fruto do pecado",
+        "reap what you sow"
+      ]
+    },
+    {
+      "id": "consolacao",
+      "label": "Consolação",
+      "type": "life_situation",
+      "description": "O conforto que Deus oferece no meio da dor e da perda — Ele está perto dos quebrantados.",
+      "related_themes": [
+        "comunidade",
+        "esperanca",
+        "luto",
+        "misericordia",
+        "sofrimento"
+      ],
+      "aliases": [
+        "comfort",
+        "conforto",
+        "consolation",
+        "consolação",
+        "consolo"
+      ]
+    },
+    {
+      "id": "contentamento",
+      "label": "Contentamento",
+      "type": "life_situation",
+      "description": "A satisfação com o que se tem, sem ser escravo do desejo por mais.",
+      "related_themes": [
+        "alegria",
+        "ansiedade",
+        "dinheiro",
+        "fe",
+        "gratidao",
+        "sabedoria"
+      ],
+      "aliases": [
+        "bastante",
+        "contentamento",
+        "contentment",
+        "satisfaction",
+        "satisfação"
+      ]
+    },
+    {
+      "id": "coragem",
+      "label": "Coragem",
+      "type": "life_situation",
+      "description": "Enfrentar desafios, oposição e perigo com fé e determinação.",
+      "related_themes": [
+        "confianca",
+        "fe",
+        "lideranca",
+        "medo",
+        "obediencia"
+      ],
+      "aliases": [
+        "boldness",
+        "bravery",
+        "coragem",
+        "courage",
+        "destemido",
+        "destemor",
+        "intrepidez",
+        "ousadia",
+        "valentia"
+      ]
+    },
+    {
+      "id": "corrupcao",
+      "label": "Corrupção",
+      "type": "life_situation",
+      "description": "O abuso de poder e posição para ganho pessoal, especialmente por líderes religiosos e civis",
+      "related_themes": [
+        "lideranca",
+        "injustica",
+        "dinheiro",
+        "justica_social"
+      ],
+      "aliases": [
+        "corruption",
+        "abuso de poder",
+        "suborno",
+        "desonestidade",
+        "bribery"
+      ]
+    },
+    {
+      "id": "culpa",
+      "label": "Culpa",
+      "type": "life_situation",
+      "description": "Peso de consciência por erros cometidos — culpa legítima e falsa culpa.",
+      "related_themes": [
+        "arrependimento",
+        "confissao",
+        "graca",
+        "misericordia",
+        "perdao",
+        "vergonha"
+      ],
+      "aliases": [
+        "consciência pesada",
+        "culpa",
+        "guilt",
+        "guilty conscience",
+        "remorse",
+        "remorso",
+        "shame",
+        "vergonha"
+      ]
+    },
+    {
+      "id": "cura",
+      "label": "Cura",
+      "type": "life_situation",
+      "description": "Restauração da saúde física, emocional ou espiritual pelo poder de Deus.",
+      "related_themes": [
+        "esperanca",
+        "fe",
+        "misericordia",
+        "oracao"
+      ],
+      "aliases": [
+        "cura",
+        "curar",
+        "heal",
+        "healing",
+        "health",
+        "restauração",
+        "restoration",
+        "saúde"
+      ]
+    },
+    {
+      "id": "decadencia",
+      "label": "Decadência",
+      "type": "life_situation",
+      "description": "Deterioração espiritual e moral gradual de uma pessoa ou comunidade.",
+      "related_themes": [
+        "idolatria",
+        "desobediencia",
+        "consequencias"
+      ],
+      "aliases": [
+        "decadência",
+        "decline",
+        "deterioração",
+        "apostasia",
+        "desvio"
+      ]
+    },
+    {
+      "id": "depressao",
+      "label": "Depressão",
+      "type": "life_situation",
+      "description": "Tristeza profunda, desânimo e perda de vontade de viver.",
+      "related_themes": [
+        "desanimo",
+        "esperanca",
+        "sofrimento",
+        "solidao",
+        "vazio_existencial"
+      ],
+      "aliases": [
+        "depression",
+        "depressão",
+        "desespero",
+        "despair",
+        "desânimo",
+        "sadness",
+        "tristeza",
+        "tristeza profunda"
+      ]
+    },
+    {
+      "id": "desanimo",
+      "label": "Desânimo",
+      "type": "life_situation",
+      "description": "Perda de motivação e esperança diante de dificuldades persistentes.",
+      "related_themes": [
+        "depressao",
+        "esperanca",
+        "fe"
+      ],
+      "aliases": [
+        "desânimo",
+        "discouragement",
+        "desanimado",
+        "cansaço",
+        "burnout",
+        "esgotamento"
+      ]
+    },
+    {
+      "id": "descanso",
+      "label": "Descanso",
+      "type": "life_situation",
+      "description": "A necessidade e o mandamento de parar, confiar e renovar-se em Deus.",
+      "related_themes": [
+        "ansiedade",
+        "confianca",
+        "fe",
+        "paz",
+        "trabalho"
+      ],
+      "aliases": [
+        "descanso",
+        "paz",
+        "repouso",
+        "rest",
+        "sabbath",
+        "sábado"
+      ]
+    },
+    {
+      "id": "desobediencia",
+      "label": "Desobediência",
+      "type": "life_situation",
+      "description": "Recusar-se a seguir os mandamentos de Deus — e as consequências que seguem.",
+      "related_themes": [
+        "pecado",
+        "consequencias",
+        "rebeliao"
+      ],
+      "aliases": [
+        "desobediência",
+        "disobedience",
+        "desobedecer",
+        "disobey",
+        "infidelidade"
+      ]
+    },
+    {
+      "id": "dignidade",
+      "label": "Dignidade",
+      "type": "life_situation",
+      "description": "O valor inerente de cada pessoa como criada à imagem de Deus.",
+      "related_themes": [
+        "identidade",
+        "justica",
+        "criacao"
+      ],
+      "aliases": [
+        "dignidade",
+        "dignity",
+        "valor humano",
+        "human worth",
+        "imagem de Deus"
+      ]
+    },
+    {
+      "id": "dinheiro",
+      "label": "Dinheiro",
+      "type": "life_situation",
+      "description": "Questões financeiras, riqueza, pobreza, generosidade e a relação com bens materiais.",
+      "related_themes": [
+        "cobiça",
+        "confianca",
+        "contentamento",
+        "fe",
+        "generosidade",
+        "justica_social",
+        "mordomia",
+        "prioridades",
+        "sabedoria",
+        "trabalho"
+      ],
+      "aliases": [
+        "avareza",
+        "dinheiro",
+        "finances",
+        "finanças",
+        "ganância",
+        "generosidade",
+        "greed",
+        "money",
+        "pobreza",
+        "poverty",
+        "prosperidade",
+        "riqueza",
+        "wealth"
+      ]
+    },
+    {
+      "id": "disciplina",
+      "label": "Disciplina",
+      "type": "life_situation",
+      "description": "Tanto a disciplina pessoal quanto a correção de Deus para crescimento.",
+      "related_themes": [
+        "amor",
+        "autocontrole",
+        "consequencias",
+        "educacao_filhos",
+        "obediencia",
+        "paciencia",
+        "sabedoria",
+        "santificacao"
+      ],
+      "aliases": [
+        "autocontrole",
+        "castigo amoroso",
+        "correction",
+        "correção",
+        "disciplina",
+        "discipline",
+        "self-control",
+        "training",
+        "treinamento"
+      ]
+    },
+    {
+      "id": "divisao",
+      "label": "Divisão",
+      "type": "life_situation",
+      "description": "Ruptura de relacionamentos, comunidades ou nações por conflito.",
+      "related_themes": [
+        "orgulho",
+        "reconciliacao",
+        "comunidade"
+      ],
+      "aliases": [
+        "divisão",
+        "division",
+        "separação",
+        "cisma",
+        "conflito",
+        "desunião"
+      ]
+    },
+    {
+      "id": "duvida",
+      "label": "Dúvida e Questionamento",
+      "type": "life_situation",
+      "description": "Questionar honestamente a Deus sobre o sofrimento, a injustiça e seus caminhos sem perder a fé",
+      "related_themes": [
+        "fe",
+        "sofrimento",
+        "confianca"
+      ],
+      "aliases": [
+        "doubt",
+        "questioning God",
+        "por que Deus permite",
+        "dúvida de fé",
+        "crise de fé"
+      ]
+    },
+    {
+      "id": "educacao_filhos",
+      "label": "Criação de Filhos",
+      "type": "life_situation",
+      "description": "A responsabilidade e os desafios de educar filhos com sabedoria e disciplina amorosa.",
+      "related_themes": [
+        "disciplina",
+        "familia",
+        "sabedoria"
+      ],
+      "aliases": [
+        "criação de filhos",
+        "educação dos filhos",
+        "parenting",
+        "filhos",
+        "paternidade",
+        "maternidade"
+      ]
+    },
+    {
+      "id": "engano",
+      "label": "Engano",
+      "type": "life_situation",
+      "description": "Ser enganado ou enganar outros — manipulação e suas consequências.",
+      "related_themes": [
+        "mentira",
+        "consequencias",
+        "traicao"
+      ],
+      "aliases": [
+        "engano",
+        "deceit",
+        "manipulação",
+        "manipulation",
+        "fraude"
+      ]
+    },
+    {
+      "id": "ensino",
+      "label": "Ensino",
+      "type": "life_situation",
+      "description": "Transmissão da fé e da Palavra de Deus às próximas gerações.",
+      "related_themes": [
+        "legado",
+        "familia",
+        "lei"
+      ],
+      "aliases": [
+        "ensino",
+        "teaching",
+        "instruir",
+        "instruct",
+        "discipulado",
+        "discipleship"
+      ]
+    },
+    {
+      "id": "escolha",
+      "label": "Escolha",
+      "type": "life_situation",
+      "description": "Momentos de decisão que definem o rumo da vida — escolher entre o bem e o mal.",
+      "related_themes": [
+        "obediencia",
+        "consequencias",
+        "liberdade"
+      ],
+      "aliases": [
+        "escolha",
+        "choice",
+        "decisão",
+        "decision",
+        "livre-arbítrio",
+        "free will"
+      ]
+    },
+    {
+      "id": "espera",
+      "label": "Espera",
+      "type": "life_situation",
+      "description": "Períodos de aguardar o tempo de Deus, quando as promessas demoram a se cumprir.",
+      "related_themes": [
+        "paciencia",
+        "fe",
+        "confianca"
+      ],
+      "aliases": [
+        "espera",
+        "waiting",
+        "demora",
+        "delay",
+        "tempo de Deus",
+        "God's timing"
+      ]
+    },
+    {
+      "id": "esperanca",
+      "label": "Esperança",
+      "type": "life_situation",
+      "description": "Expectativa confiante no futuro baseada nas promessas de Deus, mesmo em circunstâncias sombrias.",
+      "related_themes": [
+        "confianca",
+        "fe",
+        "paciencia",
+        "promessa",
+        "recomeco",
+        "ressurreicao",
+        "restauracao",
+        "segunda_vinda"
+      ],
+      "aliases": [
+        "confiança no futuro",
+        "dias melhores",
+        "esperança",
+        "expectation",
+        "expectativa",
+        "future",
+        "futuro",
+        "hope",
+        "luz no fim do túnel",
+        "otimismo"
+      ]
+    },
+    {
+      "id": "familia",
+      "label": "Família",
+      "type": "life_situation",
+      "description": "Relacionamentos familiares — pais e filhos, irmãos, dinâmicas e conflitos.",
+      "related_themes": [
+        "amor",
+        "casamento",
+        "comunidade",
+        "educacao_filhos",
+        "fidelidade",
+        "legado",
+        "lideranca",
+        "rivalidade_familiar"
+      ],
+      "aliases": [
+        "children",
+        "criação de filhos",
+        "family",
+        "família",
+        "filhos",
+        "gerações",
+        "irmãos",
+        "lar",
+        "pais",
+        "pais e filhos",
+        "parenting",
+        "parents",
+        "siblings"
+      ]
+    },
+    {
+      "id": "fuga_de_deus",
+      "label": "Fugir de Deus",
+      "type": "life_situation",
+      "description": "A tentativa de evitar o chamado ou a presença de Deus por medo, desobediência ou relutância",
+      "related_themes": [
+        "obediencia",
+        "medo",
+        "proposito",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "running from God",
+        "fuga",
+        "desvio",
+        "resistência a Deus",
+        "avoiding God's call"
+      ]
+    },
+    {
+      "id": "ganancia",
+      "label": "Ganância",
+      "type": "life_situation",
+      "description": "O desejo descontrolado de acumular mais, mesmo à custa dos outros",
+      "related_themes": [
+        "dinheiro",
+        "injustica",
+        "idolatria_moderna"
+      ],
+      "aliases": [
+        "greed",
+        "avareza",
+        "cobiça",
+        "covetousness",
+        "ambição desmedida"
+      ]
+    },
+    {
+      "id": "generosidade",
+      "label": "Generosidade",
+      "type": "life_situation",
+      "description": "Dar livremente — tempo, recursos, compaixão — como reflexo do caráter de Deus.",
+      "related_themes": [
+        "amor",
+        "comunidade",
+        "dinheiro",
+        "fe",
+        "mordomia"
+      ],
+      "aliases": [
+        "charity",
+        "contribuir",
+        "dar",
+        "doação",
+        "generosidade",
+        "generosity",
+        "giving",
+        "liberalidade",
+        "oferta",
+        "ofertar"
+      ]
+    },
+    {
+      "id": "gratidao",
+      "label": "Gratidão",
+      "type": "life_situation",
+      "description": "Reconhecer e agradecer a Deus e aos outros pelo bem recebido.",
+      "related_themes": [
+        "adoracao",
+        "alegria",
+        "alegria_em_deus",
+        "contentamento",
+        "fe",
+        "louvor"
+      ],
+      "aliases": [
+        "agradecer",
+        "agradecimento",
+        "ação de graças",
+        "gratidão",
+        "gratitude",
+        "reconhecimento",
+        "ser grato",
+        "thankfulness",
+        "thanksgiving"
+      ]
+    },
+    {
+      "id": "heranca",
+      "label": "Herança",
+      "type": "life_situation",
+      "description": "O que Deus destina ao seu povo — terra, bênção, identidade — e o que recebemos.",
+      "related_themes": [
+        "promessa",
+        "familia",
+        "legado"
+      ],
+      "aliases": [
+        "herança",
+        "inheritance",
+        "bênção herdada",
+        "posse",
+        "possession"
+      ]
+    },
+    {
+      "id": "hipocrisia",
+      "label": "Hipocrisia",
+      "type": "life_situation",
+      "description": "Aparência exterior de piedade sem transformação interior genuína",
+      "related_themes": [
+        "obediencia",
+        "santificacao",
+        "humildade"
+      ],
+      "aliases": [
+        "hipocrisia",
+        "fingimento",
+        "falsidade",
+        "hypocrisy",
+        "pretense"
+      ]
+    },
+    {
+      "id": "hipocrisia_religiosa",
+      "label": "Hipocrisia Religiosa",
+      "type": "life_situation",
+      "description": "A prática religiosa vazia que não corresponde à vida real — ritual sem coração.",
+      "related_themes": [
+        "adoracao",
+        "arrependimento",
+        "justica_social",
+        "obediencia"
+      ],
+      "aliases": [
+        "aparência de piedade",
+        "falsa piedade",
+        "formalismo",
+        "hipocrisia religiosa",
+        "religiosidade vazia",
+        "religious hypocrisy",
+        "ritualismo"
+      ]
+    },
+    {
+      "id": "honestidade",
+      "label": "Honestidade",
+      "type": "life_situation",
+      "description": "Falar a verdade, agir com transparência e evitar a fraude em todas as esferas.",
+      "related_themes": [
+        "integridade",
+        "palavras",
+        "sabedoria"
+      ],
+      "aliases": [
+        "honestidade",
+        "honesty",
+        "verdade",
+        "truthfulness",
+        "transparência"
+      ]
+    },
+    {
+      "id": "hospitalidade",
+      "label": "Hospitalidade",
+      "type": "life_situation",
+      "description": "Acolhimento generoso de estranhos e irmãos como expressão de amor cristão",
+      "related_themes": [
+        "generosidade",
+        "comunidade",
+        "amor"
+      ],
+      "aliases": [
+        "hospitalidade",
+        "acolhimento",
+        "hospitality",
+        "welcoming"
+      ]
+    },
+    {
+      "id": "humildade",
+      "label": "Humildade",
+      "type": "life_situation",
+      "description": "Reconhecer a própria dependência de Deus e limitação — a postura oposta ao orgulho.",
+      "related_themes": [
+        "amor",
+        "fe",
+        "lideranca",
+        "obediencia",
+        "orgulho",
+        "sabedoria",
+        "soberba",
+        "temor_de_deus"
+      ],
+      "aliases": [
+        "humildade",
+        "humilhação",
+        "humility",
+        "mansidão",
+        "meekness",
+        "modéstia",
+        "ser humilde",
+        "simplicidade"
+      ]
+    },
+    {
+      "id": "identidade",
+      "label": "Identidade",
+      "type": "life_situation",
+      "description": "Quem eu sou perante Deus — valor, dignidade e pertencimento.",
+      "related_themes": [
+        "autoestima",
+        "chamado",
+        "criacao",
+        "fe",
+        "graca",
+        "novo_nascimento",
+        "proposito",
+        "vocacao"
+      ],
+      "aliases": [
+        "autoestima",
+        "identidade",
+        "identity",
+        "quem eu sou",
+        "quem sou eu",
+        "self-worth",
+        "valor pessoal",
+        "valor próprio",
+        "who am I"
+      ]
+    },
+    {
+      "id": "idolatria_moderna",
+      "label": "Idolatria Moderna",
+      "type": "life_situation",
+      "description": "Tudo aquilo que toma o lugar de Deus no coração: carreira, dinheiro, relacionamentos, status",
+      "related_themes": [
+        "idolatria",
+        "prioridades",
+        "dinheiro"
+      ],
+      "aliases": [
+        "modern idolatry",
+        "ídolos modernos",
+        "falsos deuses de hoje",
+        "o que ocupa o lugar de Deus"
+      ]
+    },
+    {
+      "id": "imoralidade",
+      "label": "Imoralidade",
+      "type": "life_situation",
+      "description": "Comportamento sexual ou moral contrário aos padrões de Deus.",
+      "related_themes": [
+        "tentacao",
+        "santidade",
+        "consequencias"
+      ],
+      "aliases": [
+        "imoralidade",
+        "immorality",
+        "pecado sexual",
+        "sexual sin",
+        "impureza"
+      ]
+    },
+    {
+      "id": "incredulidade",
+      "label": "Incredulidade",
+      "type": "life_situation",
+      "description": "Falta de fé nas promessas de Deus apesar das evidências.",
+      "related_themes": [
+        "fe",
+        "medo",
+        "consequencias"
+      ],
+      "aliases": [
+        "incredulidade",
+        "unbelief",
+        "dúvida",
+        "doubt",
+        "falta de fé"
+      ]
+    },
+    {
+      "id": "injustica",
+      "label": "Injustiça",
+      "type": "life_situation",
+      "description": "Quando o mal prospera e o justo sofre — a indignação e a confiança no juízo final de Deus.",
+      "related_themes": [
+        "esperanca",
+        "juizo",
+        "justica_divina",
+        "justica_social",
+        "sofrimento"
+      ],
+      "aliases": [
+        "abuso de poder",
+        "desigualdade",
+        "exploração",
+        "iniquidade",
+        "injustice",
+        "injustiça",
+        "opressão"
+      ]
+    },
+    {
+      "id": "inseguranca",
+      "label": "Insegurança",
+      "type": "life_situation",
+      "description": "Sentimento de inadequação, incapacidade ou inferioridade para cumprir uma tarefa.",
+      "related_themes": [
+        "medo",
+        "identidade",
+        "chamado"
+      ],
+      "aliases": [
+        "insegurança",
+        "insecurity",
+        "incapacidade",
+        "inadequação",
+        "não sou capaz"
+      ]
+    },
+    {
+      "id": "integridade",
+      "label": "Integridade",
+      "type": "life_situation",
+      "description": "Viver de forma coerente entre o que se crê e o que se pratica.",
+      "related_themes": [
+        "fidelidade",
+        "honestidade",
+        "lealdade",
+        "lideranca",
+        "obediencia",
+        "sabedoria"
+      ],
+      "aliases": [
+        "caráter",
+        "character",
+        "honestidade",
+        "honesty",
+        "integridade",
+        "integrity",
+        "retidão"
+      ]
+    },
+    {
+      "id": "intercessao",
+      "label": "Intercessão",
+      "type": "life_situation",
+      "description": "Orar e intervir em favor de outras pessoas perante Deus.",
+      "related_themes": [
+        "oracao",
+        "amor",
+        "lideranca"
+      ],
+      "aliases": [
+        "intercessão",
+        "intercession",
+        "orar pelos outros",
+        "praying for others",
+        "mediação"
+      ]
+    },
+    {
+      "id": "intimidade",
+      "label": "Intimidade",
+      "type": "life_situation",
+      "description": "A proximidade profunda — com Deus em oração, com o cônjuge no amor conjugal.",
+      "related_themes": [
+        "casamento",
+        "sexualidade",
+        "oracao",
+        "amor"
+      ],
+      "aliases": [
+        "intimidade",
+        "intimacy",
+        "proximidade",
+        "closeness"
+      ]
+    },
+    {
+      "id": "justica",
+      "label": "Justiça",
+      "type": "life_situation",
+      "description": "Tratar outros com equidade, defender o oprimido e buscar o que é certo.",
+      "related_themes": [
+        "lei",
+        "misericordia",
+        "lideranca"
+      ],
+      "aliases": [
+        "justiça",
+        "justice",
+        "direito",
+        "right",
+        "equidade",
+        "fairness",
+        "injustiça",
+        "injustice"
+      ]
+    },
+    {
+      "id": "lealdade",
+      "label": "Lealdade",
+      "type": "life_situation",
+      "description": "Fidelidade a compromissos, pessoas e princípios mesmo sob pressão.",
+      "related_themes": [
+        "amizade",
+        "alianca",
+        "fidelidade"
+      ],
+      "aliases": [
+        "lealdade",
+        "loyalty",
+        "fiel",
+        "faithful",
+        "constância"
+      ]
+    },
+    {
+      "id": "legado",
+      "label": "Legado",
+      "type": "life_situation",
+      "description": "O que deixamos para as próximas gerações — valores, fé, exemplo.",
+      "related_themes": [
+        "familia",
+        "ensino",
+        "memoria"
+      ],
+      "aliases": [
+        "legado",
+        "legacy",
+        "herança",
+        "inheritance",
+        "gerações futuras",
+        "next generation"
+      ]
+    },
+    {
+      "id": "liberdade",
+      "label": "Liberdade",
+      "type": "life_situation",
+      "description": "Ser livre da escravidão — espiritual, emocional ou física.",
+      "related_themes": [
+        "escolha",
+        "espirito_santo",
+        "graca",
+        "libertacao",
+        "redencao",
+        "salvacao"
+      ],
+      "aliases": [
+        "deliverance",
+        "emancipação",
+        "free",
+        "freedom",
+        "liberdade",
+        "libertação",
+        "liberty",
+        "livre"
+      ]
+    },
+    {
+      "id": "lideranca",
+      "label": "Liderança",
+      "type": "life_situation",
+      "description": "Exercer influência e responsabilidade sobre outros — servir, guiar e tomar decisões.",
+      "related_themes": [
+        "chamado",
+        "coragem",
+        "corrupcao",
+        "humildade",
+        "igreja",
+        "integridade",
+        "justica_social",
+        "obediencia",
+        "responsabilidade",
+        "sabedoria"
+      ],
+      "aliases": [
+        "authority",
+        "autoridade",
+        "chefia",
+        "gestão",
+        "governar",
+        "governo",
+        "leader",
+        "leadership",
+        "leading",
+        "liderança",
+        "liderar",
+        "líder",
+        "líderes",
+        "pastorear",
+        "responsabilidade",
+        "servir"
+      ]
+    },
+    {
+      "id": "louvor",
+      "label": "Louvor",
+      "type": "life_situation",
+      "description": "A expressão de gratidão e alegria a Deus por quem Ele é e pelo que fez.",
+      "related_themes": [
+        "adoracao",
+        "alegria",
+        "gratidao"
+      ],
+      "aliases": [
+        "louvor",
+        "praise",
+        "gratidão",
+        "thanksgiving",
+        "celebração"
+      ]
+    },
+    {
+      "id": "luto",
+      "label": "Luto",
+      "type": "life_situation",
+      "description": "O processo de lidar com perdas — morte, separação, fim de uma fase.",
+      "related_themes": [
+        "consolacao",
+        "esperanca",
+        "morte",
+        "sofrimento"
+      ],
+      "aliases": [
+        "grief",
+        "lament",
+        "lamento",
+        "loss",
+        "luto",
+        "mourning",
+        "perda",
+        "pesar",
+        "pranteio",
+        "saudade"
+      ]
+    },
+    {
+      "id": "medo",
+      "label": "Medo",
+      "type": "life_situation",
+      "description": "Temor diante de ameaças, incertezas ou desafios que parecem maiores que nossas forças.",
+      "related_themes": [
+        "ansiedade",
+        "confianca",
+        "coragem",
+        "esperanca",
+        "fe",
+        "identidade"
+      ],
+      "aliases": [
+        "afraid",
+        "ansiedade",
+        "anxiety",
+        "assustado",
+        "covardia",
+        "fear",
+        "insegurança",
+        "medo",
+        "pavor",
+        "pânico",
+        "temor",
+        "terror"
+      ]
+    },
+    {
+      "id": "memoria",
+      "label": "Memória",
+      "type": "life_situation",
+      "description": "Lembrar as obras de Deus no passado como base para a fé no presente.",
+      "related_themes": [
+        "ensino",
+        "fe",
+        "legado"
+      ],
+      "aliases": [
+        "memória",
+        "memory",
+        "lembrar",
+        "remember",
+        "memorial",
+        "não esquecer"
+      ]
+    },
+    {
+      "id": "mentira",
+      "label": "Mentira",
+      "type": "life_situation",
+      "description": "Engano e desonestidade — suas raízes e consequências.",
+      "related_themes": [
+        "integridade",
+        "consequencias",
+        "medo"
+      ],
+      "aliases": [
+        "mentira",
+        "lie",
+        "engano",
+        "deception",
+        "falsidade",
+        "desonestidade"
+      ]
+    },
+    {
+      "id": "mordomia",
+      "label": "Mordomia e Dízimos",
+      "type": "life_situation",
+      "description": "A administração fiel dos recursos que Deus confia, incluindo dízimos e ofertas",
+      "related_themes": [
+        "dinheiro",
+        "generosidade",
+        "prioridades",
+        "obediencia"
+      ],
+      "aliases": [
+        "stewardship",
+        "tithing",
+        "dízimo",
+        "oferta",
+        "administração de recursos",
+        "fidelidade financeira"
+      ]
+    },
+    {
+      "id": "morte",
+      "label": "Morte",
+      "type": "life_situation",
+      "description": "Enfrentar a mortalidade, luto pela perda de entes queridos e esperança além da morte.",
+      "related_themes": [
+        "brevidade_da_vida",
+        "esperanca",
+        "luto",
+        "ressurreicao",
+        "vida_eterna"
+      ],
+      "aliases": [
+        "death",
+        "dying",
+        "falecimento",
+        "grief",
+        "loss",
+        "luto",
+        "morrer",
+        "morte",
+        "mourning",
+        "perda"
+      ]
+    },
+    {
+      "id": "murmurio",
+      "label": "Murmúrio",
+      "type": "life_situation",
+      "description": "Reclamação e insatisfação contra Deus ou contra líderes.",
+      "related_themes": [
+        "gratidao",
+        "fe",
+        "consequencias"
+      ],
+      "aliases": [
+        "murmúrio",
+        "grumbling",
+        "reclamação",
+        "complaint",
+        "insatisfação",
+        "murmurar"
+      ]
+    },
+    {
+      "id": "obediencia",
+      "label": "Obediência",
+      "type": "life_situation",
+      "description": "Submeter-se à vontade de Deus e a autoridades legítimas, mesmo quando difícil.",
+      "related_themes": [
+        "alianca",
+        "amor",
+        "disciplina",
+        "fe",
+        "lei",
+        "proposito"
+      ],
+      "aliases": [
+        "obedecer",
+        "obedience",
+        "obediência",
+        "obey",
+        "render-se",
+        "seguir a Deus",
+        "submission",
+        "submissão"
+      ]
+    },
+    {
+      "id": "oposicao",
+      "label": "Oposição",
+      "type": "life_situation",
+      "description": "Enfrentar resistência, críticas e ataques ao fazer a vontade de Deus.",
+      "related_themes": [
+        "perseveranca",
+        "coragem",
+        "fe"
+      ],
+      "aliases": [
+        "oposição",
+        "opposition",
+        "resistência",
+        "resistance",
+        "perseguição",
+        "ataque"
+      ]
+    },
+    {
+      "id": "opressao",
+      "label": "Opressão",
+      "type": "life_situation",
+      "description": "Ser subjugado por forças maiores — tirania, exploração, abuso de poder.",
+      "related_themes": [
+        "libertacao",
+        "justica",
+        "sofrimento"
+      ],
+      "aliases": [
+        "opressão",
+        "oppression",
+        "escravidão",
+        "slavery",
+        "exploração",
+        "tirania"
+      ]
+    },
+    {
+      "id": "oracao",
+      "label": "Oração",
+      "type": "life_situation",
+      "description": "Comunicação com Deus — pedidos, louvor, confissão, intercessão e escuta.",
+      "related_themes": [
+        "adoracao",
+        "ansiedade",
+        "comunidade",
+        "confianca",
+        "fe",
+        "intercessao"
+      ],
+      "aliases": [
+        "clamar a Deus",
+        "clamor",
+        "crying out to God",
+        "intercessão",
+        "orar",
+        "oração",
+        "pray",
+        "prayer",
+        "praying",
+        "súplica"
+      ]
+    },
+    {
+      "id": "orgulho",
+      "label": "Orgulho",
+      "type": "life_situation",
+      "description": "Autossuficiência e arrogância que colocam o eu no lugar de Deus.",
+      "related_themes": [
+        "consequencias",
+        "humildade",
+        "idolatria",
+        "juizo",
+        "sabedoria"
+      ],
+      "aliases": [
+        "arrogance",
+        "arrogância",
+        "orgulho",
+        "pride",
+        "soberba",
+        "vaidade"
+      ]
+    },
+    {
+      "id": "paciencia",
+      "label": "Paciência",
+      "type": "life_situation",
+      "description": "Suportar espera, atraso e frustração com perseverança e confiança em Deus.",
+      "related_themes": [
+        "autocontrole",
+        "confianca",
+        "espera",
+        "esperanca",
+        "fe",
+        "perseveranca",
+        "sofrimento"
+      ],
+      "aliases": [
+        "endurance",
+        "espera",
+        "esperar",
+        "esperar em Deus",
+        "longanimidade",
+        "paciência",
+        "patience",
+        "perseverance",
+        "perseverança",
+        "tempo de Deus",
+        "waiting"
+      ]
+    },
+    {
+      "id": "palavras",
+      "label": "Poder das Palavras",
+      "type": "life_situation",
+      "description": "O impacto da língua — fofoca, mentira, encorajamento, sabedoria no falar.",
+      "related_themes": [
+        "sabedoria",
+        "autocontrole",
+        "conflito"
+      ],
+      "aliases": [
+        "palavras",
+        "língua",
+        "fofoca",
+        "mentira",
+        "words",
+        "speech",
+        "gossip"
+      ]
+    },
+    {
+      "id": "paz",
+      "label": "Paz",
+      "type": "life_situation",
+      "description": "A tranquilidade interior e exterior que vem de confiar em Deus — shalom completo.",
+      "related_themes": [
+        "ansiedade",
+        "confianca",
+        "esperanca",
+        "fe",
+        "oracao",
+        "reconciliacao",
+        "reino_de_deus",
+        "restauracao"
+      ],
+      "aliases": [
+        "paz",
+        "peace",
+        "segurança",
+        "serenidade",
+        "serenity",
+        "shalom",
+        "sossego",
+        "tranquilidade"
+      ]
+    },
+    {
+      "id": "perdao",
+      "label": "Perdão",
+      "type": "life_situation",
+      "description": "O ato de perdoar outros ou ser perdoado — liberar ressentimento e receber graça.",
+      "related_themes": [
+        "amor",
+        "amor_de_deus",
+        "arrependimento",
+        "culpa",
+        "graca",
+        "misericordia",
+        "reconciliacao"
+      ],
+      "aliases": [
+        "absolvição",
+        "clemência",
+        "desculpar",
+        "forgive",
+        "forgiveness",
+        "mágoa",
+        "pardon",
+        "perdoar",
+        "perdão",
+        "reconciliação",
+        "remissão",
+        "ressentimento",
+        "ser perdoado"
+      ]
+    },
+    {
+      "id": "perseguicao",
+      "label": "Perseguição",
+      "type": "life_situation",
+      "description": "Sofrer hostilidade por causa da fé ou por fazer o que é certo.",
+      "related_themes": [
+        "coragem",
+        "fe",
+        "protecao_divina",
+        "sofrimento"
+      ],
+      "aliases": [
+        "hostilidade",
+        "hostility",
+        "opressão",
+        "persecution",
+        "perseguição",
+        "ser perseguido"
+      ]
+    },
+    {
+      "id": "perseveranca",
+      "label": "Perseverança",
+      "type": "life_situation",
+      "description": "Manter-se firme na fé e na missão apesar de dificuldades prolongadas.",
+      "related_themes": [
+        "fe",
+        "paciencia",
+        "coragem"
+      ],
+      "aliases": [
+        "perseverança",
+        "perseverance",
+        "persistência",
+        "persistence",
+        "não desistir",
+        "firmeza"
+      ]
+    },
+    {
+      "id": "planejamento",
+      "label": "Planejamento",
+      "type": "life_situation",
+      "description": "Preparar-se estrategicamente para cumprir a visão de Deus.",
+      "related_themes": [
+        "sabedoria",
+        "lideranca",
+        "trabalho"
+      ],
+      "aliases": [
+        "planejamento",
+        "planning",
+        "preparação",
+        "preparation",
+        "estratégia"
+      ]
+    },
+    {
+      "id": "preconceito",
+      "label": "Preconceito",
+      "type": "life_situation",
+      "description": "A tendência a julgar outros como indignos da graça de Deus com base em sua origem ou identidade",
+      "related_themes": [
+        "misericordia",
+        "compaixao",
+        "amor_de_deus"
+      ],
+      "aliases": [
+        "prejudice",
+        "racismo",
+        "discriminação",
+        "exclusão",
+        "xenofobia",
+        "nationalism"
+      ]
+    },
+    {
+      "id": "preguica",
+      "label": "Preguiça",
+      "type": "life_situation",
+      "description": "A indolência, procrastinação e falta de diligência — e suas consequências.",
+      "related_themes": [
+        "trabalho",
+        "disciplina",
+        "sabedoria"
+      ],
+      "aliases": [
+        "preguiça",
+        "indolência",
+        "laziness",
+        "procrastinação",
+        "sloth"
+      ]
+    },
+    {
+      "id": "prioridades",
+      "label": "Prioridades",
+      "type": "life_situation",
+      "description": "O desafio de colocar Deus e seus propósitos acima do conforto pessoal e dos interesses próprios",
+      "related_themes": [
+        "obediencia",
+        "dinheiro",
+        "mordomia",
+        "idolatria_moderna"
+      ],
+      "aliases": [
+        "priorities",
+        "o que importa",
+        "primeiro lugar",
+        "foco",
+        "o que colocar em primeiro"
+      ]
+    },
+    {
+      "id": "proposito",
+      "label": "Propósito",
+      "type": "life_situation",
+      "description": "Busca por significado, sentido de vida e direção — para que eu existo?",
+      "related_themes": [
+        "chamado",
+        "coragem",
+        "fe",
+        "identidade",
+        "obediencia",
+        "sabedoria",
+        "trabalho",
+        "vocacao"
+      ],
+      "aliases": [
+        "calling",
+        "chamado",
+        "destino",
+        "direção",
+        "meaning",
+        "meaning of life",
+        "missão de vida",
+        "propósito",
+        "purpose",
+        "sentido da vida",
+        "vocação"
+      ]
+    },
+    {
+      "id": "proposito_desperdicado",
+      "label": "Propósito Desperdiçado",
+      "type": "life_situation",
+      "description": "Ter dons e chamado mas desperdiçá-los por escolhas erradas.",
+      "related_themes": [
+        "tentacao",
+        "consequencias",
+        "proposito"
+      ],
+      "aliases": [
+        "propósito desperdiçado",
+        "wasted potential",
+        "talento desperdiçado",
+        "potencial perdido"
+      ]
+    },
+    {
+      "id": "prosperidade",
+      "label": "Prosperidade",
+      "type": "life_situation",
+      "description": "Abundância material e suas bênçãos e perigos.",
+      "related_themes": [
+        "dinheiro",
+        "sabedoria",
+        "orgulho"
+      ],
+      "aliases": [
+        "prosperidade",
+        "prosperity",
+        "abundância",
+        "abundance",
+        "sucesso",
+        "success"
+      ]
+    },
+    {
+      "id": "protecao_divina",
+      "label": "Proteção Divina",
+      "type": "life_situation",
+      "description": "Deus como refúgio, escudo e fortaleza — proteção em meio a perigos e inimigos.",
+      "related_themes": [
+        "confianca",
+        "fe",
+        "medo"
+      ],
+      "aliases": [
+        "proteção divina",
+        "refúgio",
+        "divine protection",
+        "escudo",
+        "fortaleza",
+        "shelter"
+      ]
+    },
+    {
+      "id": "providencia",
+      "label": "Providência",
+      "type": "life_situation",
+      "description": "A mão invisível de Deus guiando circunstâncias para o bem de quem o ama.",
+      "related_themes": [
+        "esperanca",
+        "fe",
+        "soberania_de_deus"
+      ],
+      "aliases": [
+        "Deus cuida",
+        "God provides",
+        "mão de Deus",
+        "plano divino",
+        "providence",
+        "providência",
+        "provision",
+        "sustento"
+      ]
+    },
+    {
+      "id": "provisao",
+      "label": "Provisão",
+      "type": "life_situation",
+      "description": "A fidelidade de Deus em suprir as necessidades materiais e espirituais de seu povo",
+      "related_themes": [
+        "fe",
+        "ansiedade",
+        "gratidao"
+      ],
+      "aliases": [
+        "provisão",
+        "sustento",
+        "suprimento",
+        "provision",
+        "supply"
+      ]
+    },
+    {
+      "id": "provisao_divina",
+      "label": "Provisão Divina",
+      "type": "life_situation",
+      "description": "Deus suprindo necessidades materiais e espirituais de forma sobrenatural ou providencial.",
+      "related_themes": [
+        "confianca",
+        "fe",
+        "providencia"
+      ],
+      "aliases": [
+        "provisão divina",
+        "divine provision",
+        "Deus provê",
+        "God provides",
+        "sustento",
+        "milagre"
+      ]
+    },
+    {
+      "id": "pureza",
+      "label": "Pureza",
+      "type": "life_situation",
+      "description": "Integridade moral e sexual como expressão de santidade",
+      "related_themes": [
+        "santificacao",
+        "tentacao",
+        "obediencia"
+      ],
+      "aliases": [
+        "pureza",
+        "castidade",
+        "integridade",
+        "purity",
+        "chastity"
+      ]
+    },
+    {
+      "id": "raiva",
+      "label": "Raiva",
+      "type": "life_situation",
+      "description": "Ira e indignação — como lidar com emoções intensas de forma saudável.",
+      "related_themes": [
+        "autocontrole",
+        "ciume",
+        "conflito",
+        "humildade",
+        "paciencia",
+        "perdao",
+        "relacionamentos",
+        "violencia"
+      ],
+      "aliases": [
+        "anger",
+        "cólera",
+        "frustração",
+        "fury",
+        "fúria",
+        "indignação",
+        "ira",
+        "rage",
+        "raiva",
+        "ressentimento",
+        "revolta",
+        "wrath"
+      ]
+    },
+    {
+      "id": "rebeliao",
+      "label": "Rebelião",
+      "type": "life_situation",
+      "description": "Resistência deliberada à autoridade de Deus ou de líderes legítimos.",
+      "related_themes": [
+        "desobediencia",
+        "consequencias",
+        "orgulho"
+      ],
+      "aliases": [
+        "rebelião",
+        "rebellion",
+        "revolta",
+        "revolt",
+        "desobediência",
+        "insubordinação"
+      ]
+    },
+    {
+      "id": "recomeco",
+      "label": "Recomeço",
+      "type": "life_situation",
+      "description": "Começar de novo depois de fracasso, perda ou exílio — oportunidade de restauração.",
+      "related_themes": [
+        "esperanca",
+        "arrependimento",
+        "perdao"
+      ],
+      "aliases": [
+        "recomeço",
+        "new beginning",
+        "nova chance",
+        "second chance",
+        "restauração",
+        "começar de novo"
+      ]
+    },
+    {
+      "id": "reconciliacao",
+      "label": "Reconciliação",
+      "type": "life_situation",
+      "description": "Restauração de relacionamentos rompidos — com Deus ou com pessoas.",
+      "related_themes": [
+        "amor",
+        "conflito",
+        "familia",
+        "graca",
+        "paz",
+        "perdao"
+      ],
+      "aliases": [
+        "fazer as pazes",
+        "reconciliation",
+        "reconciliação",
+        "restauração",
+        "restauração de relacionamento",
+        "restoration"
+      ]
+    },
+    {
+      "id": "reforma",
+      "label": "Reforma",
+      "type": "life_situation",
+      "description": "Renovação espiritual pessoal ou comunitária — voltar às origens da fé.",
+      "related_themes": [
+        "arrependimento",
+        "adoracao",
+        "recomeco"
+      ],
+      "aliases": [
+        "reforma",
+        "reform",
+        "avivamento",
+        "revival",
+        "renovação espiritual",
+        "spiritual renewal"
+      ]
+    },
+    {
+      "id": "rejeicao",
+      "label": "Rejeição",
+      "type": "life_situation",
+      "description": "Ser rejeitado ou preterido — por Deus ou por pessoas.",
+      "related_themes": [
+        "esperanca",
+        "identidade",
+        "profecia_messianica",
+        "sofrimento",
+        "solidao"
+      ],
+      "aliases": [
+        "abandono",
+        "desprezo",
+        "exclusão",
+        "não ser aceito",
+        "preterido",
+        "rejected",
+        "rejection",
+        "rejeitado",
+        "rejeição",
+        "ser rejeitado"
+      ]
+    },
+    {
+      "id": "relacionamentos",
+      "label": "Relacionamentos",
+      "type": "life_situation",
+      "description": "Convivência interpessoal, conflitos, reconciliação e amor ao próximo",
+      "related_themes": [
+        "amor",
+        "perdao",
+        "comunidade"
+      ],
+      "aliases": [
+        "relacionamentos",
+        "amizade",
+        "conflito",
+        "convívio",
+        "relationships",
+        "friendship",
+        "conflict"
+      ]
+    },
+    {
+      "id": "rivalidade_familiar",
+      "label": "Rivalidade Familiar",
+      "type": "life_situation",
+      "description": "Conflitos entre irmãos, pais e filhos, ou dentro de famílias — favoritismo e competição.",
+      "related_themes": [
+        "familia",
+        "ciume",
+        "reconciliacao"
+      ],
+      "aliases": [
+        "rivalidade familiar",
+        "family rivalry",
+        "conflito familiar",
+        "irmãos brigando",
+        "sibling rivalry",
+        "favoritismo"
+      ]
+    },
+    {
+      "id": "sabedoria",
+      "label": "Sabedoria",
+      "type": "life_situation",
+      "description": "Discernimento para tomar boas decisões e viver de forma prudente e justa.",
+      "related_themes": [
+        "disciplina",
+        "escolha",
+        "fe",
+        "lei",
+        "lideranca",
+        "obediencia",
+        "prudencia",
+        "temor_de_deus"
+      ],
+      "aliases": [
+        "discernimento",
+        "discernment",
+        "entendimento",
+        "prudência",
+        "sabedoria",
+        "wisdom"
+      ]
+    },
+    {
+      "id": "saudade_de_deus",
+      "label": "Saudade de Deus",
+      "type": "life_situation",
+      "description": "O anseio profundo pela presença de Deus — como a corça que suspira pelas águas.",
+      "related_themes": [
+        "adoracao",
+        "oracao",
+        "solidao"
+      ],
+      "aliases": [
+        "saudade de Deus",
+        "longing for God",
+        "sede de Deus",
+        "anseio",
+        "desejo espiritual"
+      ]
+    },
+    {
+      "id": "segunda_chance",
+      "label": "Segunda Chance",
+      "type": "life_situation",
+      "description": "A graça de Deus que oferece novas oportunidades após o fracasso e a desobediência",
+      "related_themes": [
+        "misericordia",
+        "arrependimento",
+        "perdao",
+        "esperanca"
+      ],
+      "aliases": [
+        "second chance",
+        "recomeço",
+        "nova oportunidade",
+        "começar de novo",
+        "fresh start"
+      ]
+    },
+    {
+      "id": "seguranca",
+      "label": "Segurança em Cristo",
+      "type": "life_situation",
+      "description": "Certeza de que nada pode separar o crente do amor de Deus em Cristo",
+      "related_themes": [
+        "fe",
+        "identidade",
+        "esperanca"
+      ],
+      "aliases": [
+        "segurança",
+        "certeza da salvação",
+        "assurance",
+        "security in Christ"
+      ]
+    },
+    {
+      "id": "sexualidade",
+      "label": "Sexualidade",
+      "type": "life_situation",
+      "description": "O desejo sexual, a pureza, a tentação e a celebração da intimidade dentro do casamento.",
+      "related_themes": [
+        "casamento",
+        "tentacao",
+        "autocontrole",
+        "intimidade"
+      ],
+      "aliases": [
+        "sexualidade",
+        "desejo sexual",
+        "pureza",
+        "sexuality",
+        "lust",
+        "luxúria",
+        "intimidade"
+      ]
+    },
+    {
+      "id": "soberba",
+      "label": "Soberba e Orgulho",
+      "type": "life_situation",
+      "description": "A autossuficiência arrogante que leva à queda, contrastando com a humildade que Deus honra",
+      "related_themes": [
+        "humildade",
+        "juizo",
+        "consequencias_do_pecado"
+      ],
+      "aliases": [
+        "pride",
+        "arrogância",
+        "orgulho",
+        "arrogance",
+        "autossuficiência"
+      ]
+    },
+    {
+      "id": "sofrimento",
+      "label": "Sofrimento",
+      "type": "life_situation",
+      "description": "Dor física, emocional ou espiritual — por que sofremos e como Deus age no sofrimento.",
+      "related_themes": [
+        "confianca",
+        "esperanca",
+        "fe",
+        "luto",
+        "paciencia",
+        "providencia"
+      ],
+      "aliases": [
+        "adversidade",
+        "affliction",
+        "aflição",
+        "dor",
+        "hardship",
+        "pain",
+        "sofrimento",
+        "suffering",
+        "tribulation",
+        "tribulação"
+      ]
+    },
+    {
+      "id": "solidao",
+      "label": "Solidão",
+      "type": "life_situation",
+      "description": "Sentimento de isolamento, abandono ou falta de conexão significativa com outros.",
+      "related_themes": [
+        "abandono",
+        "amizade",
+        "comunidade",
+        "depressao",
+        "luto"
+      ],
+      "aliases": [
+        "abandono",
+        "alone",
+        "isolamento",
+        "isolation",
+        "loneliness",
+        "solidão",
+        "sozinho"
+      ]
+    },
+    {
+      "id": "sonhos",
+      "label": "Sonhos",
+      "type": "life_situation",
+      "description": "Sonhos como meio de revelação divina e como aspirações para o futuro.",
+      "related_themes": [
+        "profecia",
+        "proposito",
+        "fe"
+      ],
+      "aliases": [
+        "sonhos",
+        "dreams",
+        "visões",
+        "visions",
+        "revelação"
+      ]
+    },
+    {
+      "id": "tentacao",
+      "label": "Tentação",
+      "type": "life_situation",
+      "description": "Luta contra desejos que levam ao pecado — resistir ou ceder.",
+      "related_themes": [
+        "autocontrole",
+        "disciplina",
+        "espirito_santo",
+        "fe",
+        "obediencia",
+        "pecado",
+        "sabedoria",
+        "santificacao"
+      ],
+      "aliases": [
+        "addiction",
+        "desejo",
+        "lust",
+        "pecado",
+        "pecado sexual",
+        "provado",
+        "provação",
+        "queda",
+        "sedução",
+        "temptation",
+        "tentação",
+        "vício"
+      ]
+    },
+    {
+      "id": "trabalho",
+      "label": "Trabalho",
+      "type": "life_situation",
+      "description": "O valor e os desafios do trabalho, vocação profissional e dignidade no labor.",
+      "related_themes": [
+        "dinheiro",
+        "disciplina",
+        "obediencia",
+        "preguica",
+        "proposito",
+        "sabedoria"
+      ],
+      "aliases": [
+        "career",
+        "carreira",
+        "emprego",
+        "job",
+        "labor",
+        "profissão",
+        "trabalho",
+        "vocação profissional",
+        "work"
+      ]
+    },
+    {
+      "id": "traicao",
+      "label": "Traição",
+      "type": "life_situation",
+      "description": "Ser traído ou abandonado por alguém de confiança — cônjuge, amigo, família.",
+      "related_themes": [
+        "casamento",
+        "confianca",
+        "perdao",
+        "reconciliacao",
+        "relacionamentos",
+        "sofrimento"
+      ],
+      "aliases": [
+        "abandonado",
+        "betrayal",
+        "betrayed",
+        "broken trust",
+        "deslealdade",
+        "infidelidade",
+        "trair",
+        "traição",
+        "traição conjugal",
+        "traído"
+      ]
+    },
+    {
+      "id": "transformacao",
+      "label": "Transformação",
+      "type": "life_situation",
+      "description": "Mudança profunda de caráter e vida operada por um encontro com Deus.",
+      "related_themes": [
+        "arrependimento",
+        "identidade",
+        "recomeco"
+      ],
+      "aliases": [
+        "transformação",
+        "transformation",
+        "mudança de vida",
+        "life change",
+        "novo homem"
+      ]
+    },
+    {
+      "id": "transicao",
+      "label": "Transição",
+      "type": "life_situation",
+      "description": "Momentos de mudança de fase, liderança ou circunstâncias na vida.",
+      "related_themes": [
+        "medo",
+        "coragem",
+        "lideranca"
+      ],
+      "aliases": [
+        "transição",
+        "transition",
+        "mudança",
+        "change",
+        "nova fase",
+        "new season"
+      ]
+    },
+    {
+      "id": "unidade",
+      "label": "Unidade",
+      "type": "life_situation",
+      "description": "Harmonia e união entre os crentes como reflexo da unidade em Cristo",
+      "related_themes": [
+        "comunidade",
+        "igreja",
+        "amor"
+      ],
+      "aliases": [
+        "unidade",
+        "união",
+        "harmonia",
+        "unity",
+        "togetherness"
+      ]
+    },
+    {
+      "id": "vazio_existencial",
+      "label": "Vazio Existencial",
+      "type": "life_situation",
+      "description": "A sensação de que a vida é sem sentido, que nada satisfaz — e a busca por algo maior.",
+      "related_themes": [
+        "proposito",
+        "depressao",
+        "sabedoria",
+        "temor_de_deus"
+      ],
+      "aliases": [
+        "vazio existencial",
+        "falta de sentido",
+        "existential void",
+        "nihilism",
+        "vaidade",
+        "tudo é vaidade"
+      ]
+    },
+    {
+      "id": "vergonha",
+      "label": "Vergonha",
+      "type": "life_situation",
+      "description": "Sentimento de exposição e humilhação que leva ao esconderijo.",
+      "related_themes": [
+        "culpa",
+        "identidade",
+        "perdao"
+      ],
+      "aliases": [
+        "vergonha",
+        "shame",
+        "humilhação",
+        "humiliation",
+        "exposição"
+      ]
+    },
+    {
+      "id": "violencia",
+      "label": "Violência",
+      "type": "life_situation",
+      "description": "Agressão física ou emocional e como a Bíblia trata ciclos de violência.",
+      "related_themes": [
+        "raiva",
+        "juizo",
+        "justica"
+      ],
+      "aliases": [
+        "violência",
+        "violence",
+        "agressão",
+        "aggression",
+        "abuso",
+        "abuse"
+      ]
+    },
+    {
+      "id": "visao",
+      "label": "Visão",
+      "type": "life_situation",
+      "description": "Ter clareza de direção e propósito para uma missão ou projeto.",
+      "related_themes": [
+        "lideranca",
+        "proposito",
+        "fe"
+      ],
+      "aliases": [
+        "visão",
+        "vision",
+        "sonho",
+        "dream",
+        "chamado",
+        "direção"
+      ]
+    },
+    {
+      "id": "vocacao",
+      "label": "Vocação",
+      "type": "life_situation",
+      "description": "O chamado específico de Deus para uma pessoa — missão, ministério ou propósito de vida.",
+      "related_themes": [
+        "proposito",
+        "identidade",
+        "obediencia"
+      ],
+      "aliases": [
+        "vocação",
+        "calling",
+        "chamado",
+        "missão",
+        "comissão"
+      ]
+    }
+  ]
+}
