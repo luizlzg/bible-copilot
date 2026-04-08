@@ -14,4 +14,7 @@ dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.30.0",
     "grand-cypher>=1.0.1",
+    "langgraph-checkpoint-postgres>=3.0.5",
+    "psycopg[binary]>=3.3.3",
+    "supabase>=2.28.3",
 ]
