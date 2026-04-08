@@ -1,0 +1,17 @@
+.venv/
+.env
+.env.*
+.logs/
+.message_history/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+client_example.py
+skills/

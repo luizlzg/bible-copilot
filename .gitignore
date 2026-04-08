@@ -15,7 +15,8 @@ build/
 .bible_data/
 
 # Knowledge Graph data (generated artifacts — logic is tracked, data is not)
-src/kg/data/
+# Exception: bible_index.json is committed so Railway can build without re-generating
+!src/kg/data/
 
 # Logs
 .logs/
