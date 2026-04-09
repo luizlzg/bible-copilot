@@ -54,6 +54,7 @@ ABBREV_MAP = {
     "ne":  ("old_testament", "neemias"),
     "et":  ("old_testament", "ester"),
     "jo":  ("old_testament", "jo"),
+    "jó":  ("old_testament", "jo"),   # accented form used in thiagobodruk JSON
     "sl":  ("old_testament", "salmos"),
     "pv":  ("old_testament", "proverbios"),
     "ec":  ("old_testament", "eclesiastes"),
@@ -80,6 +81,7 @@ ABBREV_MAP = {
     "lc":  ("new_testament", "lucas"),
     "jo2": ("new_testament", "joao"),
     "at":  ("new_testament", "atos"),
+    "atos": ("new_testament", "atos"),  # some versions use full word
     "rm":  ("new_testament", "romanos"),
     "1co": ("new_testament", "1corintios"),
     "2co": ("new_testament", "2corintios"),

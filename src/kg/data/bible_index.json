@@ -5378,6 +5378,474 @@
           "chapters": "21-22"
         }
       ]
+    },
+    {
+      "id": "jo",
+      "label": "Jó",
+      "file_path": ".bible_data/pt-br/old_testament/jo.md",
+      "testament": "old",
+      "genre": "poetry",
+      "era": "patriarchs",
+      "purpose": "O livro de Jó examina a questão do sofrimento do justo diante de um Deus soberano, desafiando a teologia simplista de que toda aflição é consequência direta do pecado. Ensina que a fidelidade a Deus deve ser mantida mesmo sem explicações, e que a soberania e a sabedoria divinas transcendem a compreensão humana.",
+      "chapter_map": [
+        {
+          "chapters": "1-2",
+          "summary": "Prólogo: Jó íntegro e temente a Deus perde filhos, riquezas e saúde por permissão divina em resposta ao desafio de Satanás; não peca com os lábios.",
+          "themes": [
+            "sofrimento",
+            "fe",
+            "integridade",
+            "soberania_de_deus",
+            "guerra_espiritual",
+            "fidelidade"
+          ]
+        },
+        {
+          "chapters": "3",
+          "summary": "Jó lamenta o dia do seu nascimento e expressa desejo de morte, questionando por que a vida é dada ao que sofre.",
+          "themes": [
+            "sofrimento",
+            "depressao",
+            "luto",
+            "desanimo",
+            "brevidade_da_vida"
+          ]
+        },
+        {
+          "chapters": "4-5",
+          "summary": "Primeiro discurso de Elifaz: sofrimento como consequência da impureza; aconselha Jó a buscar Deus prometendo restauração.",
+          "themes": [
+            "sofrimento",
+            "consequencias_do_pecado",
+            "justica_divina",
+            "arrependimento",
+            "restauracao"
+          ]
+        },
+        {
+          "chapters": "6-7",
+          "summary": "Jó responde: magnitude da dor, acusação dos amigos de falsidade, questionamento direto a Deus sobre a efemeridade da vida.",
+          "themes": [
+            "sofrimento",
+            "brevidade_da_vida",
+            "oracao",
+            "duvida",
+            "solidao"
+          ]
+        },
+        {
+          "chapters": "8",
+          "summary": "Bildade: Deus não perverte a justiça; os filhos de Jó morreram por seus pecados; Jó será restaurado se for puro.",
+          "themes": [
+            "justica_divina",
+            "consequencias_do_pecado",
+            "restauracao",
+            "soberania_de_deus"
+          ]
+        },
+        {
+          "chapters": "9-10",
+          "summary": "Jó reconhece a grandeza de Deus mas lamenta não poder levá-Lo a juízo; dirige-se a Deus pedindo que cesse a opressão.",
+          "themes": [
+            "sofrimento",
+            "soberania_de_deus",
+            "gloria_de_deus",
+            "duvida",
+            "oracao",
+            "identidade_de_deus"
+          ]
+        },
+        {
+          "chapters": "11",
+          "summary": "Zofar acusa Jó de presunção; sabedoria de Deus é insondável; exige arrependimento para restauração.",
+          "themes": [
+            "soberania_de_deus",
+            "conhecimento_de_deus",
+            "arrependimento",
+            "sabedoria"
+          ]
+        },
+        {
+          "chapters": "12-14",
+          "summary": "Jó responde: louva o poder soberano de Deus sobre a criação, declara que levará sua causa ao próprio Deus, medita sobre fragilidade humana e morte com esperança futura.",
+          "themes": [
+            "soberania_de_deus",
+            "brevidade_da_vida",
+            "morte",
+            "esperanca",
+            "fe",
+            "oracao"
+          ]
+        },
+        {
+          "chapters": "15",
+          "summary": "Segundo discurso de Elifaz: acusa Jó de soberba e arrogância; descreve o destino do ímpio.",
+          "themes": [
+            "orgulho",
+            "juizo",
+            "consequencias_do_pecado",
+            "justica_divina"
+          ]
+        },
+        {
+          "chapters": "16-17",
+          "summary": "Jó lamenta a crueldade dos amigos, descreve sofrimento físico e emocional, apela a uma testemunha celestial que defenda sua causa.",
+          "themes": [
+            "sofrimento",
+            "solidao",
+            "rejeicao",
+            "esperanca",
+            "intercessao",
+            "luto"
+          ]
+        },
+        {
+          "chapters": "18",
+          "summary": "Bildade descreve o destino do ímpio: extinção, esquecimento e terror.",
+          "themes": [
+            "juizo",
+            "consequencias_do_pecado",
+            "morte",
+            "justica_divina"
+          ]
+        },
+        {
+          "chapters": "19",
+          "summary": "Jó descreve abandono total — por Deus, família e amigos — mas professa fé no Redentor vivo que verá após a morte.",
+          "themes": [
+            "sofrimento",
+            "abandonado",
+            "fe",
+            "ressurreicao",
+            "esperanca",
+            "redencao",
+            "solidao"
+          ]
+        },
+        {
+          "chapters": "20",
+          "summary": "Zofar: o triunfo do ímpio é breve; Deus reserva a ruína para quem acumula riqueza pela maldade.",
+          "themes": [
+            "juizo",
+            "consequencias_do_pecado",
+            "justica_divina",
+            "ganancia"
+          ]
+        },
+        {
+          "chapters": "21",
+          "summary": "Jó questiona a tese dos amigos demonstrando que os ímpios prosperam e morrem em paz, desafiando a doutrina da retribuição imediata.",
+          "themes": [
+            "juizo",
+            "justica_divina",
+            "duvida",
+            "soberania_de_deus",
+            "injustica"
+          ]
+        },
+        {
+          "chapters": "22",
+          "summary": "Terceiro discurso de Elifaz: acusa Jó de pecados de injustiça social e o convida a se reconciliar com Deus.",
+          "themes": [
+            "justica_social",
+            "arrependimento",
+            "restauracao",
+            "reconciliacao",
+            "injustica"
+          ]
+        },
+        {
+          "chapters": "23-24",
+          "summary": "Jó anseia encontrar Deus para apresentar sua causa, afirma integridade, descreve a impunidade dos opressores dos pobres.",
+          "themes": [
+            "sofrimento",
+            "injustica",
+            "opressao",
+            "integridade",
+            "oracao",
+            "justica_social",
+            "soberania_de_deus"
+          ]
+        },
+        {
+          "chapters": "25",
+          "summary": "Bildade (breve): a transcendência de Deus é tal que nem a lua é pura diante Dele — muito menos o homem.",
+          "themes": [
+            "santidade_de_deus",
+            "soberania_de_deus",
+            "identidade_de_deus"
+          ]
+        },
+        {
+          "chapters": "26-27",
+          "summary": "Jó descreve o poder de Deus sobre o cosmos, reafirma integridade e inocência, descreve o destino do ímpio.",
+          "themes": [
+            "soberania_de_deus",
+            "gloria_de_deus",
+            "integridade",
+            "fidelidade",
+            "juizo"
+          ]
+        },
+        {
+          "chapters": "28",
+          "summary": "Hino à Sabedoria: a sabedoria não pode ser comprada nem encontrada pelo homem — só Deus a conhece; o temor do Senhor é a verdadeira sabedoria.",
+          "themes": [
+            "sabedoria",
+            "temor_de_deus",
+            "conhecimento_de_deus",
+            "soberania_de_deus"
+          ]
+        },
+        {
+          "chapters": "29-31",
+          "summary": "Monólogo final de Jó: recorda dias de prosperidade e honra, lamenta humilhação atual, conclui com solene declaração de inocência desafiando Deus a responder.",
+          "themes": [
+            "sofrimento",
+            "integridade",
+            "lideranca",
+            "justica_social",
+            "humildade",
+            "luto",
+            "identidade"
+          ]
+        },
+        {
+          "chapters": "32-33",
+          "summary": "Eliú entra irritado com todos; argumenta que Deus fala por sonhos e sofrimento para disciplinar e guardar o homem da morte.",
+          "themes": [
+            "sofrimento",
+            "disciplina",
+            "soberania_de_deus",
+            "palavra_de_deus",
+            "oracao",
+            "humildade"
+          ]
+        },
+        {
+          "chapters": "34-35",
+          "summary": "Eliú defende a justiça absoluta de Deus; o pecado ou justiça humana não afetam a Deus em si, mas ao próprio homem.",
+          "themes": [
+            "justica_divina",
+            "soberania_de_deus",
+            "responsabilidade_individual",
+            "pecado"
+          ]
+        },
+        {
+          "chapters": "36-37",
+          "summary": "Eliú conclui: Deus usa o sofrimento para disciplinar e ensinar; convida Jó a contemplar as maravilhas de Deus na criação.",
+          "themes": [
+            "soberania_de_deus",
+            "gloria_de_deus",
+            "disciplina",
+            "conhecimento_de_deus",
+            "criacao",
+            "temor_de_deus"
+          ]
+        },
+        {
+          "chapters": "38-39",
+          "summary": "Deus responde do redemoinho (1ª fala): interroga Jó sobre os fundamentos da terra, o mar, a luz, o clima e os animais — revelando sabedoria e poder incomparáveis.",
+          "themes": [
+            "soberania_de_deus",
+            "gloria_de_deus",
+            "criacao",
+            "conhecimento_de_deus",
+            "identidade_de_deus",
+            "temor_de_deus"
+          ]
+        },
+        {
+          "chapters": "40-41",
+          "summary": "Deus responde do redemoinho (2ª fala): desafia Jó a governar o mundo se puder; descreve Beemote e Leviatã como criaturas que só Deus pode domar.",
+          "themes": [
+            "soberania_de_deus",
+            "gloria_de_deus",
+            "humildade",
+            "criacao",
+            "identidade_de_deus"
+          ]
+        },
+        {
+          "chapters": "42",
+          "summary": "Epílogo: Jó se arrepende diante de Deus; Deus repreende os amigos por não terem falado o reto; Jó intercede por eles e é restaurado com o dobro.",
+          "themes": [
+            "arrependimento",
+            "restauracao",
+            "intercessao",
+            "fe",
+            "bencao",
+            "providencia",
+            "fidelidade_de_deus",
+            "segunda_chance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atos",
+      "label": "Atos dos Apóstolos",
+      "file_path": ".bible_data/pt-br/new_testament/atos.md",
+      "testament": "new",
+      "genre": "history",
+      "era": "early_church",
+      "purpose": "Registrar a expansão da igreja primitiva desde Jerusalém até os confins da terra, sob a direção do Espírito Santo, mostrando como o evangelho de Jesus Cristo alcançou judeus e gentios por meio dos apóstolos, especialmente Pedro e Paulo.",
+      "chapter_map": [
+        {
+          "chapters": "1-2",
+          "summary": "Ascensão e mandato missionário; Pentecostes; discurso de Pedro e conversão de três mil; vida em comunidade da primeira igreja.",
+          "themes": [
+            "espirito_santo",
+            "missao",
+            "ressurreicao",
+            "comunidade",
+            "arrependimento"
+          ]
+        },
+        {
+          "chapters": "3-5",
+          "summary": "Milagres no templo; pregações e prisão dos apóstolos; morte de Ananias e Safira; crescimento da igreja em meio à perseguição.",
+          "themes": [
+            "cura",
+            "perseguicao",
+            "coragem",
+            "espirito_santo",
+            "obediencia"
+          ]
+        },
+        {
+          "chapters": "6-7",
+          "summary": "Escolha dos sete diáconos; ministério e prisão de Estêvão; discurso histórico-teológico; martírio de Estêvão.",
+          "themes": [
+            "perseguicao",
+            "lideranca",
+            "morte",
+            "coragem",
+            "profecia_messianica"
+          ]
+        },
+        {
+          "chapters": "8",
+          "summary": "Perseguição dispersa a igreja; Filipe evangeliza a Samária e o eunuco etíope; conversão e batismo do eunuco.",
+          "themes": [
+            "missao",
+            "espirito_santo",
+            "salvacao",
+            "novo_comeco"
+          ]
+        },
+        {
+          "chapters": "9",
+          "summary": "Conversão dramática de Saulo; cura de Enéias e ressurreição de Dorcas por Pedro; paz e crescimento da igreja.",
+          "themes": [
+            "transformacao",
+            "chamado",
+            "cura",
+            "ressurreicao",
+            "vocacao"
+          ]
+        },
+        {
+          "chapters": "10-11",
+          "summary": "Visão de Pedro e chamado a Cornélio; Espírito derramado sobre os gentios; Pedro presta contas; fundação da igreja em Antioquia.",
+          "themes": [
+            "espirito_santo",
+            "missao",
+            "graca",
+            "preconceito",
+            "nova_alianca"
+          ]
+        },
+        {
+          "chapters": "12",
+          "summary": "Martírio de Tiago; prisão e libertação miraculosa de Pedro; morte de Herodes Agripa; palavra de Deus continua crescendo.",
+          "themes": [
+            "protecao_divina",
+            "perseguicao",
+            "oracao",
+            "morte",
+            "soberania_de_deus"
+          ]
+        },
+        {
+          "chapters": "13-14",
+          "summary": "Primeira viagem missionária de Paulo e Barnabé: Chipre, Antioquia da Psídia, Icônio, Listra e Derbe; pregação a judeus e depois a gentios.",
+          "themes": [
+            "missao",
+            "perseguicao",
+            "salvacao",
+            "fe",
+            "lideranca"
+          ]
+        },
+        {
+          "chapters": "15",
+          "summary": "Concílio de Jerusalém: debate sobre circuncisão e lei para gentios; decisão apostólica de graça sem lei mosaica.",
+          "themes": [
+            "graca",
+            "nova_alianca",
+            "unidade",
+            "lei",
+            "liberdade"
+          ]
+        },
+        {
+          "chapters": "16-18",
+          "summary": "Segunda viagem missionária: chamado macedônio; conversão de Lídia e do carcereiro; pregação em Tessalônica, Bereia, Atenas e Corinto.",
+          "themes": [
+            "missao",
+            "perseguicao",
+            "oracao",
+            "coragem",
+            "identidade_de_deus"
+          ]
+        },
+        {
+          "chapters": "19-20",
+          "summary": "Terceira viagem missionária: ministério em Éfeso por dois anos; tumulto de Demétrio; discurso de despedida em Mileto.",
+          "themes": [
+            "espirito_santo",
+            "missao",
+            "lideranca",
+            "perseveranca",
+            "igreja"
+          ]
+        },
+        {
+          "chapters": "21-23",
+          "summary": "Retorno de Paulo a Jerusalém; prisão no templo; discurso perante a multidão e o sinédrio; transferência para Cesaréia.",
+          "themes": [
+            "perseguicao",
+            "coragem",
+            "vocacao",
+            "proposito",
+            "oposicao"
+          ]
+        },
+        {
+          "chapters": "24-26",
+          "summary": "Julgamentos perante Félix, Festo e Agripa; Paulo defende sua conversão e o evangelho; apela para César.",
+          "themes": [
+            "coragem",
+            "fe",
+            "ressurreicao",
+            "missao",
+            "salvacao"
+          ]
+        },
+        {
+          "chapters": "27-28",
+          "summary": "Viagem para Roma: tempestade e naufrágio; ilha de Malta; chegada a Roma; Paulo prega o reino de Deus livremente por dois anos.",
+          "themes": [
+            "protecao_divina",
+            "providencia",
+            "missao",
+            "reino_de_deus",
+            "perseveranca"
+          ]
+        }
+      ]
     }
   ],
   "themes": [
@@ -6000,6 +6468,12 @@
         "misericórdia",
         "piedade"
       ]
+    },
+    {
+      "id": "missao",
+      "label": "Missão e Evangelismo",
+      "type": "broad",
+      "description": "O mandato da Igreja de proclamar o evangelho, fazer discípulos e expandir o Reino de Deus entre todas as nações — desde Jerusalém até os confins da terra."
     },
     {
       "id": "nova_alianca",
@@ -11890,6 +12364,328 @@
       "relevance": "primary",
       "chapters": "4-5",
       "context": "Visão do culto celestial: 'Santo, Santo, Santo é o Senhor Deus Todo-Poderoso' (4:8) e 'Digno é o Cordeiro que foi morto' (5:12) — modelo de adoração"
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "sofrimento",
+      "relevance": "primary",
+      "chapters": "1-31",
+      "context": "Jó é o texto bíblico central sobre sofrimento inocente; toda a sua estrutura orbita em torno de por que um justo sofre, tornando-o referência primária para qualquer estudo sobre sofrimento e fé."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "38-41",
+      "context": "Os discursos de Deus do redemoinho (caps. 38–41) são a exposição mais poética e abrangente da soberania divina sobre a criação em todo o AT, respondendo ao questionamento de Jó com perguntas que revelam a incomparável majestade divina."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1-2, 13, 19",
+      "context": "Jó exemplifica fé persistente diante do sofrimento extremo — 'o Senhor deu e o Senhor tirou' (cap. 1), 'ainda que Ele me mate, nele esperarei' (cap. 13), e sua confissão do Redentor vivo (cap. 19)."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "integridade",
+      "relevance": "primary",
+      "chapters": "1, 27, 31",
+      "context": "A integridade de Jó é o eixo narrativo do livro: estabelecida no prólogo, defendida nos diálogos e selada na apologia final (cap. 31), onde ele faz declaração solene de inocência em cada área da vida."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "justica_divina",
+      "relevance": "primary",
+      "chapters": "8-9, 21, 34, 40",
+      "context": "O livro examina se Deus é justo diante do sofrimento do inocente; os amigos defendem retribuição imediata, Jó a questiona, e Deus valida a postura de Jó, revelando que a justiça divina transcende a teologia simplista da retribuição."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "conhecimento_de_deus",
+      "relevance": "primary",
+      "chapters": "28, 38-42",
+      "context": "O hino à sabedoria (cap. 28) e os discursos divinos (caps. 38–42) demonstram que o verdadeiro conhecimento de Deus está além do alcance humano — o temor do Senhor é sua única porta de entrada."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "42",
+      "context": "O arrependimento de Jó no cap. 42 não é confissão de pecados que causaram o sofrimento, mas humilhação diante da majestade de Deus após encontrá-Lo pessoalmente — modelo de resposta à revelação divina."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "duvida",
+      "relevance": "primary",
+      "chapters": "3, 7, 9-10, 23",
+      "context": "Jó apresenta o questionamento mais honesto e angustiado de Deus em toda a Escritura — não como incredulidade, mas como luta de fé, tornando o livro essencial para quem atravessa crise espiritual."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "14, 19",
+      "context": "Nos momentos mais sombrios de Jó emergem lampejos de esperança transcendente — a interrogação sobre se o homem morto voltará a viver (cap. 14) e a confissão do Redentor vivo (cap. 19:25-27)."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "temor_de_deus",
+      "relevance": "primary",
+      "chapters": "1, 28, 37-42",
+      "context": "O temor de Deus define Jó desde o início (cap. 1) e é proclamado como ápice da sabedoria (cap. 28); os discursos divinos produzem o temor reverencial que restaura a relação correta com o Criador."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "40, 42",
+      "context": "A rendição de Jó (caps. 40 e 42) — colocando a mão sobre a boca e arrependo-se no pó — é um dos mais poderosos modelos bíblicos de humildade produzida pelo encontro com a majestade divina."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "42",
+      "context": "A restauração de Jó com o dobro de suas posses, família e honra no cap. 42 é o modelo paradigmático de restauração divina após sofrimento fiel."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1-2, 42",
+      "context": "O arco narrativo — de Jó íntegro a Jó restaurado — demonstra que Deus nunca abandonou seu servo; a restauração final confirma a fidelidade divina mesmo quando incompreensível no meio do sofrimento."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "sabedoria",
+      "relevance": "primary",
+      "chapters": "28, 38-42",
+      "context": "O hino à sabedoria (cap. 28) estabelece que a verdadeira sabedoria não é obtida por raciocínio teológico sistemático, mas pelo encontro pessoal com Deus — lição que contesta as respostas prontas dos amigos."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "38-41",
+      "context": "Os discursos de Deus revelam quem Ele é de forma incomparável: Criador onisciente, Sustentador soberano — a auto-revelação divina mais extensa em Jó é ao mesmo tempo resposta à crise teológica dos diálogos."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "ressurreicao",
+      "relevance": "secondary",
+      "chapters": "14, 19",
+      "context": "Jó 14 levanta a questão da vida após a morte, e Jó 19:25-27 contém uma das afirmações mais antigas de ver a Deus após a morte, prefigurando a doutrina da ressurreição."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "guerra_espiritual",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "O prólogo em prosa revela que por trás do sofrimento de Jó havia uma disputa espiritual no âmbito celestial entre Deus e Satanás — dimensão invisível do sofrimento humano."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "intercessao",
+      "relevance": "secondary",
+      "chapters": "42",
+      "context": "Deus ordena que os amigos de Jó sejam perdoados mediante a oração intercessória de Jó, mostrando que o sofredor justo torna-se mediador de graça para aqueles que o julgaram erroneamente."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "disciplina",
+      "relevance": "secondary",
+      "chapters": "5, 33, 36",
+      "context": "Elifaz (cap. 5) e Eliú (caps. 33 e 36) apresentam o sofrimento como disciplina divina para corrigir e instruir — perspectiva parcialmente válida dentro do argumento mais amplo do livro."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "7, 10, 13, 23, 42",
+      "context": "As falas de Jó dirigidas diretamente a Deus constituem formas cruas e apaixonadas de oração; Deus ao final declara que Jó falou o reto, validando o clamor honesto na dor como oração legítima."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "1-19",
+      "context": "Atos é o livro por excelência do Espírito Santo: do Pentecostes ao derramamento sobre os gentios, o Espírito guia, capacita e confirma cada avanço missionário da igreja primitiva."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "missao",
+      "relevance": "primary",
+      "chapters": "1-28",
+      "context": "O mandato de Atos 1:8 — ser testemunhas de Jerusalém até os confins da terra — estrutura todo o livro, tornando-o o relato fundacional da missão cristã ao mundo."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "igreja",
+      "relevance": "primary",
+      "chapters": "2-20",
+      "context": "Atos descreve o nascimento, crescimento, organização e expansão da igreja primitiva, desde a comunidade de Jerusalém até as igrejas plantadas por Paulo no mundo mediterrâneo."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "2-26",
+      "context": "A ressurreição de Jesus é o núcleo de todos os discursos apostólicos em Atos; cada pregação ancora o evangelho neste evento central."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "2-28",
+      "context": "De Pentecostes à pregação final em Roma, Atos demonstra que a salvação está disponível a judeus e gentios, a todos que invocarem o nome do Senhor."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "perseguicao",
+      "relevance": "primary",
+      "chapters": "4-28",
+      "context": "Atos narra sistematicamente a oposição ao evangelho — do sinédrio a autoridades romanas — e como a perseguição paradoxalmente espalhou a fé."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "2-26",
+      "context": "O chamado ao arrependimento é central nas pregações apostólicas; Pedro, Paulo e Estêvão convocam Israel e os gentios a se arrependerem e se converterem a Deus."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "11-20",
+      "context": "O Concílio de Jerusalém culmina na declaração de que judeus e gentios são salvos pela graça do Senhor Jesus, não pelas obras da lei — a magna carta da graça no livro histórico do NT."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "10-15",
+      "context": "A inclusão dos gentios sem circuncisão — confirmada pelo Espírito sobre a casa de Cornélio e pelo Concílio — marca a plena abertura da nova aliança a todas as nações."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "coragem",
+      "relevance": "primary",
+      "chapters": "4-26",
+      "context": "Pedro, João, Estêvão, Paulo e Silas pregam ousadamente diante de autoridades, tribunais e multidões hostis, tornando Atos um manual de testemunho corajoso."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "transformacao",
+      "relevance": "secondary",
+      "chapters": "9-22",
+      "context": "A conversão de Saulo — perseguidor que se torna o maior missionário da história — é o exemplo mais marcante de transformação radical pela graça em todo o Novo Testamento."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "1-12",
+      "context": "A oração coletiva prepara o Pentecostes, sustenta a igreja durante a perseguição e liberta Pedro da prisão; Atos mostra a oração como alicerce da vida apostólica."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "unidade",
+      "relevance": "secondary",
+      "chapters": "2-15",
+      "context": "A unanimidade da comunidade primitiva e o consenso do Concílio de Jerusalém apresentam a unidade como marca e desafio contínuo da igreja em expansão."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "comunidade",
+      "relevance": "secondary",
+      "chapters": "2-4",
+      "context": "A descrição da comunidade de Jerusalém — partilha de bens, refeições, oração e ensino apostólico — apresenta um modelo de vida em comunidade cristã."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "lideranca",
+      "relevance": "secondary",
+      "chapters": "6-20",
+      "context": "A escolha de diáconos, a ordenação de anciãos em cada cidade e o discurso de despedida de Paulo em Mileto revelam o desenvolvimento do modelo de liderança apostólica."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "providencia",
+      "relevance": "secondary",
+      "chapters": "16-28",
+      "context": "O Espírito impedindo Paulo de ir à Ásia, a visão macedônia, o naufrágio e a chegada a Roma mostram a providência divina conduzindo o avanço do evangelho."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "protecao_divina",
+      "relevance": "secondary",
+      "chapters": "12-28",
+      "context": "Anjos libertando Pedro da prisão, Paulo sobrevivendo ao apedrejamento e ao naufrágio garantem a proteção divina sobre os servos do evangelho."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "reino_de_deus",
+      "relevance": "secondary",
+      "chapters": "1-28",
+      "context": "O primeiro e o último versículos de Atos mencionam o reino de Deus; Paulo prega o reino em toda a sua jornada, ligando o ministério de Jesus ao avanço missionário da igreja."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "preconceito",
+      "relevance": "secondary",
+      "chapters": "10-15",
+      "context": "A resistência dos crentes judeus à inclusão dos gentios e a visão de Pedro sobre os animais imundos confrontam diretamente o preconceito étnico-religioso dentro da própria comunidade cristã."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "vocacao",
+      "relevance": "secondary",
+      "chapters": "9-26",
+      "context": "O chamado de Paulo — vaso escolhido para levar o nome de Cristo aos gentios, reis e filhos de Israel — é relatado três vezes em Atos, enfatizando a vocação como propósito divino irrevogável."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "missao",
+      "relevance": "primary",
+      "chapters": "28",
+      "context": "A Grande Comissão (Mt 28:18-20) — 'fazei discípulos de todas as nações' — é o mandato fundacional da missão cristã, cujo cumprimento narrativo é registrado inteiramente no livro de Atos."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "16",
+      "context": "Marcos 16:15 — 'ide por todo o mundo e pregai o evangelho a toda criatura' — é a versão mais direta e universal do mandato missionário de Jesus, sintetizando o propósito do discipulado."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "missao",
+      "relevance": "primary",
+      "chapters": "24",
+      "context": "Lucas 24:47 — 'arrependimento e remissão dos pecados devem ser pregados em seu nome a todas as nações' — é a comissão que abre caminho para Atos, já que Lucas escreveu os dois volumes para Teófilo como uma obra unificada."
+    },
+    {
+      "book_id": "jonas",
+      "theme_id": "missao",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Jonas é o único livro profético estruturado inteiramente em torno de uma missão — o chamado divino para pregar a Nínive, a resistência e fuga do profeta, e a misericórdia de Deus sobre uma nação pagã; é o precursor veterotestamentário da missão aos gentios."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "42, 49",
+      "context": "Isaías 42:6 e 49:6 apresentam o Servo do Senhor como 'luz das nações' e salvação 'até os confins da terra' — textos citados explicitamente pelos apóstolos em Atos 13:47 para justificar a missão aos gentios."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "10, 15",
+      "context": "Romanos 10:14-15 argumenta que a fé vem pelo ouvir, e o ouvir pela pregação, e a pregação pelo envio — a cadeia lógica da missão; e 15:20 revela o princípio missionário de Paulo de pregar onde Cristo ainda não é conhecido."
     }
   ]
 }

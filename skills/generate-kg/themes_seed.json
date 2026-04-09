@@ -707,6 +707,12 @@
       ]
     },
     {
+      "id": "missao",
+      "label": "Missão e Evangelismo",
+      "type": "broad",
+      "description": "O mandato da Igreja de proclamar o evangelho, fazer discípulos e expandir o Reino de Deus entre todas as nações — desde Jerusalém até os confins da terra."
+    },
+    {
       "id": "nova_alianca",
       "label": "Nova Aliança",
       "type": "broad",

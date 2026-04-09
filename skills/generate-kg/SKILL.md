@@ -29,7 +29,7 @@ Follow these steps in order. Do not skip any step.
 
 Read `skills/generate-kg/themes_seed.json`. This file contains:
 - **12 eras** — do not invent or modify them, use the `id` values exactly
-- **185 themes** (56 broad + 129 life-situation) — use the `id` values exactly
+- **186 themes** (57 broad + 129 life-situation) — use the `id` values exactly
 
 You will pass the complete theme and era lists to every subagent in Step 3. Subagents must only use ids that appear in this file.
 
@@ -37,7 +37,7 @@ You will pass the complete theme and era lists to every subagent in Step 3. Suba
 
 ### Step 2 — Discover all Bible book files
 
-Use Bash to list all `.md` files under `.bible_data/pt-br/old_testament/` and `.bible_data/pt-br/new_testament/`. The corpus is **64 books** (38 OT + 26 NT).
+Use Bash to list all `.md` files under `.bible_data/pt-br/old_testament/` and `.bible_data/pt-br/new_testament/`. The corpus is **66 books** (39 OT + 27 NT).
 
 ```bash
 find .bible_data/pt-br -name "*.md" | sort
@@ -164,8 +164,8 @@ Write the final JSON to `src/kg/data/bible_index.json` using the Write tool. Cre
 Print a summary:
 ```
 Knowledge Graph generated:
-  Books:        64
-  Themes:       185  (broad: 56, life_situation: 129)
+  Books:        66
+  Themes:       186  (broad: 57, life_situation: 129)
   Eras:         12
   Covers edges: XXX
 ```
