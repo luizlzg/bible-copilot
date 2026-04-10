@@ -29,17 +29,21 @@ warnings.filterwarnings(
     category=UserWarning,
 )
 
+import json
+import unicodedata
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from langchain.messages import HumanMessage
-from langgraph.checkpoint.postgres import PostgresSaver
+from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
 from pydantic import BaseModel
 
 load_dotenv()
 
 from src.bible_copilot.graph import build_graph  # noqa: E402
 from src.bible_copilot.state import coerce_bible_response  # noqa: E402
-from src.bible_copilot.verse_extractor import _build_book_index, extract_reference_text  # noqa: E402
+from src.bible_copilot.verse_extractor import _build_book_index, build_label_index, extract_reference_text  # noqa: E402
 from src.config import BIBLE_DATA_DIR, MESSAGE_HISTORY_DIR, KG_PATH, BibleCopilotContext  # noqa: E402
 from src.utils.logger import LOGGER  # noqa: E402
 from src.utils.observability import setup_langsmith_tracing  # noqa: E402
@@ -48,8 +52,14 @@ from src.utils.usage import extract_usage, build_context_snapshot  # noqa: E402
 
 REQUIRED_ENV_VARS = ["OPENROUTER_API_KEY", "SUPABASE_DB_URL", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"]
 
+
+def _normalize_slug(s: str) -> str:
+    nfkd = unicodedata.normalize("NFKD", s)
+    return "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
+
 _graph = None
 _book_index = None
+_label_index: dict[str, str] = {}
 _context: BibleCopilotContext | None = None
 
 
@@ -158,13 +168,14 @@ def _persist_to_supabase(
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    global _graph, _book_index, _context
+    global _graph, _book_index, _label_index, _context
 
     setup_langsmith_tracing()
     _check_env_vars(REQUIRED_ENV_VARS)
     _check_kg_exists()
 
     _book_index = _build_book_index(bible_data_dir=BIBLE_DATA_DIR)
+    _label_index = build_label_index(kg_path=KG_PATH)
     _context = BibleCopilotContext(
         bible_data_dir=BIBLE_DATA_DIR,
         message_history_dir=MESSAGE_HISTORY_DIR,
@@ -172,13 +183,13 @@ async def lifespan(app: FastAPI):
     )
 
     db_url = os.environ["SUPABASE_DB_URL"]
-    with PostgresSaver.from_conn_string(db_url) as checkpointer:
-        checkpointer.setup()  # idempotent — creates checkpoint tables on first run
+    async with AsyncPostgresSaver.from_conn_string(db_url) as checkpointer:
+        await checkpointer.setup()  # idempotent — creates checkpoint tables on first run
         _graph = build_graph(checkpointer=checkpointer)
-        LOGGER.info("PostgresSaver connected and ready.")
+        LOGGER.info("AsyncPostgresSaver connected and ready.")
         yield  # server runs here
 
-    LOGGER.info("Shutting down — PostgresSaver connection closed.")
+    LOGGER.info("Shutting down — AsyncPostgresSaver connection closed.")
 
 
 app = FastAPI(title="Bible Copilot", lifespan=lifespan)
@@ -228,8 +239,12 @@ def new_session() -> SessionResponse:
     return SessionResponse(thread_id=str(uuid4()))
 
 
-@app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest) -> ChatResponse:
+def _sse(event: str, data: dict) -> str:
+    return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
+
+
+@app.post("/chat")
+async def chat(request: ChatRequest) -> StreamingResponse:
     config = {
         "configurable": {"thread_id": request.thread_id},
         "recursion_limit": 1000,
@@ -238,67 +253,99 @@ def chat(request: ChatRequest) -> ChatResponse:
     LOGGER.info(f"[{request.thread_id}] {request.message!r}")
 
     model_name = os.getenv("SEARCH_RESPONSE_MODEL", "anthropic/claude-sonnet-4-20250514")
-    t0 = time.perf_counter()
 
-    result = _graph.invoke(
-        {"messages": [HumanMessage(content=request.message)]},
-        config=config,
-        context=_context,
-    )
+    async def generate():
+        t0 = time.perf_counter()
+        final_node_output: dict | None = None
 
-    elapsed_s = time.perf_counter() - t0
-    thread_id = request.thread_id
-    result_messages = result.get("messages", [])
+        try:
+            async for event in _graph.astream_events(
+                {"messages": [HumanMessage(content=request.message)]},
+                config=config,
+                context=_context,
+                version="v2",
+            ):
+                kind = event["event"]
+                name = event.get("name", "")
+                metadata = event.get("metadata", {})
 
-    if result.get("invalid_input"):
-        return ChatResponse(
-            thread_id=thread_id,
-            message="",
-            error=result.get("error_message", "Unknown error."),
-        )
+                if kind == "on_tool_start":
+                    input_data = event.get("data", {}).get("input", {})
+                    yield _sse("tool_start", {"tool": name, "input": input_data})
 
-    bible_response = coerce_bible_response(result.get("bible_response"))
-    if bible_response:
-        refs = [
-            r for r in (bible_response.get("biblical_references") or [])
-            if r.get("book") and r.get("chapter")
-        ]
-        passages = [
-            BiblePassageResponse(
-                book=r["book"],
-                chapter=r["chapter"],
-                verse_start=r.get("verse_start"),
-                verse_end=r.get("verse_end"),
-                text=extract_reference_text(r, _book_index) or None,
+                elif kind == "on_chat_model_stream":
+                    chunk = event["data"].get("chunk")
+                    if chunk:
+                        content = chunk.content if isinstance(chunk.content, str) else ""
+                        tc_chunks = getattr(chunk, "tool_call_chunks", None) or []
+                        if content and not tc_chunks:
+                            yield _sse("token", {"token": content})
+
+                elif kind == "on_chain_end" and metadata.get("langgraph_node") == "search_response":
+                    final_node_output = event.get("data", {}).get("output") or {}
+
+            elapsed_s = time.perf_counter() - t0
+            thread_id = request.thread_id
+
+            if not final_node_output or final_node_output.get("invalid_input"):
+                err = (final_node_output or {}).get("error_message", "Erro interno.")
+                yield _sse("error", {"error": err})
+                return
+
+            result_messages = final_node_output.get("messages", [])
+            bible_response = coerce_bible_response(final_node_output.get("bible_response"))
+
+            if bible_response:
+                refs = [
+                    r for r in (bible_response.get("biblical_references") or [])
+                    if r.get("book") and r.get("chapter")
+                ]
+                passages = [
+                    BiblePassageResponse(
+                        book=_label_index.get(_normalize_slug(r.get("book", "")), r.get("book", "")),
+                        chapter=r["chapter"],
+                        verse_start=r.get("verse_start"),
+                        verse_end=r.get("verse_end") or r.get("verse_start"),
+                        text=extract_reference_text(r, _book_index) or None,
+                    )
+                    for r in refs
+                ]
+                interp = bible_response.get("interpretation")
+                response = ChatResponse(
+                    thread_id=thread_id,
+                    message=bible_response.get("message", ""),
+                    biblical_references=passages or None,
+                    interpretation=interp if interp not in (None, "None", "null") else None,
+                )
+            else:
+                response = ChatResponse(
+                    thread_id=thread_id,
+                    message=result_messages[-1].content if result_messages else "",
+                )
+
+            yield _sse("done", response.model_dump())
+
+            # Persist to Supabase (non-blocking best-effort)
+            ai_response_dict = {
+                "message": response.message,
+                "biblical_references": [p.model_dump() for p in (response.biblical_references or [])],
+                "interpretation": response.interpretation,
+            }
+            _persist_to_supabase(
+                thread_id=thread_id,
+                user_message=request.message,
+                ai_response=ai_response_dict,
+                result_messages=result_messages,
+                time_to_answer_s=elapsed_s,
+                model_name=model_name,
             )
-            for r in refs
-        ]
-        interp = bible_response.get("interpretation")
-        response = ChatResponse(
-            thread_id=thread_id,
-            message=bible_response.get("message", ""),
-            biblical_references=passages or None,
-            interpretation=interp if interp not in (None, "None", "null") else None,
-        )
-    else:
-        response = ChatResponse(
-            thread_id=thread_id,
-            message=result_messages[-1].content if result_messages else "",
-        )
 
-    # Persist to Supabase (non-blocking best-effort)
-    ai_response_dict = {
-        "message": response.message,
-        "biblical_references": [p.model_dump() for p in (response.biblical_references or [])],
-        "interpretation": response.interpretation,
-    }
-    _persist_to_supabase(
-        thread_id=thread_id,
-        user_message=request.message,
-        ai_response=ai_response_dict,
-        result_messages=result_messages,
-        time_to_answer_s=elapsed_s,
-        model_name=model_name,
+        except Exception as e:
+            LOGGER.error(f"[{request.thread_id}] Chat SSE error: {e}", exc_info=True)
+            yield _sse("error", {"error": str(e)})
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
-
-    return response

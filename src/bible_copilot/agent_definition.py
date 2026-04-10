@@ -1,23 +1,22 @@
 import os
 from typing import Any
 
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
-from langchain.agents.structured_output import ToolStrategy
 from langchain.agents.middleware.summarization import SummarizationMiddleware
 from langgraph.runtime import Runtime
 
 from src.bible_copilot.file_index import build_bible_file_index
 from src.bible_copilot.prompts import SEARCH_RESPONSE_PROMPT
-from src.bible_copilot.state import BibleResponse, GraphState, coerce_bible_response
+from src.bible_copilot.state import GraphState, coerce_bible_response
 from src.bible_copilot.tools import SEARCH_RESPONSE_TOOLS
 from src.config import BibleCopilotContext
 from src.kg.context import build_kg_index
 from src.middleware import (
     StructuredOutputValidationError,
-    StructuredOutputValidatorMiddleware,
     MessageHistoryMiddleware,
+    SaveResponseValidatorMiddleware,
 )
 from src.utils.logger import LOGGER
 
@@ -31,8 +30,12 @@ def _make_llm(model_name: str) -> ChatOpenAI:
     return ChatOpenAI(
         model=model_name,
         temperature=0,
+        streaming=True,
         base_url="https://openrouter.ai/api/v1",
         api_key=os.getenv("OPENROUTER_API_KEY"),
+        extra_body={
+            "cache_control": {"type": "ephemeral", "ttl": "1h"},
+        },
     )
 
 
@@ -42,14 +45,6 @@ def _make_llm(model_name: str) -> ChatOpenAI:
 def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: str):
     llm = _make_llm(model_name)
 
-    validator = StructuredOutputValidatorMiddleware(
-        expected_schema=BibleResponse,
-    )
-
-    # Middleware order matters:
-    # 1. SummarizationMiddleware — compresses old messages when token threshold is hit
-    # 2. MessageHistoryMiddleware — detects disappeared IDs (from summarization) and saves history
-    # 3. StructuredOutputValidatorMiddleware — validates the final structured response
     summarization = SummarizationMiddleware(
         model=llm,
         trigger=("tokens", int(os.getenv("SUMMARIZATION_TRIGGER_TOKENS", 90000))),
@@ -57,6 +52,7 @@ def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: 
         trim_tokens_to_summarize=None
     )
     history = MessageHistoryMiddleware()
+    save_validator = SaveResponseValidatorMiddleware()
 
     system_prompt = SEARCH_RESPONSE_PROMPT.format(
         bible_file_index=build_bible_file_index(bible_data_dir=bible_data_dir),
@@ -68,12 +64,11 @@ def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: 
         tools=SEARCH_RESPONSE_TOOLS,
         system_prompt=system_prompt,
         state_schema=GraphState,
-        response_format=ToolStrategy(BibleResponse),
-        middleware=[summarization, history, validator],
+        middleware=[summarization, history, save_validator],
     )
 
 
-def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext]) -> dict:
+async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext]) -> dict:
     LOGGER.info("=" * 60)
     LOGGER.info("RUNNING SEARCH + RESPONSE AGENT")
     LOGGER.info("=" * 60)
@@ -82,8 +77,6 @@ def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext
     bible_data_dir = runtime.context.bible_data_dir
     kg_path = runtime.context.kg_path
 
-    # Track existing message IDs so we only log NEW messages from this turn
-    # (count-based tracking breaks when summarization replaces old messages)
     logged_ids = {msg.id for msg in state.get("messages", []) if hasattr(msg, "id") and msg.id}
 
     retry_count = 0
@@ -93,7 +86,7 @@ def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext
             LOGGER.info(f"Invoking Search Response Agent (attempt {retry_count + 1}/{MAX_RETRIES + 1})...")
 
             result = None
-            for event in agent.stream(state, stream_mode="values"):
+            async for event in agent.astream(state, stream_mode="values"):
                 if "messages" in event:
                     for msg in event["messages"]:
                         msg_id = getattr(msg, "id", None)
@@ -102,8 +95,28 @@ def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext
                             LOGGER.info(msg.pretty_repr())
                 result = event
 
-            bible_response = coerce_bible_response(result.get("structured_response")) if result else None
             new_messages = result.get("messages", []) if result else []
+
+            # Get structured data saved by save_biblical_response tool
+            saved_data = result.get("bible_response") if result else None
+            if isinstance(saved_data, str):
+                saved_data = coerce_bible_response(saved_data)
+            saved_data = saved_data or {}
+
+            # Final AI message content is the streamed natural-language answer
+            last_ai = next(
+                (m for m in reversed(new_messages)
+                 if isinstance(m, AIMessage) and not m.tool_calls and m.content),
+                None,
+            )
+            final_message = last_ai.content if last_ai else ""
+
+            bible_response = {
+                "message": final_message,
+                "biblical_references": saved_data.get("biblical_references", []),
+                "interpretation": saved_data.get("interpretation"),
+            }
+
             LOGGER.info("Search Response Agent completed successfully.")
             return {"messages": new_messages, "bible_response": bible_response}
 

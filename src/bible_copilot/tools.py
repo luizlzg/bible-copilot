@@ -8,6 +8,7 @@ from langchain_core.tools import tool
 from langchain.tools import ToolRuntime
 from langgraph.types import Command
 
+from src.bible_copilot.state import BiblePassage
 from src.config import BibleCopilotContext
 from src.kg.tools import KG_TOOLS
 
@@ -215,6 +216,43 @@ def read_conversation_history(
     })
 
 
+# ── Save Response Tool ────────────────────────────────────────────────────────
+
+
+@tool
+def save_biblical_response(
+    biblical_references: list[BiblePassage],
+    interpretation: str | None,
+    runtime: ToolRuntime,
+) -> Command:
+    """
+    Save the biblical references and exegetical interpretation for this response.
+    Call this BEFORE writing your final answer, after reading all relevant passages.
+    Only include passages you actually retrieved with the tools in this turn.
+
+    Args:
+        biblical_references: List of passages cited. Each dict must have:
+            - book (str): exact book name as it appears in the file index
+            - chapter (int): chapter number
+            - verse_start (int, optional): first verse number
+            - verse_end (int, optional): last verse number
+        interpretation: Optional exegetical analysis of the cited passages —
+            their literary context, historical background, and theological significance.
+            Only reference passages listed in biblical_references.
+    """
+    return Command(update={
+        "bible_response": {
+            "message": "",  # filled from final AI message in the node
+            "biblical_references": biblical_references or [],
+            "interpretation": interpretation,
+        },
+        "messages": [ToolMessage(
+            content="Referências e interpretação salvas.",
+            tool_call_id=runtime.tool_call_id,
+        )],
+    })
+
+
 # ── Tool lists ─────────────────────────────────────────────────────────────────
 
 SEARCH_RESPONSE_TOOLS = [
@@ -223,6 +261,8 @@ SEARCH_RESPONSE_TOOLS = [
     # Bible file tools (paths come from KG or system prompt index)
     read_bible_file,
     search_bible_text,
+    # Structured response save tool (call before final answer)
+    save_biblical_response,
     # Conversation history tools
     list_conversation_history,
     grep_conversation_history,

@@ -2,6 +2,7 @@
 Extracts verse text from Bible markdown files given book/chapter/verse coordinates.
 """
 
+import json
 import os
 import re
 import unicodedata
@@ -13,6 +14,25 @@ def _normalize(text: str) -> str:
     """Strip accents and lowercase for fuzzy matching."""
     nfkd = unicodedata.normalize("NFKD", text)
     return "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
+
+
+def build_label_index(kg_path: str) -> dict[str, str]:
+    """
+    Returns a mapping from normalized book slug -> proper display label.
+    E.g. {"genesis": "Gênesis", "joao": "João", "1corintios": "1 Coríntios", ...}
+    """
+    try:
+        with open(kg_path, encoding="utf-8") as f:
+            data = json.load(f)
+        index = {}
+        for book in data.get("books", []):
+            slug = _normalize(book.get("id", ""))
+            label = book.get("label", "")
+            if slug and label:
+                index[slug] = label
+        return index
+    except Exception:
+        return {}
 
 
 def _build_book_index(bible_data_dir: str = BIBLE_DATA_DIR) -> dict[str, str]:
@@ -127,8 +147,8 @@ def extract_reference_text(
 
     book = ref.get("book", "")
     chapter = ref.get("chapter", 0)
-    verse_start = ref.get("verse_start", 0)
-    verse_end = ref.get("verse_end", 0)
+    verse_start = ref.get("verse_start") or 0
+    verse_end = ref.get("verse_end") or verse_start  # single verse when only start given
 
     path = _find_book_path(book, book_index)
     if not path:
