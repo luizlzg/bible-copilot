@@ -84,8 +84,9 @@ def _persist_to_supabase(
     result_messages: list,
     time_to_answer_s: float,
     model_name: str,
-) -> None:
-    """Write message + update session in Supabase after each /chat call."""
+    device_type: str | None = None,
+) -> str | None:
+    """Write message + update session in Supabase after each /chat call. Returns message_id."""
     try:
         db = get_supabase()
 
@@ -109,7 +110,7 @@ def _persist_to_supabase(
         context_snapshot = build_context_snapshot(result_messages)
 
         # Insert message record
-        db.table("messages").insert({
+        insert_result = db.table("messages").insert({
             "session_id": thread_id,
             "user_id": user_id,
             "user_message": user_message,
@@ -121,7 +122,11 @@ def _persist_to_supabase(
             "num_tool_calls": usage["num_tool_calls"],
             "context": context_snapshot,
             "time_to_answer": round(time_to_answer_s, 1),
+            "device_type": device_type,
         }).execute()
+        message_id: str | None = None
+        if insert_result.data:
+            message_id = insert_result.data[0].get("message_id")
 
         # Append user + assistant entries to conversation_history (used by sidebar labels and page restore)
         from datetime import datetime, timezone
@@ -161,9 +166,12 @@ def _persist_to_supabase(
             "updated_at": "now()",
         }).eq("session_id", thread_id).execute()
 
+        return message_id
+
     except Exception as exc:
         # Persistence failures must never break the chat response
         LOGGER.error(f"[{thread_id}] Supabase persistence failed: {exc}", exc_info=True)
+        return None
 
 
 @asynccontextmanager
@@ -213,6 +221,7 @@ class SessionResponse(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     thread_id: str
+    device_type: str | None = None
 
 
 class BiblePassageResponse(BaseModel):
@@ -225,6 +234,7 @@ class BiblePassageResponse(BaseModel):
 
 class ChatResponse(BaseModel):
     thread_id: str
+    message_id: str | None = None
     message: str
     biblical_references: list[BiblePassageResponse] | None = None
     interpretation: str | None = None
@@ -323,22 +333,24 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                     message=result_messages[-1].content if result_messages else "",
                 )
 
-            yield _sse("done", response.model_dump())
-
-            # Persist to Supabase (non-blocking best-effort)
+            # Persist to Supabase to get the message_id before sending done
             ai_response_dict = {
                 "message": response.message,
                 "biblical_references": [p.model_dump() for p in (response.biblical_references or [])],
                 "interpretation": response.interpretation,
             }
-            _persist_to_supabase(
+            message_id = _persist_to_supabase(
                 thread_id=thread_id,
                 user_message=request.message,
                 ai_response=ai_response_dict,
                 result_messages=result_messages,
                 time_to_answer_s=elapsed_s,
                 model_name=model_name,
+                device_type=request.device_type,
             )
+
+            response.message_id = message_id
+            yield _sse("done", response.model_dump())
 
         except Exception as e:
             LOGGER.error(f"[{request.thread_id}] Chat SSE error: {e}", exc_info=True)

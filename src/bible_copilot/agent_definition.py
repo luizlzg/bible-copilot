@@ -97,8 +97,15 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
 
             new_messages = result.get("messages", []) if result else []
 
-            # Get structured data saved by save_biblical_response tool
-            saved_data = result.get("bible_response") if result else None
+            # Only use bible_response if save_biblical_response was called THIS turn.
+            # Without this check, LangGraph returns the persisted value from the previous
+            # turn when the agent doesn't call the tool (e.g. follow-up questions).
+            save_called = any(
+                isinstance(m, AIMessage) and m.tool_calls and
+                any(tc.get("name") == "save_biblical_response" for tc in m.tool_calls)
+                for m in new_messages
+            )
+            saved_data = (result.get("bible_response") if save_called else {}) if result else None
             if isinstance(saved_data, str):
                 saved_data = coerce_bible_response(saved_data)
             saved_data = saved_data or {}
