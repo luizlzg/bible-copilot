@@ -85,6 +85,9 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
             agent = create_search_response_agent(model_name, bible_data_dir=bible_data_dir, kg_path=kg_path)
             LOGGER.info(f"Invoking Search Response Agent (attempt {retry_count + 1}/{MAX_RETRIES + 1})...")
 
+            # Clear bible_response so old turn data doesn't bleed if the tool isn't called
+            state = {**state, "bible_response": {}}
+
             result = None
             async for event in agent.astream(state, stream_mode="values"):
                 if "messages" in event:
@@ -97,15 +100,9 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
 
             new_messages = result.get("messages", []) if result else []
 
-            # Only use bible_response if save_biblical_response was called THIS turn.
-            # Without this check, LangGraph returns the persisted value from the previous
-            # turn when the agent doesn't call the tool (e.g. follow-up questions).
-            save_called = any(
-                isinstance(m, AIMessage) and m.tool_calls and
-                any(tc.get("name") == "save_biblical_response" for tc in m.tool_calls)
-                for m in new_messages
-            )
-            saved_data = (result.get("bible_response") if save_called else {}) if result else None
+            # bible_response was cleared before running, so this only has data if
+            # the agent called save_biblical_response this turn
+            saved_data = result.get("bible_response") if result else None
             if isinstance(saved_data, str):
                 saved_data = coerce_bible_response(saved_data)
             saved_data = saved_data or {}

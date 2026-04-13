@@ -6,8 +6,10 @@ Usage:
   uv run uvicorn main:app --host 0.0.0.0 --port 8000
 """
 
+import asyncio
 import os
 import time
+import unicodedata
 import warnings
 from contextlib import asynccontextmanager
 from uuid import uuid4
@@ -30,7 +32,6 @@ warnings.filterwarnings(
 )
 
 import json
-import unicodedata
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -57,6 +58,7 @@ def _normalize_slug(s: str) -> str:
     nfkd = unicodedata.normalize("NFKD", s)
     return "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
 
+
 _graph = None
 _book_index = None
 _label_index: dict[str, str] = {}
@@ -82,11 +84,12 @@ def _persist_to_supabase(
     user_message: str,
     ai_response: dict,
     result_messages: list,
-    time_to_answer_s: float,
+    time_to_first_token_s: float,
     model_name: str,
-    device_type: str | None = None,
-) -> str | None:
-    """Write message + update session in Supabase after each /chat call. Returns message_id."""
+    device_info: dict | None = None,
+    message_id: str | None = None,
+) -> None:
+    """Write message + update session in Supabase after each /chat call."""
     try:
         db = get_supabase()
 
@@ -94,7 +97,7 @@ def _persist_to_supabase(
         session_row = (
             db.table("sessions")
             .select(
-                "user_id, num_user_messages, num_ai_messages, mean_time_to_answer, "
+                "user_id, num_user_messages, num_ai_messages, mean_time_to_first_token, "
                 "total_input_tokens, total_output_tokens, num_tool_calls, conversation_history"
             )
             .eq("session_id", thread_id)
@@ -109,8 +112,8 @@ def _persist_to_supabase(
         usage = extract_usage(result_messages)
         context_snapshot = build_context_snapshot(result_messages)
 
-        # Insert message record
-        insert_result = db.table("messages").insert({
+        # Insert message record (use pre-generated message_id if provided)
+        insert_data = {
             "session_id": thread_id,
             "user_id": user_id,
             "user_message": user_message,
@@ -121,12 +124,14 @@ def _persist_to_supabase(
             "output_tokens": usage["output_tokens"],
             "num_tool_calls": usage["num_tool_calls"],
             "context": context_snapshot,
-            "time_to_answer": round(time_to_answer_s, 1),
-            "device_type": device_type,
-        }).execute()
-        message_id: str | None = None
-        if insert_result.data:
-            message_id = insert_result.data[0].get("message_id")
+            "time_to_first_token": round(time_to_first_token_s, 3),
+            "device_type": device_info.get("type") if device_info else None,
+            "device_info": device_info,
+        }
+        if message_id:
+            insert_data["message_id"] = message_id
+
+        db.table("messages").insert(insert_data).execute()
 
         # Append user + assistant entries to conversation_history (used by sidebar labels and page restore)
         from datetime import datetime, timezone
@@ -141,6 +146,7 @@ def _persist_to_supabase(
             },
             {
                 "id": str(uuid4()),
+                "message_id": message_id,
                 "role": "assistant",
                 "content": ai_response.get("message", ""),
                 "biblical_references": ai_response.get("biblical_references"),
@@ -151,14 +157,14 @@ def _persist_to_supabase(
 
         # Accumulate session-level totals
         prev_ai = session_row.data["num_ai_messages"] or 0
-        prev_mean = session_row.data["mean_time_to_answer"] or 0.0
+        prev_mean = session_row.data.get("mean_time_to_first_token") or 0.0
         new_ai = prev_ai + 1
-        new_mean = (prev_mean * prev_ai + time_to_answer_s) / new_ai
+        new_mean = (prev_mean * prev_ai + time_to_first_token_s) / new_ai
 
         db.table("sessions").update({
             "num_user_messages": (session_row.data["num_user_messages"] or 0) + 1,
             "num_ai_messages": new_ai,
-            "mean_time_to_answer": round(new_mean, 1),
+            "mean_time_to_first_token": round(new_mean, 3),
             "total_input_tokens": (session_row.data["total_input_tokens"] or 0) + (usage["input_tokens"] or 0),
             "total_output_tokens": (session_row.data["total_output_tokens"] or 0) + (usage["output_tokens"] or 0),
             "num_tool_calls": (session_row.data["num_tool_calls"] or 0) + (usage["num_tool_calls"] or 0),
@@ -166,12 +172,9 @@ def _persist_to_supabase(
             "updated_at": "now()",
         }).eq("session_id", thread_id).execute()
 
-        return message_id
-
     except Exception as exc:
         # Persistence failures must never break the chat response
         LOGGER.error(f"[{thread_id}] Supabase persistence failed: {exc}", exc_info=True)
-        return None
 
 
 @asynccontextmanager
@@ -221,7 +224,7 @@ class SessionResponse(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     thread_id: str
-    device_type: str | None = None
+    device_info: dict | None = None
 
 
 class BiblePassageResponse(BaseModel):
@@ -266,6 +269,7 @@ async def chat(request: ChatRequest) -> StreamingResponse:
 
     async def generate():
         t0 = time.perf_counter()
+        t_first_token: float | None = None
         final_node_output: dict | None = None
 
         try:
@@ -289,12 +293,14 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                         content = chunk.content if isinstance(chunk.content, str) else ""
                         tc_chunks = getattr(chunk, "tool_call_chunks", None) or []
                         if content and not tc_chunks:
+                            if t_first_token is None:
+                                t_first_token = time.perf_counter()
                             yield _sse("token", {"token": content})
 
                 elif kind == "on_chain_end" and metadata.get("langgraph_node") == "search_response":
                     final_node_output = event.get("data", {}).get("output") or {}
 
-            elapsed_s = time.perf_counter() - t0
+            time_to_first_token_s = (t_first_token - t0) if t_first_token is not None else (time.perf_counter() - t0)
             thread_id = request.thread_id
 
             if not final_node_output or final_node_output.get("invalid_input"):
@@ -333,24 +339,30 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                     message=result_messages[-1].content if result_messages else "",
                 )
 
-            # Persist to Supabase to get the message_id before sending done
+            # Pre-generate message_id so we can include it in done without blocking
+            message_id = str(uuid4())
+            response.message_id = message_id
+
+            # Yield done immediately — don't block on DB write
+            yield _sse("done", response.model_dump())
+
+            # Persist asynchronously in a thread so it doesn't delay the response close
             ai_response_dict = {
                 "message": response.message,
                 "biblical_references": [p.model_dump() for p in (response.biblical_references or [])],
                 "interpretation": response.interpretation,
             }
-            message_id = _persist_to_supabase(
-                thread_id=thread_id,
-                user_message=request.message,
-                ai_response=ai_response_dict,
-                result_messages=result_messages,
-                time_to_answer_s=elapsed_s,
-                model_name=model_name,
-                device_type=request.device_type,
-            )
-
-            response.message_id = message_id
-            yield _sse("done", response.model_dump())
+            asyncio.create_task(asyncio.to_thread(
+                _persist_to_supabase,
+                thread_id,
+                request.message,
+                ai_response_dict,
+                result_messages,
+                time_to_first_token_s,
+                model_name,
+                request.device_info,
+                message_id,
+            ))
 
         except Exception as e:
             LOGGER.error(f"[{request.thread_id}] Chat SSE error: {e}", exc_info=True)
