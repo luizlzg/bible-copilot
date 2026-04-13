@@ -51,7 +51,7 @@ from src.utils.observability import setup_langsmith_tracing  # noqa: E402
 from src.utils.supabase_client import get_supabase  # noqa: E402
 from src.utils.usage import extract_usage, build_context_snapshot  # noqa: E402
 
-REQUIRED_ENV_VARS = ["OPENROUTER_API_KEY", "SUPABASE_DB_URL", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY"]
+REQUIRED_ENV_VARS = ["OPENROUTER_API_KEY", "SUPABASE_DB_URL", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY", "SERPER_API_KEY"]
 
 
 def _normalize_slug(s: str) -> str:
@@ -151,6 +151,7 @@ def _persist_to_supabase(
                 "content": ai_response.get("message", ""),
                 "biblical_references": ai_response.get("biblical_references"),
                 "interpretation": ai_response.get("interpretation"),
+                "web_sources": ai_response.get("web_sources"),
                 "timestamp": timestamp,
             },
         ]
@@ -235,12 +236,19 @@ class BiblePassageResponse(BaseModel):
     text: str | None = None
 
 
+class WebSourceResponse(BaseModel):
+    title: str
+    url: str
+    snippet: str | None = None
+
+
 class ChatResponse(BaseModel):
     thread_id: str
     message_id: str | None = None
     message: str
     biblical_references: list[BiblePassageResponse] | None = None
     interpretation: str | None = None
+    web_sources: list[WebSourceResponse] | None = None
     error: str | None = None
 
 
@@ -327,11 +335,22 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                     for r in refs
                 ]
                 interp = bible_response.get("interpretation")
+                raw_sources = bible_response.get("web_sources") or []
+                web_sources = [
+                    WebSourceResponse(
+                        title=s.get("title", ""),
+                        url=s.get("url", ""),
+                        snippet=s.get("snippet") or None,
+                    )
+                    for s in raw_sources
+                    if s.get("url")
+                ]
                 response = ChatResponse(
                     thread_id=thread_id,
                     message=bible_response.get("message", ""),
                     biblical_references=passages or None,
                     interpretation=interp if interp not in (None, "None", "null") else None,
+                    web_sources=web_sources or None,
                 )
             else:
                 response = ChatResponse(
@@ -351,6 +370,7 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 "message": response.message,
                 "biblical_references": [p.model_dump() for p in (response.biblical_references or [])],
                 "interpretation": response.interpretation,
+                "web_sources": [s.model_dump() for s in (response.web_sources or [])],
             }
             asyncio.create_task(asyncio.to_thread(
                 _persist_to_supabase,

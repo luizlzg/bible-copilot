@@ -11,10 +11,17 @@ class BiblePassage(TypedDict):
     verse_end: int
 
 
+class WebSource(TypedDict):
+    title: str
+    url: str
+    snippet: Optional[str]
+
+
 class BibleResponse(TypedDict):
     message: str
     biblical_references: Optional[Union[list[BiblePassage], str]]
     interpretation: Optional[str]
+    web_sources: Optional[list[WebSource]]
 
 
 class GraphState(AgentState):

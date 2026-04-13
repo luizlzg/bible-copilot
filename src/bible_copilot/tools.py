@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from langchain_core.messages import ToolMessage
@@ -8,7 +9,7 @@ from langchain_core.tools import tool
 from langchain.tools import ToolRuntime
 from langgraph.types import Command
 
-from src.bible_copilot.state import BiblePassage
+from src.bible_copilot.state import BiblePassage, WebSource
 from src.config import BibleCopilotContext
 from src.kg.tools import KG_TOOLS
 
@@ -51,6 +52,17 @@ def _grep_file(path: str, pattern: str) -> list[tuple[int, str]]:
             if compiled.search(line):
                 matches.append((line_num, line.rstrip()))
     return matches
+
+
+def _fetch_page_text(url: str, max_chars: int = 800) -> str:
+    import requests as _req
+    try:
+        r = _req.get(url, timeout=4, headers={"User-Agent": "Mozilla/5.0"})
+        text = re.sub(r"<[^>]+>", " ", r.text)   # strip HTML tags
+        text = re.sub(r"\s+", " ", text).strip()  # collapse whitespace
+        return text[:max_chars]
+    except Exception:
+        return ""
 
 
 # ── Bible Tools ───────────────────────────────────────────────────────────────
@@ -216,6 +228,67 @@ def read_conversation_history(
     })
 
 
+# ── Web Search Tool ───────────────────────────────────────────────────────────
+
+
+@tool
+def search_web(query: str, runtime: ToolRuntime) -> Command:
+    """
+    Search the web for Christianity-related information not directly found in the Bible text.
+
+    Use for:
+      - Current liturgical season/Sunday (e.g. "3rd Sunday of Advent 2025")
+      - Papal encyclicals, apostolic exhortations, Vatican documents
+      - Official Catechism of the Catholic Church references
+      - Canon Law references
+      - Saint feast days, beatifications, canonizations
+      - Ecumenical councils and their documents
+      - Liturgical norms, sacraments, rites
+      - Church history facts not covered by the Bible
+
+    Do NOT use for questions answerable directly from the Bible text.
+    The Bible is always the primary source.
+    """
+    import requests as _requests
+
+    api_key = os.getenv("SERPER_API_KEY")
+    if not api_key:
+        content = "Pesquisa web indisponível: SERPER_API_KEY não configurado."
+        return Command(update={
+            "messages": [ToolMessage(content=content, tool_call_id=runtime.tool_call_id)],
+        })
+
+    try:
+        resp = _requests.post(
+            "https://google.serper.dev/search",
+            headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
+            json={"q": query, "num": 5, "gl": "br", "hl": "pt"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        results = [
+            {"title": r.get("title", ""), "url": r.get("link", ""), "snippet": r.get("snippet", "")}
+            for r in data.get("organic", [])[:5]
+        ]
+
+        # Enrich top 3 results with actual page content fetched in parallel
+        urls = [r["url"] for r in results[:3]]
+        with ThreadPoolExecutor(max_workers=3) as pool:
+            page_texts = list(pool.map(_fetch_page_text, urls, timeout=5))
+        for result, text in zip(results[:3], page_texts):
+            if text:
+                result["snippet"] = text
+
+        content = json.dumps(results, ensure_ascii=False, indent=2)
+    except Exception as e:
+        content = f"Erro na busca web: {e}"
+
+    return Command(update={
+        "messages": [ToolMessage(content=content, tool_call_id=runtime.tool_call_id)],
+    })
+
+
 # ── Save Response Tool ────────────────────────────────────────────────────────
 
 
@@ -223,31 +296,37 @@ def read_conversation_history(
 def save_biblical_response(
     biblical_references: list[BiblePassage],
     interpretation: str | None,
+    web_sources: list[WebSource] | None,
     runtime: ToolRuntime,
 ) -> Command:
     """
-    Save the biblical references and exegetical interpretation for this response.
-    Call this BEFORE writing your final answer, after reading all relevant passages.
-    Only include passages you actually retrieved with the tools in this turn.
+    Save the structured data for this response before writing the final answer.
+    Call this AFTER consulting all sources (Bible tools and/or web search).
 
     Args:
-        biblical_references: List of passages cited. Each dict must have:
-            - book (str): exact book name as it appears in the file index
+        biblical_references: List of Bible passages cited. Each entry:
+            - book (str): exact book slug from the file index (e.g. "genesis", "joao")
             - chapter (int): chapter number
             - verse_start (int, optional): first verse number
-            - verse_end (int, optional): last verse number
+            - verse_end (int, optional): last verse number — equals verse_start for a single verse
         interpretation: Optional exegetical analysis of the cited passages —
-            their literary context, historical background, and theological significance.
+            literary context, historical background, theological significance.
             Only reference passages listed in biblical_references.
+        web_sources: List of web sources used. Each entry:
+            - title (str): page title
+            - url (str): full URL
+            - snippet (str, optional): relevant excerpt from the page
+            Include only sources you actually cited in the answer using [1], [2], etc.
     """
     return Command(update={
         "bible_response": {
             "message": "",  # filled from final AI message in the node
             "biblical_references": biblical_references or [],
             "interpretation": interpretation,
+            "web_sources": web_sources or [],
         },
         "messages": [ToolMessage(
-            content="Referências e interpretação salvas.",
+            content="Referências, interpretação e fontes web salvas.",
             tool_call_id=runtime.tool_call_id,
         )],
     })
@@ -261,6 +340,8 @@ SEARCH_RESPONSE_TOOLS = [
     # Bible file tools (paths come from KG or system prompt index)
     read_bible_file,
     search_bible_text,
+    # Web search — for Christianity questions not in the Bible text
+    search_web,
     # Structured response save tool (call before final answer)
     save_biblical_response,
     # Conversation history tools

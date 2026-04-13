@@ -1,4 +1,5 @@
 import os
+from datetime import datetime, timezone
 from typing import Any
 
 from langchain_core.messages import AIMessage, HumanMessage
@@ -54,9 +55,11 @@ def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: 
     history = MessageHistoryMiddleware()
     save_validator = SaveResponseValidatorMiddleware()
 
+    current_date = datetime.now(timezone.utc).strftime("%A, %d de %B de %Y")
     system_prompt = SEARCH_RESPONSE_PROMPT.format(
         bible_file_index=build_bible_file_index(bible_data_dir=bible_data_dir),
         kg_index=build_kg_index(kg_path=kg_path),
+        current_date=current_date,
     )
 
     return create_agent(
@@ -119,6 +122,7 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
                 "message": final_message,
                 "biblical_references": saved_data.get("biblical_references", []),
                 "interpretation": saved_data.get("interpretation"),
+                "web_sources": saved_data.get("web_sources", []),
             }
 
             LOGGER.info("Search Response Agent completed successfully.")

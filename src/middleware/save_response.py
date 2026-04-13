@@ -9,15 +9,15 @@ from langchain_core.messages import AIMessage
 from src.middleware.structured_output import StructuredOutputValidationError
 from src.utils.logger import LOGGER
 
-_BIBLE_READ_TOOLS = {"read_bible_file", "search_bible_text"}
+_SOURCE_TOOLS = {"read_bible_file", "search_bible_text", "search_web"}
 
 
 class SaveResponseValidatorMiddleware(AgentMiddleware):
     """
     Post-agent hook that enforces:
-    - If the agent called read_bible_file or search_bible_text, it must also
-      have called save_biblical_response before finishing.
-    - If no Bible reading was done (follow-up, clarification), the save tool
+    - If the agent used read_bible_file, search_bible_text, or search_web,
+      it must also have called save_biblical_response before finishing.
+    - If no sources were consulted (follow-up, clarification), the save tool
       is optional.
     """
 
@@ -33,21 +33,21 @@ class SaveResponseValidatorMiddleware(AgentMiddleware):
                 for tc in m.tool_calls:
                     tools_called.add(tc.get("name", ""))
 
-        bible_was_read = bool(tools_called & _BIBLE_READ_TOOLS)
+        sources_used = bool(tools_called & _SOURCE_TOOLS)
         save_called = "save_biblical_response" in tools_called
 
         LOGGER.info(
-            f"SaveResponseValidatorMiddleware: bible_read={bible_was_read} "
+            f"SaveResponseValidatorMiddleware: sources_used={sources_used} "
             f"save_called={save_called} tools={tools_called}"
         )
 
-        if bible_was_read and not save_called:
+        if sources_used and not save_called:
             raise StructuredOutputValidationError(
-                "Agent read Bible passages but did not call save_biblical_response",
+                "Agent used source tools but did not call save_biblical_response",
                 error_feedback_message=(
-                    "Você leu passagens bíblicas mas não chamou save_biblical_response. "
+                    "Você consultou fontes (Bíblia ou web) mas não chamou save_biblical_response. "
                     "ANTES de escrever sua resposta final, chame save_biblical_response "
-                    "com todas as referências que você citou e a interpretação exegética."
+                    "com todas as referências bíblicas, interpretação e fontes web utilizadas."
                 ),
                 messages=messages,
                 state=state,
