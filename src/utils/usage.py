@@ -40,6 +40,6 @@ def build_context_snapshot(messages: list[Any], max_messages: int = 20) -> list[
         content = msg.content if isinstance(msg.content, str) else str(msg.content)
         snapshot.append({
             "role": role,
-            "preview": content
+            "content": content
         })
     return snapshot

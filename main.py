@@ -290,6 +290,8 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 kind = event["event"]
                 name = event.get("name", "")
                 metadata = event.get("metadata", {})
+                if metadata.get("langgraph_node") == "SummarizationMiddleware.before_model":
+                    continue
 
                 if kind == "on_tool_start":
                     input_data = event.get("data", {}).get("input", {})

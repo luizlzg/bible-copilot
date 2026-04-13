@@ -54,12 +54,16 @@ def _grep_file(path: str, pattern: str) -> list[tuple[int, str]]:
     return matches
 
 
-def _fetch_page_text(url: str, max_chars: int = 800) -> str:
+def _fetch_page_text(url: str, max_chars: int = 2500) -> str:
     import requests as _req
     try:
-        r = _req.get(url, timeout=4, headers={"User-Agent": "Mozilla/5.0"})
-        text = re.sub(r"<[^>]+>", " ", r.text)   # strip HTML tags
-        text = re.sub(r"\s+", " ", text).strip()  # collapse whitespace
+        r = _req.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        html = r.text
+        # Strip script and style blocks first (removes inline JS/CSS noise)
+        html = re.sub(r"<script[^>]*>.*?</script>", " ", html, flags=re.DOTALL)
+        html = re.sub(r"<style[^>]*>.*?</style>", " ", html, flags=re.DOTALL)
+        text = re.sub(r"<[^>]+>", " ", html)      # strip remaining HTML tags
+        text = re.sub(r"\s+", " ", text).strip()   # collapse whitespace
         return text[:max_chars]
     except Exception:
         return ""
@@ -318,10 +322,21 @@ def save_biblical_response(
             - snippet (str, optional): relevant excerpt from the page
             Include only sources you actually cited in the answer using [1], [2], etc.
     """
+    # Auto-fill verse_end from verse_start when missing
+    refs = []
+    for ref in (biblical_references or []):
+        if isinstance(ref, dict):
+            r = dict(ref)
+            if r.get("verse_start") and not r.get("verse_end"):
+                r["verse_end"] = r["verse_start"]
+            refs.append(r)
+        else:
+            refs.append(ref)
+
     return Command(update={
         "bible_response": {
             "message": "",  # filled from final AI message in the node
-            "biblical_references": biblical_references or [],
+            "biblical_references": refs,
             "interpretation": interpretation,
             "web_sources": web_sources or [],
         },
