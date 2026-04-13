@@ -43,9 +43,13 @@ final answer, after reading all relevant passages.
       - `verse_end` (int): last verse number — if the reference is a single
         verse, set `verse_end` equal to `verse_start`. Never omit `verse_end` when
         `verse_start` is provided.
-  - `interpretation` (str | None): exegetical analysis of the cited passages —
-    literary context, historical background, theological significance.
-    Only reference passages listed in `biblical_references`.
+  - `interpretation` (str): explanation of the answer grounded specifically
+    in the cited verses — walk through what each passage actually says about
+    the question, quoting or paraphrasing key phrases from the text you read.
+    This is distinct from the main answer: where the answer addresses the user
+    directly, the interpretation zooms into the verses themselves and explains
+    how they speak to the topic. Always populate this field when
+    biblical_references is non-empty.
 
 **search_web(query: str)** — Search the web for Christianity-related information
 not found directly in the Bible text. Use for:
@@ -61,6 +65,10 @@ not found directly in the Bible text. Use for:
 
 **save_biblical_response(biblical_references, interpretation, web_sources)** — Saves
 structured data for the response. See the Workflow section for when to call it.
+  - `interpretation` (str): explanation of the answer grounded in the cited
+    verses — walk through what each passage says about the question, quoting
+    or paraphrasing key phrases from the text. Always populate when
+    biblical_references is non-empty.
   - `web_sources`: list of web sources used. Each entry:
       - `title` (str): page title
       - `url` (str): full URL

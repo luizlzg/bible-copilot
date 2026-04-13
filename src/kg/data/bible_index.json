@@ -12686,6 +12686,4122 @@
       "relevance": "secondary",
       "chapters": "10, 15",
       "context": "Romanos 10:14-15 argumenta que a fé vem pelo ouvir, e o ouvir pela pregação, e a pregação pelo envio — a cadeia lógica da missão; e 15:20 revela o princípio missionário de Paulo de pregar onde Cristo ainda não é conhecido."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "profecia_messianica",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Mateus cita o cumprimento de profecias do Antigo Testamento repetidamente para provar que Jesus é o Messias prometido."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "Jesus declara que veio cumprir e não abolir a Lei, reinterpretando mandamentos com autoridade superior."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "8-9",
+      "context": "Jesus elogia a fé do centurião e de outros como base dos milagres de cura, contrastando com a incredulidade dos líderes."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "oracao",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "O Pai Nosso e as instruções sobre oração sincera versus ostentação hipócrita formam o coração do Sermão do Monte."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "dinheiro",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "Jesus ensina que não se pode servir a Deus e às riquezas, e que buscar primeiro o reino tem prioridade sobre preocupações materiais."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "cura",
+      "relevance": "primary",
+      "chapters": "8-9",
+      "context": "Capítulos 8-9 apresentam dez milagres consecutivos demonstrando o poder messiânico de Jesus sobre doenças, morte e demônios."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "misericordia",
+      "relevance": "primary",
+      "chapters": "5,9",
+      "context": "'Misericórdia quero e não sacrifícios' é citado duas vezes; as bem-aventuranças celebram os misericordiosos."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "3-4",
+      "context": "João Batista e Jesus iniciam seu ministério com o mesmo chamado: 'Arrependei-vos, porque é chegado o reino dos céus'."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "1,26-28",
+      "context": "O nome Jesus significa 'ele salvará seu povo dos pecados'; a morte e ressurreição concretizam essa salvação."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "26",
+      "context": "Na Última Ceia Jesus declara o cálice como 'meu sangue da nova aliança', estabelecendo o novo pacto com seu sacrifício."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "5,22",
+      "context": "O mandamento de amar inimigos (cap.5) e o duplo mandamento do amor (cap.22) são o resumo de toda a lei e profetas."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "tentacao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "A tentação de Jesus no deserto por Satanás ilustra três tipos de tentação que todo crente enfrenta."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "vida_eterna",
+      "relevance": "secondary",
+      "chapters": "19,25",
+      "context": "A pergunta do jovem rico sobre herdar a vida eterna e o julgamento final das nações revelam o critério para a vida eterna."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "hipocrisia_religiosa",
+      "relevance": "primary",
+      "chapters": "6,23",
+      "context": "O capítulo 23 apresenta os sete ais contra os escribas e fariseus hipócritas, e o capítulo 6 contrasta devoção verdadeira com performance religiosa."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "perseguicao",
+      "relevance": "secondary",
+      "chapters": "5,10",
+      "context": "Jesus promete bem-aventurança aos perseguidos e prepara os discípulos para oposição ao enviá-los em missão."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "25",
+      "context": "Parábolas das dez virgens, dos talentos e o julgamento das nações revelam a seriedade do julgamento final."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "28",
+      "context": "A ressurreição de Jesus é o clímax do evangelho, fundamento da autoridade da Grande Comissão."
+    },
+    {
+      "book_id": "mateus",
+      "theme_id": "ensino",
+      "relevance": "primary",
+      "chapters": "5-7,13",
+      "context": "Jesus é apresentado como o grande Mestre que ensina com autoridade nas sinagogas, no monte e por parábolas."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "autoridade_espiritual",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "Marcos enfatiza repetidamente que Jesus ensina e age 'com autoridade', expulsando demônios e perdoando pecados com poder único."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "cura",
+      "relevance": "primary",
+      "chapters": "1-6",
+      "context": "Marcos apresenta o maior número de milagres por capítulo entre os evangelhos, com curas detalhadas como demonstração do reino chegando."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "misericordia",
+      "relevance": "primary",
+      "chapters": "1,5",
+      "context": "A compaixão de Jesus ao curar o leproso e ao libertar o endemoninhado da Legião revela o coração misericordioso de Deus."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "João Batista prega 'batismo de arrependimento' e Jesus inicia com 'arrependei-vos e crede no evangelho'."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "10,15-16",
+      "context": "A declaração que o Filho do Homem veio para dar sua vida em resgate por muitos (cap.10) e a morte expiatória (cap.15) concretizam a salvação."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "lei",
+      "relevance": "secondary",
+      "chapters": "2,7,12",
+      "context": "Debates sobre sábado, tradições e o duplo mandamento do amor revelam a relação de Jesus com a Lei mosaica."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "vida_eterna",
+      "relevance": "secondary",
+      "chapters": "10",
+      "context": "A pergunta sobre herdar a vida eterna abre o encontro com o jovem rico, revelando que riqueza pode impedir a entrada no reino."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "14",
+      "context": "A Última Ceia estabelece o sangue da nova aliança derramado por muitos, cumprindo a promessa de Jeremias."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "amor",
+      "relevance": "secondary",
+      "chapters": "12",
+      "context": "O duplo mandamento de amor a Deus e ao próximo é apresentado como superior a todos os holocaustos e sacrifícios."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "tentacao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "A tentação de Jesus no deserto por Satanás é mencionada de forma concisa mas serve de base para todo o ministério posterior."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "16",
+      "context": "A descoberta do túmulo vazio pelas mulheres e os relatos de aparições fundamentam a fé pascal da comunidade cristã."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "1,14",
+      "context": "Jesus ora de madrugada em lugar deserto (cap.1) e no Getsêmani com angústia (cap.14), modelando dependência do Pai."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "dinheiro",
+      "relevance": "secondary",
+      "chapters": "10,12",
+      "context": "O jovem rico é convidado a vender tudo, e a viúva com suas duas moedas ilustra que generosidade genuína supera a oferta abundante."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "perseguicao",
+      "relevance": "secondary",
+      "chapters": "13",
+      "context": "O discurso escatológico alerta sobre perseguições e entrega às autoridades como parte da vida do discípulo nos últimos tempos."
+    },
+    {
+      "book_id": "marcos",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "9-10",
+      "context": "Duas vezes Jesus apresenta uma criança como modelo de grandeza no reino, em resposta às disputas dos discípulos sobre posição."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "justica_social",
+      "relevance": "primary",
+      "chapters": "1,4,10,16",
+      "context": "O Magnificat (cap.1), a pregação em Nazaré (cap.4), o bom samaritano (cap.10) e Lázaro (cap.16) compõem uma teologia de reversão a favor dos pobres."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "1,14,18",
+      "context": "O Magnificat exalta humildes, Jesus ensina sobre tomar o último lugar e a parábola do fariseu e publicano celebra a humildade contrita."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "5,7,17-18",
+      "context": "Jesus elogia a fé do centurião, declara que a fé do tamanho de grão de mostarda pode mover montanhas, e ensina persistência na oração."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "3,13,15",
+      "context": "João prega arrependimento, Jesus adverte 'se não vos arrependerdes perdereis a vida' e as parábolas do cap.15 culminam com regozijo pelo arrependimento."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "2,19",
+      "context": "O anjo anuncia 'nasceu-vos hoje o Salvador' e Jesus declara 'hoje veio a salvação a esta casa' ao entrar na casa de Zaqueu."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "lei",
+      "relevance": "secondary",
+      "chapters": "6,10,20",
+      "context": "Lucas registra debates sobre sábado, o doutor da lei testando Jesus com 'quem é meu próximo?' e disputas sobre autoridade e tradição."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "vida_eterna",
+      "relevance": "primary",
+      "chapters": "10,16,18",
+      "context": "A pergunta sobre herdar a vida eterna (cap.10 e 18) e o destino de Lázaro (cap.16) exploram a dimensão escatológica da salvação."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "22",
+      "context": "A Última Ceia em Lucas inclui a declaração 'este cálice é a nova aliança no meu sangue', cumprindo a promessa de Jeremias."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "6,10",
+      "context": "Jesus manda amar inimigos no Sermão da Planície e o bom samaritano ilustra amor ao próximo além de barreiras étnicas e religiosas."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "tentacao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "A tentação detalhada no deserto revela as estratégias de Satanás contra Jesus e serve de modelo para entender as tentações humanas."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "cura",
+      "relevance": "primary",
+      "chapters": "5,7,13,17",
+      "context": "Lucas, médico, registra curas com maior detalhe clínico, incluindo a mulher curvada há 18 anos e os dez leprosos."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "1-4,11",
+      "context": "O Espírito Santo é central em Lucas: sobre Maria, sobre João, sobre Jesus no batismo e na tentação, e prometido aos que pedem."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "preconceito",
+      "relevance": "primary",
+      "chapters": "10,17",
+      "context": "O samaritano como herói e o samaritano grato entre os dez leprosos desafiam preconceitos étnicos e religiosos do auditório judaico."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "24",
+      "context": "Lucas apresenta a ressurreição com dois relatos únicos: Emaús e a aparição em Jerusalém com Jesus comendo peixe."
+    },
+    {
+      "book_id": "lucas",
+      "theme_id": "alegria",
+      "relevance": "secondary",
+      "chapters": "1,15,24",
+      "context": "Lucas é o evangelho da alegria: no nascimento, nas três parábolas do perdido e na ressurreição há regozijo exuberante."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "novo_nascimento",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "A conversa com Nicodemos sobre nascer de novo do Espírito é exclusiva de João e central para sua teologia de regeneração espiritual."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "intimidade",
+      "relevance": "primary",
+      "chapters": "14-17",
+      "context": "O discurso de despedida e a oração sacerdotal revelam uma teologia profunda de intimidade: abide em mim, Pai em mim e eu em vós, um como nós somos um."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "11,20",
+      "context": "A ressurreição de Lázaro como sinal e a própria ressurreição de Jesus com as aparições são os pontos altos da cristologia joanina."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1,8,14",
+      "context": "Os sete 'Eu sou' com predicado (pão, luz, porta, pastor, caminho, videira) e o 'Eu sou' absoluto revelam a identidade divina de Jesus."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "4,17,20",
+      "context": "A mulher samaritana como primeira missionária, a oração por todos os que crerão e o envio pós-pascual estabelecem a dimensão missionária."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "3,10",
+      "context": "'Para que todo o que nele crê não pereça, mas tenha a vida eterna' e 'vim para que tenham vida em abundância' definem salvação em João."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "13,19",
+      "context": "O novo mandamento e o sangue derramado na cruz cumprindo as Escrituras apontam para a nova aliança inaugurada por Jesus."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "lei",
+      "relevance": "secondary",
+      "chapters": "5,7-8",
+      "context": "Debates sobre o sábado, a lei de Moisés e a acusação de blasfêmia revelam a relação conflituosa entre Jesus e a interpretação legalista."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "oracao",
+      "relevance": "primary",
+      "chapters": "17",
+      "context": "A oração sacerdotal inteira (cap.17) é a maior oração registrada de Jesus, modelo de intercessão pelo povo de Deus."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "cura",
+      "relevance": "primary",
+      "chapters": "4,5,9,11",
+      "context": "Os quatro sinais de cura em João são apresentados para gerar fé no Filho de Deus: filho do oficial, paralítico, cego de nascença, Lázaro."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "misericordia",
+      "relevance": "secondary",
+      "chapters": "8,11",
+      "context": "A misericórdia aparece no perdão da adúltera e nas lágrimas de Jesus diante do túmulo de Lázaro, revelando sua compaixão."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "sacrificio",
+      "relevance": "primary",
+      "chapters": "10,18-19",
+      "context": "'O bom pastor dá sua vida pelas ovelhas' e a narrativa da paixão apresentam Jesus como o cordeiro de Deus que tira o pecado do mundo."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "1,11,17",
+      "context": "O prólogo declara que vimos a sua glória; a ressurreição de Lázaro é para que o Filho seja glorificado; a oração sacerdotal pede glorificação mútua."
+    },
+    {
+      "book_id": "joao",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "6,10,17-19",
+      "context": "Ninguém pode vir ao Filho a menos que o Pai o traga; as ovelhas que o Pai deu não se perderão; na paixão Jesus permanece soberano."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "3,6,14,16",
+      "context": "A fé é apresentada como condição para curas, como fundamento da comunidade e como resposta ao evangelho pregado pelos apóstolos."
+    },
+    {
+      "book_id": "atos",
+      "theme_id": "libertacao",
+      "relevance": "secondary",
+      "chapters": "12,16",
+      "context": "A libertação milagrosa de Pedro da prisão e de Paulo e Silas em Filipos demonstram o poder de Deus em favor dos que sofrem por sua causa."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1,3-5",
+      "context": "'O justo viverá da fé' (1:17) abre o argumento teológico; Abraão como modelo de fé sem obras (cap.3-5) fundamenta toda a soteriologia de Paulo."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "pecado",
+      "relevance": "primary",
+      "chapters": "1-3,6-7",
+      "context": "Romanos apresenta o argumento mais sistemático do NT sobre a universalidade do pecado: todos, judeus e gentios, estão debaixo da condenação."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "2-3,7,13",
+      "context": "Paulo demonstra que a lei revela o pecado mas não pode salvar, e que em Cristo a lei é cumprida pelo amor que o Espírito derrama."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "3,8",
+      "context": "Jesus como propiciação (3:25) e a promessa de redenção do corpo (8:23) definem a redenção como conquista objetiva e promessa futura."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "paz",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "'Justificados pela fé, temos paz com Deus por nosso Senhor Jesus Cristo' (5:1) — paz como resultado jurídico e relacional da justificação."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "8",
+      "context": "O capítulo 8 é o mais pneumatológico de Romanos: vida no Espírito, adoção como filhos, intercessão com gemidos inexprimíveis."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "santificacao",
+      "relevance": "primary",
+      "chapters": "6,12",
+      "context": "A morte ao pecado no batismo (cap.6) e a transformação pela renovação da mente (12:2) formam o arco da santificação em Romanos."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "6,8",
+      "context": "O batismo como participação na morte e ressurreição de Cristo (cap.6) e a promessa de ressurreição do corpo pelo Espírito (8:11) são centrais."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "amor_de_deus",
+      "relevance": "primary",
+      "chapters": "5,8",
+      "context": "'Deus prova o seu amor para conosco em que Cristo morreu por nós' (5:8) e 'nada nos separará do amor de Deus' (8:38-39) são ápices teológicos."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "9-11",
+      "context": "A eleição, o endurecimento de Faraó, o mistério da salvação de Israel e a doxologia final ('Dele, por Ele e para Ele são todas as coisas') afirmam soberania absoluta."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "transformacao",
+      "relevance": "primary",
+      "chapters": "12",
+      "context": "'Sede transformados pela renovação da vossa mente' (12:2) é o imperativo ético central de Romanos, aplicado à vida comunitária e aos dons."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "dons_espirituais",
+      "relevance": "secondary",
+      "chapters": "12",
+      "context": "Paulo lista dons espirituais (profecia, serviço, ensino, exortação, generosidade, liderança, misericórdia) e os ordena pelo amor."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1-3,14",
+      "context": "A ira de Deus revelada contra a impiedade (1:18), o juízo justo que retribuirá a cada um (2:6) e não julgar o irmão (14:10) tratam do juízo sob ângulos distintos."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O cap.1 apresenta a idolatria como a raiz da degradação moral gentílica — trocar a glória de Deus por imagens de criaturas."
+    },
+    {
+      "book_id": "romanos",
+      "theme_id": "unidade",
+      "relevance": "secondary",
+      "chapters": "14-15",
+      "context": "Recepção dos fracos sem julgamento de questões secundárias e o modelo de Cristo que não agradou a si mesmo fundamentam a unidade cristã."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "unidade",
+      "relevance": "primary",
+      "chapters": "1-4,12",
+      "context": "As divisões partidárias ('eu sou de Paulo', 'eu sou de Apolo') e a metáfora do corpo com muitos membros revelam a urgência da unidade eclesial."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "imoralidade",
+      "relevance": "primary",
+      "chapters": "5-6",
+      "context": "Paulo confronta diretamente o incesto tolerado pela comunidade e usa o motivo do corpo como templo do Espírito para fundamentar ética sexual."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1-2,15",
+      "context": "A pregação da cruz como loucura revela que a fé não repousa na sabedoria humana mas no poder de Deus; sem ressurreição a fé seria vã."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "1,15",
+      "context": "Paulo atribui sua vocação e ministério inteiramente à graça de Deus (1:4; 15:10), contrastando com qualquer mérito humano."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "santidade",
+      "relevance": "primary",
+      "chapters": "3,6",
+      "context": "A comunidade é descrita como 'templo de Deus' que não deve ser profanado, e cada corpo individual como santuário do Espírito."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "2,6,12",
+      "context": "O Espírito revela os mistérios de Deus (cap.2), habita no corpo (cap.6) e distribui os dons soberanamente (cap.12)."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "1-4,13",
+      "context": "A loucura da cruz derruba toda glória humana; o amor não se ensoberbece; Paulo se apresenta como 'o último dos apóstolos'."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "11,14",
+      "context": "As instruções sobre véu, Ceia do Senhor e ordem do culto mostram a preocupação de Paulo com a adoração digna e edificante."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "11",
+      "context": "A instituição da Ceia do Senhor com 'este cálice é a nova aliança no meu sangue' é citada por Paulo como tradição recebida do Senhor."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "liberdade",
+      "relevance": "primary",
+      "chapters": "8-10",
+      "context": "Paulo desenvolve o princípio de que a liberdade cristã deve ser limitada pelo amor ao irmão fraco e pelo testemunho ao mundo."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "tentacao",
+      "relevance": "primary",
+      "chapters": "10",
+      "context": "Os exemplos de Israel no deserto (idolatria, imoralidade, murmúrio) são advertências, com a promessa de que Deus não permitirá tentação além das forças."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "15",
+      "context": "A ressurreição dos mortos fundamenta toda esperança cristã; 'se somente nesta vida temos esperança em Cristo, somos os mais miseráveis de todos'."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "generosidade",
+      "relevance": "secondary",
+      "chapters": "16",
+      "context": "A coleta para os santos de Jerusalém é organizada com princípio de regularidade e proporcionalidade, prefigurando o ensino de 2Cor 9."
+    },
+    {
+      "book_id": "1corintios",
+      "theme_id": "divisao",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "As facções em Corinto em torno de líderes humanos são o problema concreto que motiva toda a primeira seção da carta."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "reconciliacao",
+      "relevance": "primary",
+      "chapters": "2,5-7",
+      "context": "O ministério da reconciliação (5:18-20) e o apelo à reconciliação plena com Paulo (cap.6-7) fazem da reconciliação o tema central da carta."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "transformacao",
+      "relevance": "primary",
+      "chapters": "3,5",
+      "context": "'Contemplando a glória do Senhor, somos transformados de glória em glória' (3:18) e 'nova criação' (5:17) articulam a transformação contínua e definitiva."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "8,12",
+      "context": "A graça das igrejas macedônicas na oferta generosa apesar da pobreza e a 'graça que te basta' na fraqueza de Paulo revelam dois aspectos da graça."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "O ministério do Espírito (versus a letra que mata) e a glória crescente revelada pelo Espírito são centrais na defesa do ministério apostólico."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo contrasta os ministérios da antiga e nova aliança: o de Moisés com glória passageira versus o do Espírito com glória permanente e crescente."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "fe",
+      "relevance": "secondary",
+      "chapters": "4,5,13",
+      "context": "'Andamos por fé e não por vista' (5:7) e a exortação a examinar se estão na fé (13:5) revelam a centralidade da fé no ministério e na vida cristã."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "2,5,10",
+      "context": "Paulo se descreve como cheiro de Cristo que se espalha, embaixador de reconciliação e apóstolo que planta em regiões não alcançadas."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "3-4",
+      "context": "O contraste entre a glória passageira de Moisés e a glória permanente do Espírito revela que o evangelho tem como fim a manifestação da glória divina."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "10-12",
+      "context": "A 'tolice' de Paulo ao se gloriar em fraquezas e o espinho na carne como proteção contra o orgulho são a base de uma teologia da humildade apostólica."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "guerra_espiritual",
+      "relevance": "primary",
+      "chapters": "10-11",
+      "context": "As armas espirituais que destroem fortalezas e os falsos apóstolos como servos de Satanás revelam a dimensão de guerra espiritual no ministério."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "integridade",
+      "relevance": "primary",
+      "chapters": "1,4,7",
+      "context": "Paulo defende sua sinceridade e transparência repetidamente contra acusações de duplicidade, afirmando agir 'com santidade e sinceridade de Deus'."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "'Se alguém está em Cristo, é nova criação; as coisas antigas já passaram; eis que se fizeram novas' (5:17) é um dos textos mais programáticos do NT."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "perdao",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "O membro disciplinado deve ser perdoado e reconfortado para não ser sobrecarregado de tristeza excessiva — Paulo modela a restauração pastoral."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "perseveranca",
+      "relevance": "secondary",
+      "chapters": "4,6,11",
+      "context": "Paulo descreve como não desanima apesar das tribulações: 'atribulados, mas não angustiados; perplexos, mas não desesperados' — modelo de perseverança."
+    },
+    {
+      "book_id": "2corintios",
+      "theme_id": "salvacao",
+      "relevance": "secondary",
+      "chapters": "5,6",
+      "context": "O ministério da reconciliação fundamenta-se em Cristo que 'não conheceu pecado' ser feito pecado por nós; Paulo apela 'em nome de Cristo, reconciliai-vos com Deus.'"
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "pecado",
+      "relevance": "primary",
+      "chapters": "3-4",
+      "context": "Gênesis 3 relata a queda de Adão e Eva ao comer do fruto proibido, e Gênesis 4 narra o primeiro homicídio quando Caim mata Abel, estabelecendo o padrão destrutivo do pecado na humanidade."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "promessa",
+      "relevance": "primary",
+      "chapters": "12,15,17,22,26,28",
+      "context": "Deus promete a Abraão uma terra, descendência inumerável e bênção para todas as nações (Gn 12:1-3; 22:17-18), promessa renovada a Isaque (Gn 26) e a Jacó (Gn 28), formando a espinha dorsal narrativa do livro."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "traicao",
+      "relevance": "primary",
+      "chapters": "37",
+      "context": "Os irmãos de José, movidos por inveja da túnica de muitas cores e dos seus sonhos, planejam matá-lo, vendem-no a mercadores ismaelitas e mentem ao pai com sangue de cabrito (Gn 37)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "reconciliacao",
+      "relevance": "primary",
+      "chapters": "33,45,50",
+      "context": "Jacó e Esaú se reconciliam depois de décadas de separação (Gn 33), e José perdoa os irmãos que o traíram, revelando-se a eles em lágrimas e declarando que a soberania divina operou por trás do mal que sofreu (Gn 45;50)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1-3,17,18,22",
+      "context": "Gênesis revela Deus como Criador, Senhor das alianças (El Shaddai, Gn 17:1), Juiz (Gn 18-19), Provedor (Jeová-Jiré, Gn 22:14) e Presença fiel que caminha com os patriarcas."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "37-50",
+      "context": "A narrativa de José demonstra que Deus dirige a história apesar das ações humanas perversas: a traição dos irmãos, a prisão injusta e a ascensão ao poder no Egito são todos usados por Deus para cumprir seu propósito."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "profecia_messianica",
+      "relevance": "secondary",
+      "chapters": "3,49",
+      "context": "Gênesis 3:15 anuncia inimizade entre a descendência da mulher e da serpente, interpretada como a primeira alusão ao Messias; Gênesis 49:10 profetiza que o cetro não se apartará de Judá."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "bencao",
+      "relevance": "primary",
+      "chapters": "1,12,22,26,28,49",
+      "context": "A bênção é tema central: Deus abençoa a criação (Gn 1:22,28), chama Abraão para ser bênção a todas as nações (Gn 12:2-3), e as bênçãos patriarcais de Isaque (Gn 27) e Jacó (Gn 49) moldam o destino das tribos de Israel."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "engano",
+      "relevance": "primary",
+      "chapters": "3,27,29,37",
+      "context": "O engano permeia Gênesis: a serpente engana Eva (Gn 3), Jacó engana Isaque para roubar a bênção (Gn 27), Labão engana Jacó na noite do casamento (Gn 29), e os irmãos de José enganam o pai (Gn 37)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "chamado",
+      "relevance": "primary",
+      "chapters": "12,17,28,46",
+      "context": "Deus chama Abraão para sair de Ur e ir a uma terra desconhecida (Gn 12:1-3), chama Jacó com uma nova identidade em Betel (Gn 28) e em Penuel (Gn 32), estabelecendo o padrão do chamado divino."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "novo_comeco",
+      "relevance": "primary",
+      "chapters": "8-9",
+      "context": "Após o dilúvio, Deus reinicia a humanidade com Noé, estabelece uma nova aliança com o arco-íris como sinal (Gn 9:8-17) e repete a bênção da criação, iniciando um novo capítulo da história humana."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "sonhos",
+      "relevance": "primary",
+      "chapters": "28,37,40-41",
+      "context": "Deus se comunica por sonhos em Gênesis: Jacó vê a escada ao céu em Betel (Gn 28), José recebe sonhos proféticos (Gn 37), e interpreta os sonhos do copeiro, do padeiro e do faraó (Gn 40-41)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "consequencias_do_pecado",
+      "relevance": "primary",
+      "chapters": "3-4,6,11,19",
+      "context": "A queda gera expulsão do Éden, trabalho penoso e morte (Gn 3); Caim mata Abel e é maldito (Gn 4); a corrupção da humanidade provoca o dilúvio (Gn 6); Sodoma é destruída por seus pecados (Gn 19)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "hospitalidade",
+      "relevance": "secondary",
+      "chapters": "18,19",
+      "context": "Abraão recebe prontamente os três visitantes divinos com lavagem de pés, comida e descanso (Gn 18:1-8), contrastando com os habitantes de Sodoma que querem abusar dos anjos hospedados por Ló (Gn 19)."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "legado",
+      "relevance": "secondary",
+      "chapters": "49-50",
+      "context": "As bênçãos finais de Jacó aos doze filhos (Gn 49) e a morte de José com o pedido de trasladar seus ossos à terra prometida (Gn 50:25) mostram a consciência de transmitir um legado às gerações futuras."
+    },
+    {
+      "book_id": "genesis",
+      "theme_id": "cobiça",
+      "relevance": "secondary",
+      "chapters": "3,25,27",
+      "context": "Eva viu que a árvore era 'desejável para dar entendimento' e tomou o fruto (Gn 3:6); Esaú vende a primogenitura por um prato de lentilhas por estar faminto (Gn 25:29-34), ilustrando a cobiça e suas consequências."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "6,12,14-15",
+      "context": "Deus declara 'resgatarei com braço estendido' (Êx 6:6); o sangue do cordeiro pascal protege das pragas e a travessia do Mar Vermelho são imagens centrais de redenção, amplamente citadas no Novo Testamento."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "19-24,34",
+      "context": "Israel aceita a aliança no Sinai com o sangue aspergido sobre o povo: 'faremos tudo o que o Senhor disse' (Êx 24:3); após o pecado do bezerro de ouro, a aliança é renovada em Êxodo 34."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "3,6,15,34",
+      "context": "Deus revela seu nome YHWH — 'EU SOU O QUE SOU' (Êx 3:14) — e seus atributos: misericordioso, gracioso, longânimo e grande em bondade e verdade (Êx 34:6-7)."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "15,25-31,35-40",
+      "context": "O cântico de Moisés e Miriã celebra a vitória sobre os egípcios (Êx 15); os capítulos 25-31 e 35-40 detalham o tabernáculo, altares, sacerdócio e rituais, mostrando que a libertação tem como fim a adoração."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "santidade",
+      "relevance": "primary",
+      "chapters": "19-20,25-31,40",
+      "context": "Deus chama Israel a ser 'reino de sacerdotes e nação santa' (Êx 19:6); as instruções detalhadas do tabernáculo, vestes sacerdotais e rituais refletem a necessidade de santidade para se aproximar da presença divina."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "provisao_divina",
+      "relevance": "primary",
+      "chapters": "15-17",
+      "context": "No deserto, Deus provê maná que desce do céu todos os dias (Êx 16), água que brota da rocha em Meribá (Êx 17), e vitória sobre os amalequitas enquanto Moisés levanta as mãos."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "murmurio",
+      "relevance": "primary",
+      "chapters": "14-17,32",
+      "context": "O povo murmura repetidamente: contra Moisés diante do mar (Êx 14:11-12), por falta de água em Mara (Êx 15:24), por falta de comida (Êx 16:2-3) e ao fazer o bezerro de ouro (Êx 32)."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "obediencia",
+      "relevance": "primary",
+      "chapters": "19-24,39-40",
+      "context": "A obediência é testada no Sinai: Israel declara 'tudo o que o Senhor falou faremos' (Êx 19:8); os artesãos executam o tabernáculo 'como o Senhor tinha ordenado a Moisés' (Êx 39:43)."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "sacrificio",
+      "relevance": "primary",
+      "chapters": "12,24,29-30,40",
+      "context": "O cordeiro pascal (Êx 12) com seu sangue nos umbrais, o sacrifício da aliança com aspersão de sangue (Êx 24), e os ritos de consagração do sacerdócio (Êx 29) estabelecem o sistema sacrificial central do AT."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "intercessao",
+      "relevance": "primary",
+      "chapters": "32-34",
+      "context": "Após o pecado do bezerro de ouro, Moisés intercede: 'Perdoa agora o seu pecado; se não, risca-me do teu livro' (Êx 32:32), tornando-se modelo bíblico de intercessão radical em favor do povo."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "24,33-34,40",
+      "context": "Moisés pede ver a glória de Deus (Êx 33:18) e recebe a proclamação dos atributos divinos (Êx 34:6-7); a glória do Senhor preenche o tabernáculo ao final do livro de forma tão intensa que Moisés não pode entrar."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "3-4,18,32-34",
+      "context": "Moisés é o líder central de Êxodo: relutante no chamado (Êx 3-4), recebe orientação sobre delegação de Jetro (Êx 18), e demonstra liderança intercessora ao se colocar diante da ira de Deus após o bezerro de ouro (Êx 32)."
+    },
+    {
+      "book_id": "exodo",
+      "theme_id": "memoria",
+      "relevance": "secondary",
+      "chapters": "12-13",
+      "context": "A Páscoa é instituída como memorial perpétuo: 'observareis este dia como estatuto eterno' (Êx 12:17); os sinais na testa e na mão (Êx 13:9-16) vinculam a memória da libertação à identidade cotidiana de Israel."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "santidade_de_deus",
+      "relevance": "primary",
+      "chapters": "10,16,19-22",
+      "context": "A morte de Nadabe e Abiú por oferecerem 'fogo estranho' (Lv 10:1-2) dramatiza a santidade absoluta de Deus; o ritual do Dia da Expiação (Lv 16) demonstra que apenas com sangue expiatório se pode estar diante do Santo."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "1-27",
+      "context": "Levítico é o manual legal de Israel: regula os sacrifícios (Lv 1-7), o sacerdócio (Lv 8-10), as impurezas (Lv 11-15), as festas (Lv 23), os jubileus (Lv 25) e os votos (Lv 27)."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "presenca_de_deus",
+      "relevance": "primary",
+      "chapters": "16,26",
+      "context": "O tabernáculo como habitação divina exige regulação precisa de acesso; no Dia da Expiação, somente o sumo sacerdote entra no Santo dos Santos uma vez por ano (Lv 16)."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "16,17,25",
+      "context": "O sangue faz expiação 'pela alma' (Lv 17:11) — princípio da redenção pelo substituto; o instituto do Jubileu (Lv 25) ordena a libertação dos escravos e a restituição das terras."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "1-10,23",
+      "context": "Levítico regula cada aspecto da adoração: os tipos de oferendas (Lv 1-7), a consagração sacerdotal (Lv 8-9), e o calendário festivo com sábados, Páscoa, Pentecostes, Dia da Expiação e Tabernáculos (Lv 23)."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "pureza",
+      "relevance": "primary",
+      "chapters": "11-15",
+      "context": "Levítico 11-15 distingue animais puros e impuros, regula a impureza pós-parto (Lv 12), doenças de pele incluindo lepra (Lv 13-14) e fluxos corporais (Lv 15), criando um sistema completo de pureza ritual."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "justica_social",
+      "relevance": "primary",
+      "chapters": "19,25",
+      "context": "Levítico 19 exige deixar espigas para pobres e estrangeiros, pagar salários no mesmo dia, não oprimir o surdo nem o cego; o Jubileu (Lv 25) cancela dívidas e liberta escravos a cada 50 anos."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "amor",
+      "relevance": "secondary",
+      "chapters": "19",
+      "context": "Levítico 19:18 'Amarás ao teu próximo como a ti mesmo' é o mandamento do amor ao próximo citado por Jesus como segundo maior mandamento, mostrando que o amor está no coração da lei levítica."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "obediencia",
+      "relevance": "primary",
+      "chapters": "18-20,26",
+      "context": "A seção de santidade (Lv 17-26) vincula obediência aos mandamentos à permanência na terra e à presença divina (Lv 26:3-13), e desobediência à maldição, doença e exílio (Lv 26:14-39)."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "secondary",
+      "chapters": "26",
+      "context": "Mesmo após as ameaças de castigo pelo desvio, Deus promete em Levítico 26:40-45 que, se o povo se humilhar e confessar suas iniquidades, ele se lembrará de sua aliança com os patriarcas."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "sexualidade",
+      "relevance": "secondary",
+      "chapters": "18,20",
+      "context": "Levítico 18 e 20 contêm a legislação mais extensa do Pentateuco sobre relacionamentos sexuais: proibições de incesto, adultério e outras práticas associadas aos cananeus, fundamentadas na santidade de Deus."
+    },
+    {
+      "book_id": "levitico",
+      "theme_id": "consagracao",
+      "relevance": "primary",
+      "chapters": "8-10",
+      "context": "Levítico 8-10 narra a consagração de Arão e seus filhos ao sacerdócio com sete dias de cerimônias, unção com óleo sagrado, sacrifícios e o vestimento das vestes sacerdotais, culminando na glória de Deus que consome o sacrifício (Lv 9:24)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "13-14",
+      "context": "Os doze espias retornam de Canaã: Calebe e Josué confiam na promessa de Deus, enquanto os outros dez espalham incredulidade; a falta de fé da geração do deserto resulta em 40 anos de peregrinação (Nm 14)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "rebeliao",
+      "relevance": "primary",
+      "chapters": "14,16-17",
+      "context": "A recusa de entrar em Canaã é declarada rebelião aberta contra Deus (Nm 14:9); a revolta de Coré, Datã e Abirão contra a liderança de Moisés (Nm 16) resulta na abertura da terra que engole os rebeldes vivos."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "providencia",
+      "relevance": "secondary",
+      "chapters": "9-10,22-24",
+      "context": "A nuvem que guia Israel pelos acampamentos (Nm 9-10) demonstra a providência divina; a história de Balaão (Nm 22-24) mostra que Deus converte maldições em bênçãos."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "soberania_de_deus",
+      "relevance": "secondary",
+      "chapters": "22-24",
+      "context": "Balaque contrata Balaão para amaldiçoar Israel, mas Deus transforma cada tentativa de maldição em bênção; Balaão confessa que 'não posso ir além do mandato do Senhor' (Nm 22:18)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "profecia_messianica",
+      "relevance": "secondary",
+      "chapters": "24",
+      "context": "A quarta profecia de Balaão anuncia 'Uma estrela de Jacó se levantará, e um cetro se erguerá de Israel' (Nm 24:17), texto interpretado como referência messiânica pelo judaísmo tardio e pelo NT."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "lei",
+      "relevance": "secondary",
+      "chapters": "5-6,15,18-19,27-30",
+      "context": "Números complementa a legislação levítica com leis sobre ciúme (Nm 5), voto nazireato (Nm 6), profanação do sábado (Nm 15), deveres levíticos (Nm 18), purificação por contato com morte (Nm 19)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "11,14,16,21,25",
+      "context": "O juízo divino percorre Números: fogo consome o povo em Taberá (Nm 11:1-3), a geração incrédula é condenada a morrer no deserto (Nm 14:26-35), Coré é engolido pela terra (Nm 16), serpentes ardentes matam queixosos (Nm 21)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "intercessao",
+      "relevance": "primary",
+      "chapters": "11,14,16,21",
+      "context": "Moisés intercede repetidamente: roga misericórdia após o episódio dos espias (Nm 14:13-20), intercede durante a praga de Coré (Nm 16:22), e Aarão anda com incensário entre vivos e mortos para deter a praga (Nm 16:46-48)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "promessa",
+      "relevance": "secondary",
+      "chapters": "13-14,26-27,33-36",
+      "context": "A promessa da terra de Canaã paira sobre Números: os espias vão verificá-la (Nm 13), a nova geração é recenseada para herdar a promessa (Nm 26), e Deus instrui a divisão da terra antes mesmo de entrar nela (Nm 34-36)."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "25",
+      "context": "Em Baal-Peor, Israel se une às mulheres moabitas e serve a Baal, provocando a ira de Deus e uma praga que mata 24.000 pessoas (Nm 25); apenas o zelo de Finéias ao transpassar o casal em flagrante detém o juízo divino."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "espera",
+      "relevance": "primary",
+      "chapters": "14,32-36",
+      "context": "Quarenta anos de peregrinação no deserto são a consequência da incredulidade em Canaã (Nm 14:33-34); toda uma geração aguarda e morre no deserto antes que a próxima possa receber a herança prometida."
+    },
+    {
+      "book_id": "numeros",
+      "theme_id": "transicao",
+      "relevance": "primary",
+      "chapters": "27,36",
+      "context": "Números 27 narra a transição de liderança de Moisés para Josué, com a imposição de mãos diante de toda a congregação; os capítulos finais preparam a segunda geração para a conquista da terra prometida."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "5-26",
+      "context": "Deuteronômio é a renovação e expansão da lei: contém o Decálogo revisitado (Dt 5), o Shemá (Dt 6), leis civis, religiosas e sociais (Dt 12-26), e a bênção e a maldição em função da obediência (Dt 27-28)."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "amor_de_deus",
+      "relevance": "primary",
+      "chapters": "7,10",
+      "context": "Deuteronômio afirma que Deus não escolheu Israel por ser numeroso, 'mas porque o Senhor vos amou' (Dt 7:7-8); o amor de Deus por Israel é gratuito e persistente, fundamento da eleição e da aliança."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "1-4,26-30",
+      "context": "Deuteronômio é a estrutura de uma aliança suzerano-vassalo: recordação dos atos de Deus (Dt 1-4), estipulações (Dt 5-26), bênçãos e maldições (Dt 27-28) e renovação da aliança nas planícies de Moabe (Dt 29-30)."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "7-8,32",
+      "context": "Moisés relembra os 40 anos no deserto como prova da fidelidade de Deus: 'as vossas vestes não se envelheceram' (Dt 8:4); o Cântico de Moisés (Dt 32) celebra a rocha inabalável que é Deus, fiel às suas promessas."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "temor_de_deus",
+      "relevance": "primary",
+      "chapters": "4-6,10,17,31",
+      "context": "O temor de Deus é explicitamente vinculado à lei e à obediência em Deuteronômio (Dt 4:10; 5:29; 6:2; 10:12); temer a Deus é guardar seus mandamentos, amar a ele e servir-lhe de todo o coração."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "4-7,12-13,29",
+      "context": "A tentação da idolatria é o maior perigo apontado em Deuteronômio: adorar os deuses cananeus causará a perda da terra (Dt 4:25-28; 8:19-20); o capítulo 13 ordena a execução até de parentes que incitem à idolatria."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "justica_social",
+      "relevance": "primary",
+      "chapters": "10,15,16,24",
+      "context": "Deuteronômio contém legislação social notável: o ano sabático cancela dívidas e liberta escravos (Dt 15), as festas incluem escravos e estrangeiros (Dt 16), e o cuidado com viúvas, órfãos e estrangeiros é mandatório (Dt 24:17-22)."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "6-8,17,31-32",
+      "context": "A Palavra de Deus deve ser ensinada constantemente aos filhos, ligada como sinal na mão e escrita nas portas (Dt 6:6-9); o rei deve escrever uma cópia da lei (Dt 17:18-20)."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "bencao",
+      "relevance": "primary",
+      "chapters": "7-8,28,33",
+      "context": "Deuteronômio 28:1-14 lista extensamente as bênçãos da obediência: fertilidade, saúde, vitória e prosperidade; as bênçãos tribais de Moisés (Dt 33) encerram sua vida abençoando cada tribo de Israel."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "educacao_filhos",
+      "relevance": "primary",
+      "chapters": "6,11",
+      "context": "Deuteronômio 6:6-9 e 11:19-21 ordenam que os pais ensinem os mandamentos aos filhos em todos os momentos do dia — sentados, andando, deitando e levantando —, tornando a transmissão da fé responsabilidade doméstica primária."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "13,18,28-30",
+      "context": "Deuteronômio 18:15-22 anuncia o profeta que virá 'como eu' (referido no NT como prefiguração de Jesus) e dá critérios para discernir profecia falsa; os capítulos 28-30 contêm profecias detalhadas do exílio e da restauração."
+    },
+    {
+      "book_id": "deuteronomio",
+      "theme_id": "legado",
+      "relevance": "secondary",
+      "chapters": "31-34",
+      "context": "Os últimos capítulos de Deuteronômio narram Moisés transmitindo a lei a Josué, ensinando o Cântico (Dt 32), abençoando as tribos (Dt 33) e morrendo no monte Nebo após ver a terra prometida de longe (Dt 34)."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "21,23",
+      "context": "O discurso de despedida de Josué (Js 23) resume a fidelidade de Deus: 'Como todo o bem que o Senhor vosso Deus prometeu se cumpriu, assim virá sobre vós todo o mal' — Deus é fiel tanto às bênçãos quanto aos juízos anunciados."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "obediencia",
+      "relevance": "primary",
+      "chapters": "1,5-6,11,24",
+      "context": "A instrução de circuncidar o povo antes de Jericó (Js 5) e a incomum estratégia de marchar ao redor da cidade por sete dias (Js 6) testam a obediência; Josué é elogiado por 'não deixar cair nada do que o Senhor ordenou' (Js 11:15)."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "3,6,10-11",
+      "context": "Deus detém as águas do Jordão (Js 3), derruba os muros de Jericó por uma marcha cerimonial (Js 6), envia pedras de granizo para matar os inimigos (Js 10:11) e faz o sol parar no vale de Gibeão (Js 10:12-14)."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "heranca",
+      "relevance": "primary",
+      "chapters": "13-22",
+      "context": "Josué 13-22 detalha a divisão da terra prometida entre as doze tribos por sorteio diante do Senhor, cumprindo a promessa de Deus a Abraão e tornando a herança territorial concreta e específica para cada família de Israel."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "24",
+      "context": "A renovação da aliança em Siquém (Js 24) é o clímax do livro: Josué recapitula as obras de Deus e o povo declara sua opção — 'o Senhor nosso Deus serviremos, e à sua voz obedeceremos'; pedras são erguidas como testemunha."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "idolatria",
+      "relevance": "secondary",
+      "chapters": "7,23-24",
+      "context": "O pecado de Acã ao esconder objetos consagrados (Js 7) causa a derrota em Ai; Josué alerta ao final que os deuses do passado devem ser abandonados e não seguir os deuses dos cananeus (Js 23-24)."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "memoria",
+      "relevance": "secondary",
+      "chapters": "4,24",
+      "context": "As doze pedras tiradas do Jordão são erigidas como memorial para que gerações futuras perguntem e ouçam sobre a travessia milagrosa (Js 4:6-7); o discurso de Josué em Siquém (Js 24) é uma recapitulação histórica como ato de culto."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "1-2,7,23-24",
+      "context": "Josué assume a liderança após Moisés com autoridade confirmada pelo milagre do Jordão (Js 3-4); confronta o pecado de Acã sem concessões (Js 7) e termina sua vida com um discurso de liderança que convoca o povo à escolha definitiva (Js 24)."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "graca",
+      "relevance": "secondary",
+      "chapters": "2,6",
+      "context": "Raabe, prostituta cananeia, é salva da destruição de Jericó por ter abrigado os espias e confessado fé em Deus (Js 2; 6:17-25); sua inclusão no povo de Israel e na genealogia de Cristo (Mt 1:5) ilustra a graça divina além das fronteiras étnicas."
+    },
+    {
+      "book_id": "josue",
+      "theme_id": "palavra_de_deus",
+      "relevance": "secondary",
+      "chapters": "1,8,23",
+      "context": "Deus instrui Josué a meditar na lei dia e noite (Js 1:8); Josué lê toda a lei ao povo em Gerizim e Ebal (Js 8:34-35); seu discurso final chama o povo a obedecer 'tudo o que está escrito no livro da lei de Moisés' (Js 23:6)."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "2-3,6,10,17-18",
+      "context": "O ciclo de Juízes gira em torno da idolatria repetida: Israel abandona o Senhor e serve a Baalins e Astarotes (Jz 2:11-13); Gideão destrói o altar de Baal (Jz 6); os capítulos 17-18 narram a instalação de um santuário idolátrico doméstico."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "rebeliao",
+      "relevance": "primary",
+      "chapters": "2-3,8,10-11",
+      "context": "A estrutura narrativa de Juízes é o ciclo de rebelião: o povo abandona Deus sistematicamente após a morte de cada juiz (Jz 2:17-19), demonstrando uma rebelião recorrente e crescente ao longo de gerações."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "libertacao",
+      "relevance": "primary",
+      "chapters": "3-16",
+      "context": "Cada ciclo de Juízes inclui um libertador suscitado por Deus: Otniel, Eúde, Débora e Baraque, Gideão, Jefté e Sansão; a libertação física dos opressores é o dom de Deus ao povo que clama por misericórdia."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "misericordia",
+      "relevance": "primary",
+      "chapters": "2,3,10",
+      "context": "Apesar da rebelião repetida, 'quando o Senhor lhes suscitava juízes, era com o juiz e os livrava... porque o Senhor se compadecia deles em razão do seu gemido' (Jz 2:18); a misericórdia divina responde ao clamor mesmo no ciclo de apostasia."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "consequencias_do_pecado",
+      "relevance": "primary",
+      "chapters": "2,10,13",
+      "context": "O ciclo de Juízes demonstra as consequências do pecado: a apostasia resulta em opressão por nações inimigas; Jz 10:6-16 é especialmente explícito na conexão direta entre servir a outros deuses e ser entregue nas mãos dos filisteus e amonitas."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "coragem",
+      "relevance": "secondary",
+      "chapters": "4-5,6-7",
+      "context": "Débora encoraja Baraque com 'Porventura o Senhor não saiu na tua frente?' (Jz 4:14); Gideão com 300 homens derrota o exército midianita usando tochas e jarros (Jz 7), coragem que depende da certeza do chamado divino."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "3,4,10,15-16",
+      "context": "O clamor a Deus é o ponto de virada de cada ciclo: 'os filhos de Israel clamaram ao Senhor' (Jz 3:9; 4:3; 10:10); mesmo Sansão ora nas suas últimas forças, pedindo forças para uma última vez (Jz 16:28), e é atendido."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "decadencia",
+      "relevance": "primary",
+      "chapters": "2,8-9,17-21",
+      "context": "Juízes mostra uma trajetória descendente: a geração que não conhece a Deus (Jz 2:10), a idolatria de Gideão com o éfode de ouro (Jz 8:27), o reinado assassino de Abimeleque (Jz 9) e o colapso moral dos últimos capítulos."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "divisao",
+      "relevance": "secondary",
+      "chapters": "12,20-21",
+      "context": "As guerras internas em Juízes revelam a divisão tribal: os efraimitas atacam Jefté (Jz 12) e a guerra civil contra Benjamim (Jz 20) quase aniquila uma tribo inteira, mostrando a ausência da unidade que um rei poderia trazer."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "violencia",
+      "relevance": "primary",
+      "chapters": "3-5,9,19-20",
+      "context": "Juízes é o livro mais violento do Antigo Testamento: assassinatos de líderes (Jz 3; 4:21), a espada de Gideão, o massacre de Abimeleque (Jz 9), o estupro coletivo e assassinato da concubina do levita (Jz 19) e a guerra civil (Jz 20)."
+    },
+    {
+      "book_id": "juizes",
+      "theme_id": "complacencia",
+      "relevance": "primary",
+      "chapters": "1-2,8,17",
+      "context": "Israel falha em expulsar completamente os cananeus (Jz 1), coexiste com eles e adota seus deuses (Jz 2); Gideão recusa o reino mas instala um éfode idolátrico (Jz 8:27), e o povo se acomoda espiritualmente, gerando a apostasia repetida."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "fidelidade",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Rute é o livro da fidelidade (hesed): Rute recusa abandonar a sogra viúva e empobrecida dizendo 'aonde quer que tu fores, irei eu' (Rt 1:16); Boaz elogia sua lealdade e demonstra a mesma virtude ao cumprir o papel de remidor com mais do que o exigido."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "O livro culmina na restauração de Noêmi: o nascimento de Obede é saudado pelas mulheres como 'restaurador da tua vida e consolador da tua velhice' (Rt 4:15); o que parecia irreversível é revertido pela graça divina."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "misericordia",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "O hesed (misericórdia/bondade leal) de Rute, Boaz e Deus permeia o livro: Boaz deseja que Deus retribua o que Rute fez (Rt 2:12); Noêmi abençoa Boaz por 'não ter deixado de misturar sua beneficência para com os vivos e com os mortos' (Rt 2:20)."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "hospitalidade",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Boaz demonstra hospitalidade notável com Rute, a estrangeira: a convida a comer e beber com seus trabalhadores, instrui os moços a não a molestarem e a deixar espigas extras para ela, bem além do mínimo legal exigido."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "O amor de Rute por Noêmi, o amor de Boaz pela virtuosa Rute e o amor de Deus que opera por trás das circunstâncias formam camadas de afeto que transformam uma história de perda em saga de redenção."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "preconceito",
+      "relevance": "secondary",
+      "chapters": "1-2,4",
+      "context": "Rute é uma moabita, povo excluído da assembleia do Senhor (Dt 23:3); sua plena aceitação no povo de Israel através de sua fé e virtude (Rt 2:11-12) e sua inclusão na genealogia davídica (Rt 4:17-22) desafiam preconceitos étnicos."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "identidade",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Rute redefine sua identidade: abandona sua terra natal, família e religião moabita para abraçar o povo e o Deus de Noêmi (Rt 1:16-17), mostrando que a identidade como povo de Deus pode ser escolhida pela fé além de origem étnica."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "profecia_messianica",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "A genealogia final de Rute (Rt 4:17-22) liga a história de fidelidade de Rute e Boaz diretamente a Davi, o rei messiânico, e posteriormente a Jesus Cristo (Mt 1:5) — tornando este pequeno livro fundamental na linha davídica."
+    },
+    {
+      "book_id": "rute",
+      "theme_id": "generosidade",
+      "relevance": "primary",
+      "chapters": "2-4",
+      "context": "Boaz exemplifica generosidade prática: instrui os segadores a deixar espigas extras para Rute (Rt 2:15-16), a alimenta com grão tostado (Rt 2:14), dá-lhe seis medidas de cevada para Noêmi (Rt 3:15) e age além do mínimo legal como remidor."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "8-12,15-18,25",
+      "context": "1Samuel narra três formas de liderança: Samuel o juiz-profeta, Saul o rei rejeitado por desobediência, e Davi o ungido segundo o coração de Deus; o contraste entre Saul e Davi é o núcleo do livro."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "desobediencia",
+      "relevance": "primary",
+      "chapters": "13,15",
+      "context": "Saul desobedece duas vezes com consequências fatais: oferece sacrifício sem esperar Moisés (1Sm 13:8-14) e poupa Agague e o melhor do gado contra a ordem divina (1Sm 15:9-23); Samuel declara 'obedecer é melhor do que sacrificar' (1Sm 15:22)."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "2,8-10,16",
+      "context": "O cântico de Ana proclama que 'o Senhor empobrece e enriquece, abate e também exalta' (1Sm 2:7); Deus escolhe Saul e o rejeita, escolhe Davi pelo coração e não pela aparência (1Sm 16:7), demonstrando soberania sobre a história política."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "17",
+      "context": "Davi enfrenta Golias declarando 'tu vens a mim com espada, com lança e com escudo; mas eu venho a ti em nome do Senhor dos exércitos' (1Sm 17:45); sua fé contrasta com o medo de todo o exército de Israel."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "arrependimento",
+      "relevance": "secondary",
+      "chapters": "15",
+      "context": "Saul confessa o pecado pressionado por Samuel (1Sm 15:24-25), mas sua confissão é motivada pelo medo da vergonha pública mais do que por genuíno arrependimento; o contraste com Davi (cf. 2Sm 12) revela diferentes qualidades de arrependimento."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "3,8-10,12,15",
+      "context": "Samuel é o profeta do limiar entre os juízes e a monarquia: anuncia o juízo sobre a casa de Eli (1Sm 3), unge os dois primeiros reis de Israel (1Sm 10; 16) e pronuncia a palavra divina de rejeição a Saul (1Sm 13; 15)."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "fuga_de_deus",
+      "relevance": "secondary",
+      "chapters": "28",
+      "context": "Abandonado por Deus, Saul consulta uma necromante em Endor (1Sm 28), procurando resposta divina por meios proibidos; sua apostasia final revela o que ocorre quando um líder, rejeitado por Deus, busca respostas fora da revelação."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "integridade",
+      "relevance": "primary",
+      "chapters": "24,26",
+      "context": "Davi preserva a integridade ao recusar duas oportunidades de matar Saul nas cavernas de En-Gedi (1Sm 24) e em Zifo (1Sm 26), declarando 'não estenderei minha mão contra o ungido do Senhor', mesmo sendo perseguido injustamente."
+    },
+    {
+      "book_id": "1samuel",
+      "theme_id": "humildade",
+      "relevance": "secondary",
+      "chapters": "9,16-17,24",
+      "context": "Davi pergunta 'quem sou eu?' quando chamado a ser genro do rei (1Sm 18:18); como menor filho de Jessé, é esquecido quando Samuel vem ungir (1Sm 16); sua humildade contrasta com o porte imponente de Saul (1Sm 9:2)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "1-8,11-24",
+      "context": "2Samuel narra o reinado completo de Davi: sua ascensão ao trono de Judá (2Sm 2) e depois de todo Israel (2Sm 5), seu pico de liderança com a arca trazida para Jerusalém (2Sm 6) e o colapso da liderança após o pecado com Bate-Seba (2Sm 11)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "profecia_messianica",
+      "relevance": "primary",
+      "chapters": "7",
+      "context": "A promessa da aliança davídica (2Sm 7:12-16) anuncia um descendente de Davi cujo reino não terá fim, chamado 'filho' por Deus; esta promessa é a base de toda a esperança messiânica do AT e é cumprida em Jesus (Lc 1:32-33)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "6,22",
+      "context": "Davi dança com toda sua força diante da arca do Senhor ao trazê-la para Jerusalém (2Sm 6:14) e compõe o Salmo de ação de graças de 2Samuel 22 após ser salvo de todos os inimigos."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "consequencias_do_pecado",
+      "relevance": "primary",
+      "chapters": "12-20",
+      "context": "Natã anuncia que a espada não se apartará da casa de Davi (2Sm 12:10); as consequências se desdobram: a morte do bebê, a violação de Tamar por Amnom (2Sm 13), a revolta de Absalão (2Sm 15-18) e guerras civis (2Sm 20)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "traicao",
+      "relevance": "primary",
+      "chapters": "15-16",
+      "context": "Absalão, filho de Davi, conspira durante quatro anos para roubar o coração do povo (2Sm 15:1-6), proclama-se rei e força o pai a fugir de Jerusalém; Aitofel, conselheiro de confiança de Davi, deserta para Absalão (2Sm 15:31)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "perdao",
+      "relevance": "secondary",
+      "chapters": "19-21",
+      "context": "Após a morte de Absalão, Davi chora e recusa punir Simei que o amaldiçoou (2Sm 19:22-23); a dor de Davi pelo filho traidor ('meu filho Absalão, quem me dera morrer em teu lugar', 2Sm 18:33) ilustra o amor que perdoa mesmo diante da traição."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "orgulho",
+      "relevance": "secondary",
+      "chapters": "24",
+      "context": "O censo ordenado por Davi (2Sm 24) é interpretado como ato de orgulho ou confiança no poder militar humano; Davi mesmo reconhece que 'pequei em fazer isso' e aceita o castigo divino."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "amizade",
+      "relevance": "secondary",
+      "chapters": "1,9",
+      "context": "Davi honra a aliança com Jônatas ao lamentar sua morte com 'Angustiado estou por ti, meu irmão Jônatas' (2Sm 1:26) e ao mostrar bondade ao filho coxo de Jônatas, Mefibosete, por amor à aliança com o pai (2Sm 9)."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "7,12,17,22",
+      "context": "Deus transforma o conselho de Aitofel em loucura (2Sm 17:14) para preservar Davi; o Salmo de 2Samuel 22 declara que Deus é 'rocha, fortaleza e libertador', governando sobre todas as circunstâncias."
+    },
+    {
+      "book_id": "2samuel",
+      "theme_id": "violencia",
+      "relevance": "secondary",
+      "chapters": "2-4,13,18-20",
+      "context": "2Samuel descreve múltiplos ciclos de violência: guerra civil entre a casa de Saul e Davi (2Sm 2-4), a violação de Tamar por Amnom (2Sm 13), a morte de Absalão (2Sm 18) e as guerras de Joabe — violência que persegue a casa de Davi como profetizado."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "oracao",
+      "relevance": "primary",
+      "chapters": "8",
+      "context": "Na dedicação do Templo, Salomão ora uma longa oração intercedendo pelo povo em sete cenários de crise, pedindo que Deus ouça do céu e perdoe (8:22-53)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "5-8",
+      "context": "A construção do Templo em Jerusalém ocupa quatro capítulos, culminando na descida da glória de Deus que preenche o lugar de tal forma que os sacerdotes não conseguem permanecer em pé (8:10-11)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "8",
+      "context": "A nuvem da glória divina (shekinah) preenche o Templo recém-dedicado, manifestando a presença de Deus entre o povo de Israel (8:10-11)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "8-9",
+      "context": "Salomão recorda a aliança de Deus com Davi e Israel durante a dedicação do Templo, e Deus renova as condições da aliança condicionando a permanência da dinastia à obediência (9:4-9)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "17-22",
+      "context": "O profeta Elias confronta Acabe e os profetas de Baal no Monte Carmelo (ch.18) e recebe a palavra do Senhor em Horebe após sua fuga (19:9-18), demonstrando o papel profético central em Israel."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "1-12",
+      "context": "A transição da liderança de Davi para Salomão, o julgamento sábio de Salomão e as consequências da liderança de Roboão que causa a divisão do reino ilustram diferentes modelos de liderança real."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "arrependimento",
+      "relevance": "secondary",
+      "chapters": "8",
+      "context": "Na oração de dedicação do Templo, Salomão intercede por cenários futuros onde o povo peque, seja exilado, e então se arrependa e ore em direção ao Templo (8:46-50)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "11-12",
+      "context": "A divisão do reino após Salomão é explicitamente atribuída à soberania divina: 'esta virada vinha do Senhor' (12:15), mostrando que mesmo eventos políticos servem aos propósitos de Deus."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "obediencia",
+      "relevance": "primary",
+      "chapters": "3;9;11",
+      "context": "O Senhor instrui Salomão em Gibeom a andar nos caminhos de Davi e guardar os mandamentos (3:14); a desobediência de Salomão ao casar com mulheres estrangeiras leva ao juízo (11:9-13)."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "cura",
+      "relevance": "secondary",
+      "chapters": "17",
+      "context": "Elias ressuscita o filho da viúva de Sarepta pela oração e intervenção divina (17:17-24), prefigurando os milagres de cura que continuam no ministério de Eliseu em 2Reis."
+    },
+    {
+      "book_id": "1reis",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "8;11",
+      "context": "Salomão reconhece na oração que Deus cumpriu todas as promessas feitas a Davi (8:24), mesmo quando pronuncia julgamento sobre a infidelidade de Salomão, mantendo a linhagem davídica por causa da promessa (11:13)."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "1-9",
+      "context": "Eliseu recebe o manto de Elias (2:13) e realiza uma série de milagres e pronunciamentos proféticos, incluindo curas, provisão sobrenatural e derrota de inimigos, continuando o ministério profético central em Israel."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "17;21",
+      "context": "O capítulo 17 lista detalhadamente os pecados de Israel — adoração a Baal, sacrifício de filhos no fogo, adivinhação — como causa do exílio. Manassés em Judá (ch.21) é descrito como o rei mais ímpio, reinstaurando ídolos até no Templo."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "18-20;22-23",
+      "context": "Ezequias ora humildemente diante da ameaça assíria (19:14-19) e diante da doença (20:1-3). Josias rasga suas vestes ao ouvir a lei e lidera uma reforma religiosa radical (22:11; 23:1-25)."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "19-20",
+      "context": "Deus responde a oração de Ezequias enviando o anjo que mata 185.000 soldados assírios (19:35) e prolonga a vida do rei doente por 15 anos (20:5-6), demonstrando fidelidade às promessas feitas à linhagem davídica."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "17;19",
+      "context": "O exílio de Israel é interpretado como ato soberano de Deus cumprindo suas palavras de juízo (17:23), e a derrota assíria é atribuída diretamente à intervenção divina em resposta à oração de Ezequias (19:20-34)."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "22",
+      "context": "O livro da lei encontrado no Templo durante as reformas de Josias provoca uma profunda crise espiritual no rei, que manda consultar a profetisa Hulda sobre as palavras de juízo nele contidas (22:8-20)."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "intercessao",
+      "relevance": "secondary",
+      "chapters": "19-20",
+      "context": "Ezequias ora diante do Senhor espalhando a carta de ameaça assíria no Templo (19:14-19), e Deus responde por meio de Isaías com uma promessa detalhada de proteção e derrota dos assírios."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "providencia",
+      "relevance": "secondary",
+      "chapters": "4-8",
+      "context": "A provisão sobrenatural para a viúva do profeta (4:1-7) e o bloqueio do cerco de Israel por cavalos e carros de fogo invisíveis (6:15-17) revelam a providência de Deus protegendo e sustentando seu povo."
+    },
+    {
+      "book_id": "2reis",
+      "theme_id": "lideranca",
+      "relevance": "secondary",
+      "chapters": "18;22-23",
+      "context": "Os reis Ezequias e Josias são apresentados como modelos de liderança piedosa, avaliados positivamente pela obediência a Deus em contraste com a maioria dos reis que 'fizeram o que era mau aos olhos do Senhor'."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "22;28-29",
+      "context": "Embora Davi não possa construir o Templo, ele acumula materiais e faz planos detalhados, declarando: 'preparo para o Templo do meu Deus ouro, prata, bronze, ferro e madeira em abundância' (22:5; 29:2-5)."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "10-29",
+      "context": "A narrativa de 1Crônicas reinterpreta o reinado de Davi enfatizando seu papel como líder litúrgico e preparador do Templo, em vez de seus pecados, apresentando um modelo de liderança voltado para a glória de Deus."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "heranca",
+      "relevance": "primary",
+      "chapters": "1-9",
+      "context": "Os primeiros nove capítulos de genealogias conectam o povo desde Adão até os retornados do exílio, estabelecendo a identidade de Israel como herdeiro das promessas divinas ao longo das gerações."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "17",
+      "context": "O pacto davídico é central: Deus promete a Davi que seu trono será estabelecido para sempre e que um descendente construirá o Templo (17:11-14), base messiânica que toda a narrativa aponta."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "oracao",
+      "relevance": "primary",
+      "chapters": "29",
+      "context": "A oração final de Davi (29:10-19) é uma das mais belas do Antigo Testamento, reconhecendo que tudo pertence a Deus e que as ofertas do povo são apenas devoluções do que Ele mesmo deu."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "10;17",
+      "context": "A morte de Saul é atribuída à sua infidelidade ao Senhor (10:13-14), e a escolha de Davi é apresentada como iniciativa divina soberana: 'o Senhor seu Deus disse-lhe: Tu apascentarás o meu povo Israel' (11:2)."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "gratidao",
+      "relevance": "secondary",
+      "chapters": "16;29",
+      "context": "O salmo de ação de graças de Davi na chegada da arca (16:8-36) e sua oração de gratidão pelas ofertas do povo para o Templo (29:13-14) estabelecem a gratidão como resposta fundamental à generosidade de Deus."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "obediencia",
+      "relevance": "secondary",
+      "chapters": "13;15",
+      "context": "A morte de Uzá ao tocar a arca (13:9-10) e a segunda tentativa bem-sucedida de trasladar a arca seguindo os ritos levíticos (15:2-15) ensinam que a obediência às ordenanças de Deus é inegociável na adoração."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "restauracao",
+      "relevance": "secondary",
+      "chapters": "9",
+      "context": "O capítulo 9 lista os primeiros habitantes que retornaram de Babilônia para Jerusalém, incluindo sacerdotes e levitas, como uma antecipação da restauração do povo em sua terra e no serviço do Templo."
+    },
+    {
+      "book_id": "1cronicas",
+      "theme_id": "guerra_espiritual",
+      "relevance": "secondary",
+      "chapters": "14;20",
+      "context": "Davi consulta o Senhor antes de cada batalha (14:10,14) e recebe instrução tática divina, mostrando que as vitórias militares dependem da orientação espiritual e não apenas da força militar."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "exilio",
+      "relevance": "primary",
+      "chapters": "36",
+      "context": "O livro termina com o exílio de Judá para a Babilônia: o rei Zedequias é levado em cativeiro, o Templo destruído, e a narrativa interpreta tudo como cumprimento das palavras de Jeremias por causa da infidelidade persistente do povo (36:15-21)."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "sabedoria",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Salomão pede a Deus sabedoria e conhecimento para governar o povo em Gibeom (1:10), e Deus lhe concede não apenas isso, mas também riqueza e honra sem precedentes (1:11-12)."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "2-7",
+      "context": "A construção e dedicação do Templo ocupa os capítulos 2-7, culminando na descida do fogo do céu e da glória do Senhor que preenche o Templo de tal forma que os sacerdotes não podem entrar (7:1-3)."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "7;12;15;20;30;33-34",
+      "context": "O ciclo de 2Crônicas gira em torno do arrependimento: a promessa de 7:14 estrutura todo o livro. Reis como Rehoboão (12:6), Asa (15:12), Josafá (20:3), Ezequias (30:6-9) e Manassés (33:12-13) exemplificam o padrão."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "5;7",
+      "context": "A glória de Deus preenche o Templo quando a arca é trazida (5:13-14) e fogo desce do céu na dedicação (7:1-3), manifestações da presença divina que legitimam o lugar de adoração e o reinado salomônico."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "6;15;23;29;34",
+      "context": "A renovação da aliança é um tema recorrente em 2Crônicas — Asa lidera uma renovação sob Azarias (15:12-15), e Josias renova o pacto perante todo o povo após a descoberta do livro da lei (34:31-32)."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "1-36",
+      "context": "O livro avalia cada rei pela sua fidelidade ao Senhor, criando um galeria de liderança que distingue entre reis que 'fizeram o que era reto' como Asa, Josafá, Ezequias e Josias, e aqueles que levaram o povo ao pecado."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "36",
+      "context": "Mesmo no juízo do exílio, a fidelidade de Deus transparece no decreto de Ciro que encerra o livro (36:22-23), cumprindo a promessa de restauração feita por meio dos profetas e abrindo caminho para o retorno."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "36",
+      "context": "O decreto de Ciro que encerra 2Crônicas — 'Qualquer de vós, do seu povo, que seja, o Senhor seu Deus seja com ele, e suba' (36:23) — aponta para a restauração de Jerusalém cumprindo a profecia de Jeremias."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "5-7;29-30;35",
+      "context": "A adoração ordenada com música levítica, sacrifícios e festas rituais é central em 2Crônicas. Ezequias restaura a ordem levítica (29:25-30) e celebra a Páscoa com uma alegria sem precedentes desde os dias de Salomão (30:26)."
+    },
+    {
+      "book_id": "2cronicas",
+      "theme_id": "soberania_de_deus",
+      "relevance": "secondary",
+      "chapters": "20;36",
+      "context": "A derrota dos exércitos de Moabe e Amom sem que Josafá precisasse lutar (20:15-17) e o uso de Ciro como instrumento de restauração divina (36:22) demonstram que Deus move as nações conforme seus propósitos."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "1-6",
+      "context": "O retorno do exílio babilônico e a reconstrução do Templo em Jerusalém constituem o eixo narrativo dos primeiros seis capítulos, realizando o que as profecias de Jeremias e Isaías haviam prometido."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "1;7",
+      "context": "O livro abre com a declaração de que o Senhor 'despertou o espírito de Ciro' para promulgar o decreto de retorno (1:1), e autoriza Esdras com uma carta real porque 'a mão de Deus era sobre ele' (7:6)."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "santidade",
+      "relevance": "primary",
+      "chapters": "9-10",
+      "context": "A crise dos matrimônios mistos (ch.9-10) revela a preocupação central de Esdras com a santidade da comunidade do remanescente, que não pode comprometer sua identidade distinta misturando-se com as práticas pagãs ao redor."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "7",
+      "context": "Esdras é descrito como escriba habilidoso na lei de Moisés (7:6), e todo seu ministério consiste em ensinar a lei de Deus ao povo, pois 'tinha disposto em seu coração buscar a lei do Senhor, praticá-la e ensiná-la' (7:10)."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "1-6",
+      "context": "A reconstrução do Templo após o exílio é o foco dos primeiros seis capítulos, desde a restituição dos utensílios sagrados (1:7-11) até a finalização e dedicação do Templo com alegria (6:16-22)."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "remanescente",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Os capítulos 1-2 listam os 42.360 membros do remanescente que retornam do exílio (2:64), representando o cumprimento da promessa de Deus de preservar uma comunidade fiel mesmo após o juízo do cativeiro."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "providencia",
+      "relevance": "primary",
+      "chapters": "7-8",
+      "context": "Esdras reconhece a providência de Deus na jornada de Babilônia a Jerusalém: 'A mão do nosso Deus era sobre nós, e nos livrou da mão do inimigo e do que nos saía ao caminho' (8:31)."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "obediencia",
+      "relevance": "primary",
+      "chapters": "6;10",
+      "context": "O povo celebra a dedicação do Templo seguindo os rituais da lei de Moisés (6:18-20) e responde ao apelo de Esdras separando-se das esposas estrangeiras 'como determinara a lei' (10:3), demonstrando obediência à palavra de Deus."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "identidade",
+      "relevance": "secondary",
+      "chapters": "2;9-10",
+      "context": "As extensas listas genealógicas de retornantes (ch.2) e a crise das esposas estrangeiras (ch.9-10) revelam a preocupação em preservar a identidade distinta do povo de Deus em meio às nações."
+    },
+    {
+      "book_id": "esdras",
+      "theme_id": "intercessao",
+      "relevance": "secondary",
+      "chapters": "9",
+      "context": "A oração de confissão de Esdras em 9:6-15 é uma das grandes orações de intercessão do Antigo Testamento, identificando-se com os pecados do povo e reconhecendo a justiça de Deus no juízo do exílio."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "4-6",
+      "context": "Diante da oposição de Sambalate, Tobias e Gesém — que tentam ridículo, ameaças e conspirações — Neemias responde com oração, vigilância e determinação: 'estamos fazendo uma grande obra e não podemos descer' (6:3)."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "justica_social",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "Neemias repreende os nobres e príncipes que cobram juros dos irmãos empobrecidos e exige a restituição das terras, vinhas e casas confiscadas (5:7-12), demonstrando que liderança piedosa inclui comprometimento com a justiça econômica."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "8",
+      "context": "Esdras lê a lei de Moisés diante de toda a assembleia durante horas, com os levitas explicando o sentido para que o povo entendesse (8:2-8), e o povo responde com choro, adoração e alegria ao compreender as palavras."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "arrependimento",
+      "relevance": "primary",
+      "chapters": "9",
+      "context": "A grande oração confessional do capítulo 9 recapitula toda a história de Israel — desde o Egito até o exílio — reconhecendo o padrão repetido de pecado, juízo e misericórdia de Deus, e renovando o compromisso com a aliança."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "9-10",
+      "context": "Após a oração confessional histórica (ch.9), os líderes, levitas e sacerdotes fazem um pacto escrito comprometendo-se com a separação das nações, a observância do sábado, os dízimos e os cuidados com o Templo (9:38; 10:28-39)."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "1-12",
+      "context": "O livro narra a restauração de Jerusalém em múltiplas dimensões: física (muro reconstruído), espiritual (lei lida e aliança renovada) e comunitária (cidade habitada e culto restaurado), cumprindo a esperança do exílio."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "coragem",
+      "relevance": "secondary",
+      "chapters": "2;6",
+      "context": "Neemias demonstra coragem ao apresentar ao rei persa seu pedido para reconstruir Jerusalém (2:5) e ao recusar a armadilha de Sambalate para se refugiar no Templo covardemente: 'Um homem como eu vai fugir?' (6:11)."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "identidade",
+      "relevance": "secondary",
+      "chapters": "7;13",
+      "context": "O censo dos retornantes (ch.7) e as reformas finais de Neemias separando os estrangeiros do Israel (13:1-3) demonstram a preocupação com a distinção e identidade do povo de Deus em sua terra restaurada."
+    },
+    {
+      "book_id": "neemias",
+      "theme_id": "adoracao",
+      "relevance": "secondary",
+      "chapters": "8;12",
+      "context": "A dedicação do muro é celebrada com coros levíticos, instrumentos musicais e procissões (12:27-43), e a festa dos Tabernáculos é celebrada com uma alegria que não havia sido vista desde os dias de Josué (8:17)."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "perseguicao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Hamã obtém do rei Assuero o decreto de extermínio de todos os judeus no Império Persa em um único dia (3:13), motivado pelo ódio pessoal a Mardoqueu que recusou se prostrar diante dele (3:5-6)."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "intercessao",
+      "relevance": "primary",
+      "chapters": "4-5;7-8",
+      "context": "Ester intercede pelo seu povo primeiro com um jejum coletivo de três dias (4:16) e depois com dois banquetes estratégicos onde apresenta sua petição ao rei, salvando os judeus do decreto de morte (7:3-4; 8:5-6)."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "7-9",
+      "context": "A reversão do decreto — os judeus são autorizados a se defenderem — transforma o dia de extermínio em dia de vitória (9:1). A salvação do povo judeu é celebrada como festa de Purim nas gerações seguintes (9:20-28)."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "vocacao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "A declaração de Mardoqueu 'quem sabe se não foi para um momento como este que chegaste ao reino?' (4:14) articula a teologia da vocação — Ester foi colocada em posição de influência para cumprir um propósito maior."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "humildade",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "O jejum e a busca coletiva antes de Ester agir (4:16) contrastam com a arrogância de Hamã, que constrói uma forca para Mardoqueu e espera ser honrado pelo rei (5:14; 6:6-9), invertendo a expectativa do poder humano."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "comunidade",
+      "relevance": "secondary",
+      "chapters": "4;9",
+      "context": "Os judeus de Susã se unem em jejum (4:16) e depois em celebração (9:17-19), e a festa de Purim é instituída como celebração comunitária anual que conecta as comunidades judaicas ao longo das gerações (9:27-28)."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "A insônia do rei na noite crucial que leva à honra de Mardoqueu (6:1-3) e o momento exato em que Hamã entra para pedir a execução de Mardoqueu — apenas para ser humilhado — revelam a orquestração providencial oculta por trás dos eventos."
+    },
+    {
+      "book_id": "ester",
+      "theme_id": "justica",
+      "relevance": "secondary",
+      "chapters": "7;9",
+      "context": "Hamã é executado na própria forca que construiu para Mardoqueu (7:9-10), e o decreto é revertido de modo que os perseguidores dos judeus recebem o mesmo destino que planejavam para eles (9:1-5), demonstrando a justiça poética da narrativa."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "ansiedade",
+      "relevance": "primary",
+      "chapters": "3;7;10",
+      "context": "Jó expressa a angústia existencial de não entender seu sofrimento: 'O meu gemido sai como a água, pois o que eu temia veio sobre mim' (3:24-25), e seu espírito está 'exasperado' (7:11), descrevendo estados de intensa angústia."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "luto",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "Jó rasga suas vestes, raspa sua cabeça e cai por terra ao perder seus filhos (1:20), e no capítulo 3 amaldiçoa o dia do seu nascimento em um lamento poético de profundidade rara, expressando o luto mais profundo do Antigo Testamento."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "confianca",
+      "relevance": "primary",
+      "chapters": "1;13;19;38-42",
+      "context": "Apesar de tudo, Jó declara 'o Senhor o deu, o Senhor o tomou; bendito seja o nome do Senhor' (1:21) e mais tarde proclama 'eu sei que o meu Redentor vive' (19:25), mantendo uma confiança fundamental em Deus mesmo no meio da crise."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "morte",
+      "relevance": "secondary",
+      "chapters": "3;10;14",
+      "context": "Jó deseja a morte como alívio do sofrimento (3:11,21), medita sobre a condição dos mortos (14:1-12) e contempla se há esperança além da morte: 'se o homem morrer, tornará a viver?' (14:14), tocando questões escatológicas fundamentais."
+    },
+    {
+      "book_id": "jo",
+      "theme_id": "consolacao",
+      "relevance": "secondary",
+      "chapters": "2;42",
+      "context": "Os amigos de Jó chegam para consolá-lo e ficam em silêncio por sete dias (2:11-13), mas sua consolação se torna acusação. No final, é Deus mesmo que restaura e consola Jó (42:10-17), mostrando que a verdadeira consolação vem do encontro com Deus."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "familia",
+      "relevance": "primary",
+      "chapters": "5;12;18;31",
+      "context": "O livro fala extensamente sobre a família: avisos contra o adultério (ch.5-7), a valorização da 'mulher virtuosa' (31:10-31), 'o que achou uma boa mulher achou um bem' (18:22), e a responsabilidade dos pais em disciplinar os filhos (13:24; 23:13-14)."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "16;20;25;29",
+      "context": "Vários provérbios endereçam reis e líderes: 'o rei que julga os pobres com fidelidade, o seu trono permanecerá para sempre' (29:14), 'como canais de água é o coração do rei na mão do Senhor' (21:1), tratando da responsabilidade especial de quem governa."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "integridade",
+      "relevance": "primary",
+      "chapters": "10-11;19-20",
+      "context": "A integridade é repetidamente contrastada com a desonestidade: 'a integridade dos retos os guia' (11:3), 'melhor é o pobre que anda em sua integridade do que o pervertido nos seus lábios, que é insensato' (19:1), e 'pesos desiguais são abominação ao Senhor' (20:23)."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "temor_de_deus",
+      "relevance": "primary",
+      "chapters": "1;9;15",
+      "context": "'O temor do Senhor é o princípio da sabedoria' (1:7; 9:10) — esta declaração fundante aparece duas vezes e estrutura toda a epistemologia do livro. O temor do Senhor é também descrito como 'fonte de vida' (14:27) e fonte de confiança (14:26)."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "justica",
+      "relevance": "secondary",
+      "chapters": "17;21;28-29",
+      "context": "A justiça social aparece em provérbios como 'o que justifica o ímpio e o que condena o justo, ambos são abominação ao Senhor' (17:15), 'o que fecha os ouvidos ao clamor do pobre, também clamará e não será ouvido' (21:13)."
+    },
+    {
+      "book_id": "proverbios",
+      "theme_id": "pureza",
+      "relevance": "secondary",
+      "chapters": "5-7",
+      "context": "Os capítulos 5-7 formam uma unidade de avisos contra o adultério e a mulher estranha, com instruções vívidas sobre manter a pureza sexual como questão de sabedoria e não apenas de moralidade: 'pode alguém pôr brasas no peito sem queimar a roupa?' (6:27)."
+    },
+    {
+      "book_id": "eclesiastes",
+      "theme_id": "sabedoria",
+      "relevance": "primary",
+      "chapters": "1-2;7-8;12",
+      "context": "O Pregador é um sábio que aplica sua sabedoria investigativa para examinar tudo 'debaixo do sol' (1:13). Mesmo concluindo que a sabedoria tem limites ('em muita sabedoria há muita tristeza' — 1:18), o livro termina com a sabedoria como o temor de Deus (12:13-14)."
+    },
+    {
+      "book_id": "eclesiastes",
+      "theme_id": "temor_de_deus",
+      "relevance": "primary",
+      "chapters": "5;8;12",
+      "context": "Após toda a investigação sobre a vaidade, o livro culmina com 'teme a Deus e guarda os seus mandamentos, porque este é o dever de todo o homem' (12:13). O temor de Deus é a resposta sábia à brevidade e ao vazio da existência 'debaixo do sol'."
+    },
+    {
+      "book_id": "eclesiastes",
+      "theme_id": "humildade",
+      "relevance": "secondary",
+      "chapters": "5;8",
+      "context": "'Guarda os teus pés quando vas à casa de Deus... não precipites a tua boca, e não se apresse o teu coração em pronunciar coisa alguma diante de Deus, porque Deus está no céu e tu estás na terra' (5:1-2), chamando à humildade diante do mistério divino."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "louvor",
+      "relevance": "primary",
+      "chapters": "1-150",
+      "context": "Salmos de louvor permeiam toda a coleção, desde 'Eu te louvarei, Senhor, de todo o meu coração' (Sl 9:1) até o hino final 'Todo ser que respira louve ao Senhor' (Sl 150:6)."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "27-130",
+      "context": "'Espera tu pelo Senhor; anima-te, e fortalece o teu coração; espera, pois, pelo Senhor' (Sl 27:14) resume a orientação esperançosa mesmo diante do sofrimento extremo."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "misericordia",
+      "relevance": "primary",
+      "chapters": "25-103",
+      "context": "A misericórdia (hesed) divina é invocada e celebrada repetidamente: 'a misericórdia do Senhor é desde a eternidade' (Sl 103:17) e 'certamente que a bondade e a misericórdia me seguirão' (Sl 23:6)."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "gratidao",
+      "relevance": "primary",
+      "chapters": "9-136",
+      "context": "A gratidão a Deus por suas obras é expressa em salmos como o 9 ('Eu te louvarei, Senhor, de todo o meu coração; contarei todas as tuas maravilhas') e o 136 com seu refrão 'porque a sua misericórdia dura para sempre'."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "paz",
+      "relevance": "primary",
+      "chapters": "4-122",
+      "context": "'Em paz me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança' (Sl 4:8) e 'Buscai a paz, e segui-a' (Sl 34:14) apresentam a paz como fruto do relacionamento com Deus."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "luto",
+      "relevance": "primary",
+      "chapters": "6-88",
+      "context": "Salmos de lamentação individual e coletiva expressam choro profundo: 'Estou cansado do meu gemido; toda noite faço nadar em lágrimas a minha cama' (Sl 6:6) e 'As bordas do rio de Babilônia, ali nos assentamos e choramos' (Sl 137)."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "justica_divina",
+      "relevance": "primary",
+      "chapters": "7-94",
+      "context": "Deus é invocado como juiz justo que vindica os oprimidos e pune os ímpios: 'Deus é um juiz justo, um Deus que sente indignação todos os dias' (Sl 7:11) e 'O Senhor julga os povos' (Sl 9:8)."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "criacao",
+      "relevance": "primary",
+      "chapters": "8-104",
+      "context": "O Salmo 8 maravilha-se com a grandeza da criação e o lugar do ser humano nela; o Salmo 19 proclama que 'os céus declaram a glória de Deus'; o Salmo 104 é um hino épico à criação."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "sofrimento",
+      "relevance": "primary",
+      "chapters": "22-88",
+      "context": "O sofrimento é tematizado de forma candente nos salmos de lamentação; o Salmo 22 descreve angústia física e abandono; o Salmo 31 expressa exaustão total: 'a minha vida está gasta de tristeza, e os meus anos de suspiros'."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "identidade_de_deus",
+      "relevance": "secondary",
+      "chapters": "18-93",
+      "context": "Deus é chamado de rocha, fortaleza, libertador, refúgio, pastor e rei nos Salmos, construindo um retrato multifacetado de sua identidade: 'O Senhor é a minha rocha, a minha fortaleza e o meu libertador' (Sl 18:2)."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "alegria_em_deus",
+      "relevance": "secondary",
+      "chapters": "16-100",
+      "context": "'Na tua presença há plenitude de alegria; à tua mão direita há delícias perpetuamente' (Sl 16:11) e 'Servite ao Senhor com alegria' (Sl 100:2) celebram a alegria como fruto da comunhão com Deus."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "temor_de_deus",
+      "relevance": "secondary",
+      "chapters": "19-128",
+      "context": "'O temor do Senhor é limpo, e permanece para sempre' (Sl 19:9) e 'O temor do Senhor é o princípio da sabedoria' (Sl 111:10) mostram o temor como reverência que traz bênção."
+    },
+    {
+      "book_id": "salmos",
+      "theme_id": "remanescente",
+      "relevance": "secondary",
+      "chapters": "14-76",
+      "context": "O Salmo 14 lamenta que 'não há quem faça o bem, não há sequer um' entre os corrompidos, mas Deus está 'na geração dos justos'; a sobrevivência de um povo fiel perpassa vários salmos históricos."
+    },
+    {
+      "book_id": "canticos",
+      "theme_id": "ciume",
+      "relevance": "secondary",
+      "chapters": "8",
+      "context": "'O ciúme é cruel como o Seol; a sua chama é chama de fogo, verdadeira labareda do Senhor' (Ct 8:6) apresenta o ciúme como aspecto da intensidade do amor exclusivo."
+    },
+    {
+      "book_id": "canticos",
+      "theme_id": "esperanca",
+      "relevance": "secondary",
+      "chapters": "2-8",
+      "context": "A espera e a busca ansiosa pelo amado ausente (Ct 3:1-4; 5:6-8) e o convite 'Vem, ó amado meu, saiamos ao campo' (Ct 7:11) expressam uma esperança de encontro e reencontro."
+    },
+    {
+      "book_id": "canticos",
+      "theme_id": "alegria",
+      "relevance": "secondary",
+      "chapters": "1-7",
+      "context": "'Em ti nos alegraremos e nos regozijaremos' (Ct 1:4) e as imagens primaverais de flores e aves cantando (Ct 2:11-13) associam o amor à alegria e à renovação da natureza."
+    },
+    {
+      "book_id": "canticos",
+      "theme_id": "identidade",
+      "relevance": "secondary",
+      "chapters": "1-6",
+      "context": "A amada oscila entre a insegurança ('sou morena, mas formosa') e a confiança plena na exclusividade da relação ('a sua bandeira sobre mim era o amor'), revelando uma jornada de identidade e pertencimento."
+    },
+    {
+      "book_id": "canticos",
+      "theme_id": "relacionamentos",
+      "relevance": "secondary",
+      "chapters": "2-8",
+      "context": "A dinâmica do relacionamento amoroso — o encontro, a ausência, a reconciliação e a fidelidade mútua — é explorada ao longo de todo o livro como modelo de vínculo profundo entre duas pessoas."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "65-66",
+      "context": "'Pois eis que crio novos céus e nova terra; as coisas anteriores não serão lembradas' (Is 65:17) é uma das primeiras proclamações da nova criação na Escritura."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "35-60",
+      "context": "Os capítulos 40-66 descrevem a restauração de Israel do exílio: 'O deserto e a terra sedenta se regozijarão... assim eles verão a glória do Senhor' (Is 35:1-2)."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "2-46",
+      "context": "Isaías ridiculariza os ídolos feitos por mãos humanas (Is 44:9-20) e acusa Israel de abandonar a Deus por deuses que 'não são deuses' (Is 2:8; 46:1-7)."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "40-46",
+      "context": "'Eu sou o Senhor, e não há outro; além de mim não há Deus' (Is 45:5); os capítulos 40-46 contêm os discursos mais enfáticos da soberania absoluta de Deus sobre a história e as nações."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "exilio",
+      "relevance": "primary",
+      "chapters": "39-55",
+      "context": "A deportação para a Babilônia é anunciada (Is 39:6) e o livro inteiro de Is 40-55 é uma mensagem de consolo e esperança dirigida aos exilados, prometendo seu retorno à terra."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "54-61",
+      "context": "'Com amor eterno me compadeço de ti, diz o Senhor, teu Redentor' (Is 54:8); a promessa de aliança eterna com o povo restaurado antecipa a nova aliança."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "remanescente",
+      "relevance": "secondary",
+      "chapters": "1-11",
+      "context": "O conceito de remanescente (she'ar) é teológico central em Isaías: 'Se o Senhor dos exércitos não nos deixara alguns sobreviventes, já como Sodoma seríamos' (Is 1:9); um remanescente fiel sempre será preservado."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "6-60",
+      "context": "A glória do Senhor é revelada na visão de Isaías 6 ('a terra está cheia da sua glória') e prometida para o tempo da restauração: 'a glória do Senhor te cobrirá' (Is 58:8; 60:1)."
+    },
+    {
+      "book_id": "isaias",
+      "theme_id": "pecado",
+      "relevance": "secondary",
+      "chapters": "1-53",
+      "context": "O pecado coletivo de Israel é descrito como rebeldia profunda: 'criei filhos, e os engrandeci, mas eles se rebelaram contra mim' (Is 1:2); o Servo carrega os pecados do povo (Is 53:5-6)."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "exilio",
+      "relevance": "primary",
+      "chapters": "1-52",
+      "context": "Jeremias testemunha e anuncia o cativeiro de Judá na Babilônia; o livro abre com a datação 'até que Jerusalém foi levada em cativeiro' (Jr 1:3) e culmina na queda de Jerusalém (Jr 52)."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "luto",
+      "relevance": "primary",
+      "chapters": "1-52",
+      "context": "Jeremias é chamado de 'profeta das lágrimas'; ele chora pelo povo ('Ah! que pudessem os meus olhos ser uma fonte de lágrimas', Jr 9:1) e lamenta sua própria vocação (Jr 20:14-18)."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "rejeicao",
+      "relevance": "primary",
+      "chapters": "11-37",
+      "context": "Jeremias sofre rejeição sistemática: conspirações dos homens de Anatote contra ele (Jr 11:18-23), prisões, atirado em cisterna (Jr 38), e a resistência persistente do povo às suas mensagens."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "1-45",
+      "context": "Apesar de tentado a desistir ('Não falarei mais no seu nome'), a palavra de Deus era 'como um fogo ardente no meu coração' (Jr 20:9); Jeremias persevera em sua missão por décadas."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "novo_coracao",
+      "relevance": "secondary",
+      "chapters": "31-32",
+      "context": "A promessa da nova aliança em Jr 31 implica transformação interna: a lei escrita no coração (Jr 31:33) é precursora da renovação interior prometida em Ezequiel 36."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "2-44",
+      "context": "Jeremias denuncia Israel por trocar 'o manancial de águas vivas' por 'cisternas rotas' (Jr 2:13) e por adorar 'Baal e outros deuses', comparando-os a uma esposa infiel."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "responsabilidade_individual",
+      "relevance": "secondary",
+      "chapters": "31",
+      "context": "'Naqueles dias nunca mais se dirá: Os pais comeram uvas verdes, e os dentes dos filhos estão embotados' (Jr 31:29-30); Jeremias afirma a responsabilidade individual por seus próprios pecados."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "1-52",
+      "context": "Jeremias é convocado profeta 'antes que saísse da madre' (Jr 1:5) e luta com falsos profetas que contradizem sua mensagem; o debate sobre a autenticidade profética percorre o livro."
+    },
+    {
+      "book_id": "jeremias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "30-33",
+      "context": "O 'Livro da Consolação' (Jr 30-33) promete retorno do cativeiro, nova aliança e reconstrução de Jerusalém: 'Ainda tornarei a construir, e serás construída' (Jr 31:4)."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "exilio",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "'Judá foi para o cativeiro para sofrer aflição e dura servidão; ela habita entre as nações, não acha descanso' (Lm 1:3); o exílio babilônico é a realidade concreta lamentada no livro."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "O sofrimento é interpretado como juízo divino justo: 'Justo é o Senhor, pois me rebelei contra os seus mandamentos' (Lm 1:18); o povo reconhece que o julgamento decorre de seus pecados."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "1-5",
+      "context": "O livro é uma oração poética de lamento; o capítulo 3 intercede por compaixão divina: 'Invoquei o teu nome, Senhor, desde a profundeza da masmorra' (Lm 3:55)."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "pecado",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "O pecado coletivo é reconhecido como causa do desastre: 'Jerusalém gravemente pecou, por isso se fez imunda' (Lm 1:8) e 'Os nossos pais pecaram, e já não existem; e nós levamos as suas iniqüidades' (Lm 5:7)."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "desanimo",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "'Digo, pois: Já pereceu a minha força, como também a minha esperança no Senhor' (Lm 3:18) expressa o desânimo completo antes de se voltar para as misericórdias de Deus."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "restauracao",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "O livro termina com clamor por restauração: 'Converte-nos a ti, Senhor, e seremos convertidos; renova os nossos dias como dantes' (Lm 5:21), expressando o desejo de retorno à graça divina."
+    },
+    {
+      "book_id": "lamentacoes",
+      "theme_id": "saudade_de_deus",
+      "relevance": "secondary",
+      "chapters": "1-5",
+      "context": "Jerusalém chora pela perda da presença de Deus no templo e pela separação da terra santa: 'Por que te esquecerias de nós para sempre, por que nos desampararias por tanto tempo?' (Lm 5:20)."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "exilio",
+      "relevance": "primary",
+      "chapters": "1-48",
+      "context": "Ezequiel profetiza entre os exilados junto ao rio Quebar na Babilônia (Ez 1:1-3); o exílio é tanto a realidade histórica do profeta quanto o horizonte de toda a mensagem de julgamento e restauração."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "36-37",
+      "context": "'Ainda porei dentro de vós o meu Espírito, e farei que andeis nos meus estatutos' (Ez 36:27) e o Espírito que dá vida aos ossos secos (Ez 37:14) são profecias inaugurais da obra do Espírito."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "santidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1-48",
+      "context": "A fórmula de reconhecimento 'sabereis que eu sou o Senhor' aparece mais de 60 vezes em Ezequiel, sublinhando que julgamento e restauração têm como fim a santificação do nome divino (Ez 36:22-23)."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "8-11; 40-48",
+      "context": "A profanação do templo (Ez 8-11), com a saída da glória divina, é contraposta à visão do templo escatológico (Ez 40-48) do qual 'sairão águas' que trarão vida à terra."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "2-37",
+      "context": "Ezequiel usa ações simbólicas (assédia em miniatura, deitando-se sobre o lado) e visões apocalípticas extensas como formas proféticas; seu papel de atalaia define a profecia como responsabilidade moral."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "34-37",
+      "context": "A promessa de um 'príncipe' da linhagem de Davi, aliança de paz (Ez 34:25; 37:26) e o Espírito colocado nos corações constituem os elementos da nova aliança no livro."
+    },
+    {
+      "book_id": "ezequiel",
+      "theme_id": "fim_dos_tempos",
+      "relevance": "secondary",
+      "chapters": "38-48",
+      "context": "Os capítulos 38-39 descrevem a batalha escatológica de Gogue e Magogue; os capítulos 40-48 descrevem a ordem celestial final do novo templo e da terra dividida entre as tribos."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "coragem",
+      "relevance": "primary",
+      "chapters": "1-6",
+      "context": "Sadraque, Mesaque e Abednego enfrentam a fornalha ardente; Daniel continua orando em direção a Jerusalém mesmo com o decreto imperial proibindo (Dn 6:10), demonstrando coragem extraordinária."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "sabedoria",
+      "relevance": "primary",
+      "chapters": "1-5",
+      "context": "'Deus lhes deu o conhecimento e a inteligência em todas as letras e em toda a sabedoria' (Dn 1:17); Daniel e seus companheiros são dez vezes mais sábios que todos os magos do rei."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "reino_de_deus",
+      "relevance": "primary",
+      "chapters": "2-7",
+      "context": "A pedra que destrói a estátua e se torna um grande monte (Dn 2:35,44) e o 'reino que nunca será destruído' entregue ao Filho do Homem (Dn 7:14) são imagens centrais do reino eterno de Deus."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "12",
+      "context": "'Muitos que dormem no pó da terra ressuscitarão, uns para a vida eterna, e outros para vergonha e horror eterno' (Dn 12:2) é uma das profecias mais explícitas da ressurreição no AT."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "identidade",
+      "relevance": "secondary",
+      "chapters": "1-6",
+      "context": "Daniel e seus companheiros recusam deixar que o poder imperial redefina sua identidade (novos nomes, nova dieta, nova religião), mantendo sua lealdade a Deus como fundamento identitário."
+    },
+    {
+      "book_id": "daniel",
+      "theme_id": "profecia",
+      "relevance": "secondary",
+      "chapters": "7-12",
+      "context": "As visões apocalípticas de Daniel previram com precisão a sequência de impérios e eventos messiânicos, tornando o livro um pilar da profecia bíblica sobre o fim dos tempos."
+    },
+    {
+      "book_id": "oseias",
+      "theme_id": "alianca",
+      "relevance": "primary",
+      "chapters": "2-11",
+      "context": "A aliança matrimonial é a metáfora central em Oséias: Israel rompeu a aliança com Deus 'como Adão' (Os 6:7); Deus promete restabelecer a aliança como um esposo que recebe a esposa de volta."
+    },
+    {
+      "book_id": "oseias",
+      "theme_id": "pecado",
+      "relevance": "primary",
+      "chapters": "4-13",
+      "context": "A acumulação de pecados — perjuro, mentira, homicídio, furto, adultério (Os 4:2) — e a idolatria persistente são denunciadas como infrações da aliança que levam ao juízo."
+    },
+    {
+      "book_id": "oseias",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "'Naquele dia farei por eles aliança... e os farei deitar em segurança' (Os 2:18) e 'desposar-te-ei comigo em fidelidade, e conhecerás ao Senhor' (Os 2:20) antecipam a nova aliança."
+    },
+    {
+      "book_id": "oseias",
+      "theme_id": "remanescente",
+      "relevance": "secondary",
+      "chapters": "1-11",
+      "context": "Embora a maioria seja destruída, 'o número dos filhos de Israel será como a areia do mar' (Os 1:10) e 'os filhos de Judá e os filhos de Israel juntos se congregarão' (Os 1:11) prometem um remanescente restaurado."
+    },
+    {
+      "book_id": "joel",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "A praga de gafanhotos é sinal do juízo divino; no capítulo 3, Deus julga todas as nações no 'vale de Jeosafá' por sua violência contra Israel e por repartir a terra santa."
+    },
+    {
+      "book_id": "joel",
+      "theme_id": "segunda_vinda",
+      "relevance": "secondary",
+      "chapters": "2-3",
+      "context": "A descrição do exército celestial (Jl 2:1-11) e do juízo final das nações (Jl 3:2,12) são imagens apocalípticas que o NT aplica aos eventos da volta de Cristo."
+    },
+    {
+      "book_id": "joel",
+      "theme_id": "luto",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "A devastação da praga leva ao luto coletivo: sacerdotes são chamados a lamentar, a terra chora (Jl 1:10), e toda a alegria é extinta: 'a alegria esmoreceu entre os filhos dos homens' (Jl 1:12)."
+    },
+    {
+      "book_id": "joel",
+      "theme_id": "presenca_de_deus",
+      "relevance": "secondary",
+      "chapters": "2-3",
+      "context": "'Assim vós sabereis que eu estou no meio de Israel, e que eu sou o Senhor vosso Deus' (Jl 2:27) e 'o Senhor habita em Sião, o meu santo monte' (Jl 3:17) prometem a presença divina restaurada."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "opressao",
+      "relevance": "primary",
+      "chapters": "2-8",
+      "context": "A opressão dos pobres pelos ricos é denunciada repetidamente: as 'vacas de Basã' que 'oprimem os pobres e esmagam os necessitados' (Am 4:1) e os que compram 'os pobres por dinheiro' (Am 8:6)."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "dia_do_senhor",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "'Ai de vós que desejais o dia do Senhor! Para que quereis vós este dia do Senhor? Ele é trevas e não luz' (Am 5:18); Amós inverte a expectativa popular sobre o dia do Senhor."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "vocacao",
+      "relevance": "secondary",
+      "chapters": "7",
+      "context": "Amós não é profeta de ofício, mas pastor e cultivador de sicômoros convocado diretamente por Deus: 'o Senhor me tirou de após o gado, e o Senhor me disse: Vai, profetiza ao meu povo Israel' (Am 7:14-15)."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "remanescente",
+      "relevance": "secondary",
+      "chapters": "3-9",
+      "context": "Amós fala do remanescente de forma ambivalente: como 'as duas pernas, ou um pedacinho da orelha' arrancadas da boca do leão (Am 3:12), mas também do 'resto de José' que pode ser salvo se buscar o bem (Am 5:15)."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "profecia",
+      "relevance": "secondary",
+      "chapters": "3-7",
+      "context": "'Certamente o Senhor Deus não fará coisa alguma, sem ter revelado o seu segredo aos seus servos, os profetas' (Am 3:7); Amós defende a legitimidade de sua mensagem profética contra a oposição oficial."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "idolatria",
+      "relevance": "secondary",
+      "chapters": "2-8",
+      "context": "Amós denuncia os altares de Betel e Gilgal como locais de culto sincretista e idolátrico; os que 'dormem junto a qualquer altar sobre roupas empenhadas' (Am 2:8) profanam o nome divino."
+    },
+    {
+      "book_id": "amos",
+      "theme_id": "prosperidade",
+      "relevance": "secondary",
+      "chapters": "6",
+      "context": "Os ricos de Sião que 'dormem em camas de marfim' e se 'ungem com o mais excelente óleo' sem se afligir 'pela ruína de José' (Am 6:4-6) são condenados como símbolo da prosperidade mal usada."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "orgulho",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O profeta denuncia a soberba de Edom: 'A soberba do teu coração te enganou, ó tu que habitas nas fendas do penhasco.' O orgulho é o pecado central que leva à queda de Edom."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "dia_do_senhor",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "'Porquanto o dia do Senhor está perto, sobre todas as nações' — Obadias anuncia o Dia do Senhor como o momento de ajuste de contas universal."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "vinganca_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Deus punirá Edom pela violência feita ao povo irmão de Jacó: 'Por causa da violência feita a teu irmão Jacó, cobrir-te-á a confusão'."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Após o juízo sobre Edom, Israel recuperará suas posses: 'Os da casa de Jacó possuirão as suas herdades' e 'subirão salvadores ao monte de Sião'."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "reino_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O livro culmina com a proclamação: 'E o reino será do Senhor', afirmando a soberania final de Deus sobre todas as nações."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "remanescente",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Enquanto Edom é exterminado completamente, o monte Sião terá livramento: 'No monte de Sião haverá livramento, e ele será santo'."
+    },
+    {
+      "book_id": "obadias",
+      "theme_id": "exilio",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "O texto menciona os cativos de Jerusalém e de Israel que possuirão as cidades do Negebe após a restauração prometida por Deus."
+    },
+    {
+      "book_id": "jonas",
+      "theme_id": "juizo",
+      "relevance": "secondary",
+      "chapters": "1,3",
+      "context": "Deus manda Jonas proclamar que em quarenta dias Nínive seria subvertida; o juízo foi retido mediante o arrependimento, revelando que seu propósito é redentor."
+    },
+    {
+      "book_id": "jonas",
+      "theme_id": "orgulho",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "Jonas fica irado com a misericórdia de Deus para com Nínive e deseja morrer, revelando um etnocentrismo e orgulho que Deus confronta diretamente."
+    },
+    {
+      "book_id": "jonas",
+      "theme_id": "identidade_de_deus",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "Jonas declara a identidade de Deus: 'Deus compassivo e misericordioso, longânimo e grande em benignidade', revelando quem Deus é mesmo diante da reclamação do profeta."
+    },
+    {
+      "book_id": "jonas",
+      "theme_id": "temor_de_deus",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Os marinheiros gentios 'temeram ao Senhor com grande temor' após a tempestade e Jonas ser lançado ao mar, oferecendo sacrifícios — o temor se espalha aos pagãos."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1-3,6",
+      "context": "Deus desce em juízo sobre Samária e Jerusalém por causa de suas transgressões; 'Sião será lavrada como um campo, e Jerusalém se tornará em montões de pedras'."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "4-5,7",
+      "context": "Após o juízo vem a restauração: o monte do Senhor será exaltado, as nações virão a Sião, e o remanescente de Jacó será restaurado por Deus."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "1,5",
+      "context": "Samária é destruída por causa de suas imagens esculpidas e ídolos; Miquéias anuncia que Deus arrancará as imagens esculpidas do meio do povo."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "remanescente",
+      "relevance": "primary",
+      "chapters": "2,4-5,7",
+      "context": "Deus promete ajuntar o restante de Israel 'como ovelhas no curral'; da que coxeava fará 'um resto' e da expulsa 'uma nação poderosa'."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "profecia",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Miquéias contrasta os falsos profetas que pregam paz por dinheiro com sua própria missão: 'estou cheio do poder do Espírito do Senhor, assim como de justiça e de coragem'."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "primary",
+      "chapters": "7",
+      "context": "'Quem é Deus semelhante a ti, que perdoas a iniquidade... O Senhor não retém a sua ira para sempre, porque ele se deleita na benignidade.' Deus mostrará a Jacó a fidelidade."
+    },
+    {
+      "book_id": "miqueias",
+      "theme_id": "misericordia",
+      "relevance": "secondary",
+      "chapters": "7",
+      "context": "Miquéias conclui celebrando a misericórdia de Deus que perdoa a iniquidade e lança todos os pecados nas profundezas do mar."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "Naum é inteiramente dedicado ao anúncio do juízo sobre Nínive: 'Ai da cidade ensanguentada! Ela está toda cheia de mentiras e de rapina', com descrição vívida de sua destruição."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "vinganca_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "'O Senhor é um Deus zeloso e vingador... toma vingança contra os seus adversários, e guarda a ira contra os seus inimigos', — Naum abre declarando o caráter de Deus como vingador."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "santidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Deus é apresentado com poder absoluto: montes tremem, vales se fundem, o mar se seca; 'Quem pode manter-se diante do seu furor?' — sua santidade é aterrorizante."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "protecao_divina",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "'O Senhor é bom, uma fortaleza no dia da angústia; e conhece os que nele confiam' — em contraste com o juízo sobre Nínive, Deus é refúgio para os que o temem."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "opressao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Nínive é descrita como a 'mestra das feitiçarias, que vende nações por seus deleites'; seu julgamento é resposta à opressão brutal que exerceu sobre os povos."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "violencia",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "A cidade é chamada 'ensanguentada' e 'cheia de rapina'; Naum descreve a carnificina com riqueza de detalhes — cavalos, espadas, mortos inumeráveis."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "orgulho",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Nínive, que dizia 'Eu sou, e fora de mim não há outra' torna-se 'covil de feras'; sua arrogância é a razão implícita de sua queda."
+    },
+    {
+      "book_id": "naum",
+      "theme_id": "libertacao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Para Judá, a queda de Nínive é libertação: 'quebrarei o seu jugo de sobre ti, e romperei as tuas cadeias'; 'Celebra as tuas festas, ó Judá, cumpre os teus votos'."
+    },
+    {
+      "book_id": "habacuque",
+      "theme_id": "justica_divina",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Habacuque questiona como Deus pode usar os caldeus ímpios para julgar Israel; Deus responde que os caldeus também serão julgados por sua violência e arrogância."
+    },
+    {
+      "book_id": "habacuque",
+      "theme_id": "idolatria",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Os cinco ais do capítulo 2 incluem a condenação da idolatria: 'Que aproveita a imagem esculpida?... o artífice confia na sua própria obra, quando forma ídolos mudos'."
+    },
+    {
+      "book_id": "habacuque",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "2-3",
+      "context": "'A terra se encherá do conhecimento da glória do Senhor, como as águas cobrem o mar' (2:14); no capítulo 3, a teofania revela a glória de Deus cobrindo os céus."
+    },
+    {
+      "book_id": "habacuque",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "2-3",
+      "context": "Habacuque 'sobe à sua torre de vigia' para aguardar a resposta de Deus, e o capítulo 3 é explicitamente uma 'oração do profeta' com notação musical."
+    },
+    {
+      "book_id": "habacuque",
+      "theme_id": "presenca_de_deus",
+      "relevance": "secondary",
+      "chapters": "2-3",
+      "context": "'O Senhor está no seu santo templo; cale-se diante dele toda a terra'; a teofania do capítulo 3 apresenta Deus marchando em poder pelos montes antigos."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O juízo recai especialmente sobre os que adoram Baal, os sacerdotes de ídolos, e 'os que sobre os telhados adoram o exército do céu' e juram por Milcom."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "remanescente",
+      "relevance": "primary",
+      "chapters": "2-3",
+      "context": "Deus reservará 'um povo humilde e pobre' que confiará no nome do Senhor; 'o remanescente de Israel não cometerá iniquidade, nem proferirá mentira'."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "restauracao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "O livro termina com promessa de restauração jubilosa: 'O Senhor teu Deus está no meio de ti, poderoso para te salvar; ele se deleitará em ti com alegria; renovar-te-á no seu amor'."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "alegria",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "'Canta alegremente, ó filha de Sião; rejubila, ó Israel; regozija-te, e exulta de todo o coração' — a restauração culmina em canto de alegria diante da presença de Deus."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "A visão final inclui nações estrangeiras adorando a Deus: 'darei lábios puros aos povos, para que todos invoquem o nome do Senhor, e o sirvam com o mesmo espírito'."
+    },
+    {
+      "book_id": "sofonias",
+      "theme_id": "presenca_de_deus",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "'O Senhor teu Deus está no meio de ti' (3:17) — a promessa central de restauração é a presença de Deus habitando no meio do seu povo restaurado."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Ageu é o livro profético mais focado na reconstrução do templo; todo o capítulo 1 confronta o povo por habitar em casas forradas enquanto a casa de Deus estava em ruínas."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "providencia",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "A falta de provisão é diretamente ligada à desobediência: Deus havia retido o orvalho e os frutos por causa do templo em ruínas; ao recomeçar a obra, a bênção retorna."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "'A glória desta última casa será maior do que a da primeira, diz o Senhor dos exércitos; e neste lugar darei a paz' — a glória de Deus preencherá o novo templo."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "bencao",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "'Desde este dia hei de vos abençoar' — Deus promete transformar a maldição em bênção a partir do dia em que os alicerces do templo forem lançados."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "novo_comeco",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "O livro marca um novo começo para o povo pós-exílico; Deus suscita o espírito dos líderes e do povo para retomar a obra interrompida há décadas."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "soberania_de_deus",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "'Ainda uma vez, daqui a pouco, e abalarei os céus e a terra'; Deus declara que abalará todas as nações e que 'as coisas preciosas de todas as nações virão'."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "santidade",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Ageu usa a lei levítica sobre contaminação para ilustrar que o povo impuro não pode santificar sua oferta; a santidade deve preceder a adoração aceitável."
+    },
+    {
+      "book_id": "ageu",
+      "theme_id": "consagracao",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "O retorno à obra do templo é um ato de consagração nacional; o povo se dedica novamente à construção da casa de Deus como expressão de fé e devoção."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "templo",
+      "relevance": "primary",
+      "chapters": "1,4,6",
+      "context": "As visões de Zacarias culminam na reconstrução do templo; 'As mãos de Zorobabel têm lançado os alicerces desta casa; também as suas mãos a acabarão'."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "segunda_vinda",
+      "relevance": "primary",
+      "chapters": "14",
+      "context": "O capítulo 14 descreve o Dia do Senhor: 'Então virá o Senhor meu Deus, e todos os santos com ele... O Senhor será rei sobre toda a terra'."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "adoracao",
+      "relevance": "secondary",
+      "chapters": "14",
+      "context": "Nações subirão anualmente a Jerusalém 'para adorarem o Rei, o Senhor dos exércitos, e para celebrarem a festa dos tabernáculos', tornando-se adoradores."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "arrependimento",
+      "relevance": "secondary",
+      "chapters": "1,12",
+      "context": "'Tornai-vos para mim, e eu me tornarei para vós'; em 12:10, o espírito de graça é derramado e o povo pranteará 'aquele a quem traspassaram' com genuíno arrependimento."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "13",
+      "context": "A visão da fonte aberta para remover o pecado (13:1) e a purificação do remanescente pelo fogo aponta para a nova aliança em que Deus perduará seu povo."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "1-6",
+      "context": "Zacarias é o livro profético mais carregado de visões simbólicas: cavalos coloridos, chifres e ferreiros, o castiçal, o rolo voante, os quatro carros — profecia visionária densa."
+    },
+    {
+      "book_id": "zacarias",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "8",
+      "context": "'Naquele dia... dez homens de nações de todas as línguas pegarão na orla das vestes de um judeu, dizendo: Iremos convosco, porque temos ouvido que Deus está convosco'."
+    },
+    {
+      "book_id": "malaquias",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "O livro denuncia a adoração corrompida: sacerdotes oferecem animais cegos, coxos e doentes, e tratam o altar com desdém; 'a mesa do Senhor é desprezível'."
+    },
+    {
+      "book_id": "malaquias",
+      "theme_id": "temor_de_deus",
+      "relevance": "primary",
+      "chapters": "1,3-4",
+      "context": "Os que temem ao Senhor são distinguidos dos ímpios; 'um memorial foi escrito diante dele, para os que temiam ao Senhor'; 'para vós, os que temeis o meu nome, nascerá o sol da justiça'."
+    },
+    {
+      "book_id": "malaquias",
+      "theme_id": "rebeliao",
+      "relevance": "secondary",
+      "chapters": "1-3",
+      "context": "O povo cansou de servir a Deus e diz 'inútil é servir a Deus'; os sacerdotes desviam-se do caminho e corrompem o pacto — a rebelião é o tema transversal do livro."
+    },
+    {
+      "book_id": "malaquias",
+      "theme_id": "bencao",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Deus promete abrir 'as janelas do céu, e derramar sobre vós tal bênção, que dela vos advenha a maior abastança' àqueles que trouxerem todos os dízimos fielmente."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "palavras",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "O capítulo 3 dedica-se ao poder e perigo da língua: 'a língua também é um fogo; qual mundo de iniquidade', capaz de contaminar todo o corpo e ser inflamada pelo inferno."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "injustica",
+      "relevance": "primary",
+      "chapters": "2,5",
+      "context": "'O salário que fraudulentamente retivestes aos trabalhadores... clama, e os clamores dos ceifeiros têm chegado aos ouvidos do Senhor dos exércitos' — clamor contra a injustiça econômica."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "humildade",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "'Humilhai-vos perante o Senhor, e ele vos exaltará'; Tiago combate o orgulho, a jactância e a presunção, chamando ao abaixamento diante de Deus."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "1,5",
+      "context": "'A aprovação da vossa fé produz a perseverança; e a perseverança tenha a sua obra perfeita'; o exemplo dos profetas e de Jó ilustra a perseverança premiada."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "hipocrisia_religiosa",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "'Se alguém cuida ser religioso e não refreia a sua língua... a sua religião é vã'; a religião pura é cuidar de órfãos e viúvas — não apenas aparências externas."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "autocontrole",
+      "relevance": "primary",
+      "chapters": "1,3-4",
+      "context": "Tiago chama a ser 'pronto para ouvir, tardio para falar e tardio para se irar'; o autocontrole da língua e das paixões é central para a vida cristã madura."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "comunidade",
+      "relevance": "secondary",
+      "chapters": "2,5",
+      "context": "A carta aborda a vida comunitária: não fazer acepção de pessoas na reunião, confessar pecados uns aos outros, orar uns pelos outros para a cura mútua."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "cobiça",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "'Cobiçais e nada tendes; logo matais. Invejais, e não podeis alcançar; logo combateis e fazeis guerras' — a cobiça é raiz de conflito na comunidade cristã."
+    },
+    {
+      "book_id": "tiago",
+      "theme_id": "reconciliacao",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "A instrução final sobre converter o irmão extraviado aponta para a reconciliação: 'aquele que fizer converter um pecador do erro do seu caminho salvará da morte uma alma'."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "perseguicao",
+      "relevance": "primary",
+      "chapters": "3-5",
+      "context": "Os crentes são chamados a não estranhar 'a ardente provação que vem sobre vós'; sofrer 'como cristão' é motivo de glória, não de vergonha, porque o Espírito de Deus repousa sobre eles."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "santidade",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "'Como é santo aquele que vos chamou, sede vós também santos em todo o vosso procedimento; porquanto está escrito: Sereis santos, porque eu sou santo'."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "1,4-5",
+      "context": "'O Deus de toda a graça, que em Cristo vos chamou à sua eterna glória... vos há de aperfeiçoar, confirmar e fortalecer'; a graça de Deus sustenta em meio ao sofrimento."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "salvacao",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "Pedro descreve a salvação como resgate pelo 'precioso sangue, como de um cordeiro sem defeito'; os profetas indagavam sobre essa graça destinada aos crentes."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "humildade",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "'Cingi-vos todos de humildade uns para com os outros, porque Deus resiste aos soberbos, mas dá graça aos humildes'; a humildade é postura tanto com Deus quanto com outros."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "palavra_de_deus",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "'A palavra do Senhor permanece para sempre. E esta é a palavra que vos foi evangelizada'; a Palavra incorruptível é o fundamento do novo nascimento e do crescimento."
+    },
+    {
+      "book_id": "1pedro",
+      "theme_id": "sacrificio",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Os crentes são chamados a ser 'sacerdócio santo, a fim de oferecer sacrifícios espirituais, aceitáveis a Deus por Jesus Cristo' — vida como sacerdócio."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "engano",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "Falsos mestres introduzirão 'encobertamente heresias destruidoras', com 'palavras arrogantes de vaidade'; Pedro adverte para não ser seduzido por sua ganância e dissolução."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "conhecimento_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Pedro exorta a crescer 'no pleno conhecimento de Deus e de Jesus nosso Senhor'; o conhecimento é fundamento das promessas divinas e da participação na natureza divina."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "'Nós, porém, segundo a sua promessa, aguardamos novos céus e uma nova terra, nos quais habita a justiça' — a esperança escatológica centra-se na nova criação."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "2-3",
+      "context": "Pedro revê histórias de juízo: anjos que pecaram, dilúvio, Sodoma e Gomorra; 'os céus e a terra de agora... têm sido guardados para o fogo, sendo reservados para o dia do juízo'."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "1,3",
+      "context": "'A profecia nunca foi produzida por vontade dos homens, mas os homens da parte de Deus falaram movidos pelo Espírito Santo' — a origem divina das Escrituras."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "arrependimento",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Deus é 'longânimo para convosco, não querendo que ninguém se perca, senão que todos venham a arrepender-se' — a demora da volta de Cristo tem propósito redentor."
+    },
+    {
+      "book_id": "2pedro",
+      "theme_id": "coragem",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Pedro contrasta falsos mestres 'atrevidos e arrogantes' que blasfemam com os anjos que não ousam pronunciar juízo blasfemo — a coragem verdadeira é fundada em Deus."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "'Esta é a vitória que vence o mundo: a nossa fé'; 'Todo aquele que crê que Jesus é o Cristo, é o nascido de Deus' — a fé em Cristo é central para a identidade e vitória cristã."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "comunidade",
+      "relevance": "primary",
+      "chapters": "1,3-4",
+      "context": "'O que vimos e ouvimos, isso vos anunciamos, para que vós também tenhais comunhão conosco; e a nossa comunhão é com o Pai' — a comunhão mútua e com Deus é fundamento do livro."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "identidade",
+      "relevance": "primary",
+      "chapters": "3,5",
+      "context": "'Vede que grande amor nos tem concedido o Pai: que fôssemos chamados filhos de Deus' — a identidade como filhos de Deus é o maior presente e fundamento do viver cristão."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "pecado",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "'Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar'; João trata honestamente da realidade do pecado sem negar a graça perdoadora de Deus."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "vida_eterna",
+      "relevance": "primary",
+      "chapters": "1,5",
+      "context": "'Deus nos deu a vida eterna, e esta vida está em seu Filho. Quem tem o Filho tem a vida' — a vida eterna não é apenas futura mas presente em comunhão com Cristo."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "obediencia",
+      "relevance": "secondary",
+      "chapters": "2-3",
+      "context": "'Nisto sabemos que o conhecemos; se guardamos os seus mandamentos'; guardar os mandamentos é o fruto e evidência do amor genuíno a Deus."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "novo_nascimento",
+      "relevance": "primary",
+      "chapters": "3,5",
+      "context": "'Aquele que é nascido de Deus não vive pecando... Sabemos que todo aquele que é nascido de Deus não vive pecando' — o novo nascimento produz transformação real de caráter."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "amor_de_deus",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "'Nisto está o amor: não em que nós tenhamos amado a Deus, mas em que ele nos amou a nós, e enviou seu Filho como propiciação pelos nossos pecados' — o amor como iniciativa divina."
+    },
+    {
+      "book_id": "1joao",
+      "theme_id": "conhecimento_de_deus",
+      "relevance": "primary",
+      "chapters": "2,4",
+      "context": "'Aquele que não ama não conhece a Deus; porque Deus é amor' — para João, o amor é o critério fundamental de quem verdadeiramente conhece a Deus."
+    },
+    {
+      "book_id": "2joao",
+      "theme_id": "engano",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "'Já muitos enganadores saíram pelo mundo, os quais não confessam que Jesus Cristo veio em carne. Tal é o enganador e o anticristo' — alerta contra o engano doutrinário."
+    },
+    {
+      "book_id": "2joao",
+      "theme_id": "obediencia",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "'O amor é este: que andemos segundo os seus mandamentos' — João define o amor não como sentimento mas como obediência concreta ao Deus que nos revelou seus caminhos."
+    },
+    {
+      "book_id": "2joao",
+      "theme_id": "hospitalidade",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "João proíbe receber em casa os que trazem ensino contrário a Cristo: 'não o recebais em casa, nem tampouco o saudeis' — a hospitalidade tem limites doutrinários."
+    },
+    {
+      "book_id": "2joao",
+      "theme_id": "perseveranca",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "'Todo aquele que vai além do ensino de Cristo e não permanece nele, não tem a Deus' — permanecer no ensino de Cristo é condição de ter tanto ao Pai como ao Filho."
+    },
+    {
+      "book_id": "3joao",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Irmãos enviados saíram 'por amor do Nome, sem nada aceitar dos gentios' — a missão sustentada pela comunidade é apresentada como cooperação com a verdade."
+    },
+    {
+      "book_id": "3joao",
+      "theme_id": "integridade",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Gaio é elogiado por andar na verdade e praticar fielmente o amor; Demétrio tem bom testemunho de todos; a carta valoriza a integridade de caráter consistente."
+    },
+    {
+      "book_id": "3joao",
+      "theme_id": "orgulho",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Diótrefes é o anti-modelo: seu amor pela primazia o leva a falar palavras maliciosas, excluir irmãos e agir contra a autoridade apostólica."
+    },
+    {
+      "book_id": "3joao",
+      "theme_id": "comunidade",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "A carta retrata a vida comunitária das igrejas primitivas: hospitalidade, itinerância de obreiros, conflitos de liderança e o papel do amor fraternal na coesão eclesial."
+    },
+    {
+      "book_id": "judas",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "'Edificando-vos sobre a vossa santíssima fé, orando no Espírito Santo, conservai-vos no amor de Deus, esperando a misericórdia de nosso Senhor Jesus Cristo para a vida eterna'."
+    },
+    {
+      "book_id": "judas",
+      "theme_id": "divisao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "'Estes são os que causam divisões; são sensuais, e não têm o Espírito' — os falsos mestres são identificados por seu efeito destrutivo sobre a unidade da comunidade."
+    },
+    {
+      "book_id": "judas",
+      "theme_id": "segunda_vinda",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Judas cita a profecia de Enoque: 'Eis que veio o Senhor com os seus milhares de santos, para executar juízo sobre todos' — a vinda de Cristo como juiz final."
+    },
+    {
+      "book_id": "judas",
+      "theme_id": "graca",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Falsos mestres 'convertem em dissolução a graça de nosso Deus' — Judas defende a graça genuína contra seu abuso antinomiano, mostrando que graça não é licença para o pecado."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "fim_dos_tempos",
+      "relevance": "primary",
+      "chapters": "6-20",
+      "context": "Os sete selos, as sete trombetas e as sete taças revelam os eventos do fim; 'o tempo está próximo' e os eventos descritos confluem para o fim desta era e o estabelecimento do Reino."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "perseguicao",
+      "relevance": "primary",
+      "chapters": "2-3,6-7,12-13",
+      "context": "As almas debaixo do altar foram 'mortos por causa da palavra de Deus'; João está em Patmos 'por causa da palavra de Deus e do testemunho de Jesus' — a perseguição é contexto real."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "21-22",
+      "context": "'Vi um novo céu e uma nova terra' — a nova Jerusalém desce do céu como noiva; nela não há mais mar, morte, pranto ou maldição; a criação é completamente renovada."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "soberania_de_deus",
+      "relevance": "primary",
+      "chapters": "4-5,11,19",
+      "context": "'Digno és, Senhor nosso e Deus nosso, de receber a glória e a honra e o poder; porque tu criaste todas as coisas'; 'Aleluia! porque já reina o Senhor nosso Deus, o Todo-Poderoso'."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "reino_de_deus",
+      "relevance": "primary",
+      "chapters": "11,20-22",
+      "context": "'O reino do mundo passou a ser de nosso Senhor e do seu Cristo, e ele reinará pelos séculos dos séculos'; os santos 'reinarão com Cristo durante mil anos'."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "profecia",
+      "relevance": "primary",
+      "chapters": "1,10,19,22",
+      "context": "João é chamado a escrever o que viu; 'o testemunho de Jesus é o espírito da profecia'; bênção é prometida a quem guarda 'as palavras da profecia deste livro'."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "vida_eterna",
+      "relevance": "primary",
+      "chapters": "21-22",
+      "context": "A nova Jerusalém é descrita em detalhes: o rio da água da vida, a árvore da vida, os servos que verão a face de Deus e 'reinarão pelos séculos dos séculos'."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "fidelidade",
+      "relevance": "primary",
+      "chapters": "2-3,12-13",
+      "context": "Cartas às igrejas exigem fidelidade sob pressão: 'Sê fiel até a morte, e dar-te-ei a coroa da vida'; aqueles que não adoram a besta demonstram fidelidade a custo de suas vidas."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "guerra_espiritual",
+      "relevance": "primary",
+      "chapters": "12-13,19-20",
+      "context": "O dragão, a besta e o falso profeta fazem guerra aos santos; o arcanjo Miguel briga com o dragão; Cristo derrota os exércitos do mal — a guerra espiritual cósmicae revelada."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "nova_alianca",
+      "relevance": "secondary",
+      "chapters": "21",
+      "context": "'Eles serão o seu povo, e Deus mesmo estará com eles' — a fórmula da aliança se cumpre plenamente na nova Jerusalém, onde Deus habita permanentemente com seu povo."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "idolatria",
+      "relevance": "primary",
+      "chapters": "2,9,13,17-18",
+      "context": "A marca da besta e a adoração de sua imagem são o teste final da idolatria; Babilônia seduz as nações; 'os que adoraram a besta' são separados dos que ficaram fiéis a Deus."
+    },
+    {
+      "book_id": "apocalipse",
+      "theme_id": "arrependimento",
+      "relevance": "secondary",
+      "chapters": "2-3,9",
+      "context": "Cinco das sete igrejas são chamadas ao arrependimento; mesmo após as pragas, 'os outros homens... não se arrependeram' — o arrependimento é urgente e possível até o final."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "2-4",
+      "context": "Paulo argumenta extensamente que a justificação não vem pelas obras da lei, mas pela fé, e que a lei serviu como 'aio' temporário até a vinda de Cristo (3:24)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "2-3",
+      "context": "Paulo ensina que o homem não é justificado pelas obras da lei, mas 'pela fé em Cristo Jesus' (2:16), e que os que são da fé são filhos de Abraão (3:7)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "identidade",
+      "relevance": "primary",
+      "chapters": "3-4",
+      "context": "Em Cristo não há judeu nem grego, escravo nem livre — todos são um em Cristo Jesus, filhos de Deus e herdeiros conforme a promessa de Abraão (3:28-29)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "Paulo conclui que 'nem a circuncisão nem a incircuncisão é coisa alguma, mas sim o ser uma nova criatura' (6:15), centralizando a identidade cristã."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "3-4",
+      "context": "Cristo nos resgatou da maldição da lei (3:13) e resgatou os que estavam debaixo da lei para que recebêssemos a adoção de filhos (4:4-5)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "promessa",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo argumenta que a herança vem da promessa feita a Abraão e seu Descendente (Cristo), e não da lei que veio 430 anos depois (3:17-18)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "amor",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "Paulo exorta que a liberdade cristã se expressa em serviço mútuo por amor (5:13) e que toda a lei se cumpre no mandamento de amar ao próximo (5:14)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "imoralidade",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "Paulo lista as obras da carne — prostituição, impureza, idolatria, inimizades — que impedem herdar o reino de Deus (5:19-21)."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "obediencia",
+      "relevance": "secondary",
+      "chapters": "5-6",
+      "context": "Paulo instrui a andar no Espírito (5:16) e carregar as cargas uns dos outros cumprindo a lei de Cristo (6:2), como expressão prática da fé."
+    },
+    {
+      "book_id": "galatas",
+      "theme_id": "perseguicao",
+      "relevance": "secondary",
+      "chapters": "1;4-5",
+      "context": "Paulo relata sua própria perseguição anterior à igreja (1:13) e indica que pregar a cruz implica perseguição (5:11), algo vivenciado pelos gálatas (4:29)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "unidade",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "Paulo exorta os efésios a guardar 'a unidade do Espírito no vínculo da paz', afirmando que há um só corpo, um só Espírito, um só Senhor, uma só fé, um só batismo (4:3-5)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "3-5",
+      "context": "Paulo ora para que os efésios conheçam 'o amor de Cristo, que excede todo o entendimento' (3:19) e exorta a andar em amor como Cristo amou a igreja (5:2; 5:25)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "guerra_espiritual",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "Paulo instrui os crentes a se revestirem de toda a armadura de Deus para lutar contra principados, potestades e hostes espirituais da iniquidade nas regiões celestes (6:11-12)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Paulo declara que 'pela graça sois salvos, por meio da fé, e isto não vem de vós, é dom de Deus; não vem das obras, para que ninguém se glorie' (2:8-9)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Em Cristo temos a redenção pelo seu sangue, a remissão dos nossos delitos, segundo as riquezas da sua graça (1:7)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "espirito_santo",
+      "relevance": "primary",
+      "chapters": "1-5",
+      "context": "Os efésios foram 'selados com o Espírito Santo da promessa' (1:13) e Paulo os exorta a encheram-se do Espírito (5:18) e a não entristecê-lo (4:30)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "missao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo apresenta o mistério revelado de que os gentios são co-herdeiros e membros do mesmo corpo em Cristo (3:6), sendo a igleja o instrumento para manifestar a sabedoria de Deus às potestades celestes (3:10)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "reconciliacao",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "Cristo derrubou a parede de separação entre judeus e gentios e reconciliou ambos com Deus em um só corpo pela cruz (2:14-16)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "santificacao",
+      "relevance": "primary",
+      "chapters": "4-5",
+      "context": "Paulo exorta a despir o velho homem e se revestir do novo criado em 'verdadeira justiça e santidade' (4:22-24), vivendo como filhos da luz (5:8)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "gloria_de_deus",
+      "relevance": "primary",
+      "chapters": "1;3",
+      "context": "Toda a estrutura teológica da carta aponta para 'o louvor da glória da sua graça' (1:6) e Paulo ora para que Deus receba glória na igreja e em Cristo por todas as gerações (3:21)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "3;6",
+      "context": "Paulo apresenta uma oração de intercessão aprofundada pelo fortalecimento interior dos efésios (3:14-19) e exorta a orar 'em todo tempo no Espírito' (6:18)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "humildade",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "A caminhada digna da vocação inclui 'toda a humildade e mansidão, com longanimidade, suportando-vos uns aos outros em amor' (4:2)."
+    },
+    {
+      "book_id": "efesios",
+      "theme_id": "fe",
+      "relevance": "secondary",
+      "chapters": "2-6",
+      "context": "A fé é o meio pelo qual a graça opera (2:8), o escudo que apaga os dardos do maligno (6:16), e fundamento da unidade cristã (4:5)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "alegria",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Paulo repete o chamado ao gozo em toda a carta — 'Regozijai-vos sempre no Senhor; outra vez digo, regozijai-vos' (4:4) — mesmo estando preso."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "paz",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "'A paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos pensamentos em Cristo Jesus' (4:7), prometida aos que oram com ação de graças."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1;3",
+      "context": "Paulo fala do 'progresso e gozo na fé' dos filipenses (1:25) e almeja ser achado em Cristo com a justiça que vem pela fé, e não da lei (3:9)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo usa a metáfora do corredor: 'esquecendo-me das coisas que atrás ficam e avançando para as que estão adiante, prossigo para o alvo' (3:13-14)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "unidade",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "Paulo exorta os filipenses a permanecerem 'firmes num só espírito, combatendo juntamente com uma só alma' (1:27) e a terem o mesmo amor e ânimo (2:2)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Paulo regozija-se que Cristo seja anunciado de toda forma, pois está preso pela defesa do evangelho, e seus sofrimentos contribuíram para o progresso do evangelho (1:12-18)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "segunda_vinda",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Paulo declara que 'a nossa pátria está nos céus, donde também aguardamos um Salvador, o Senhor Jesus Cristo' que transformará o corpo da nossa humilhação (3:20-21)."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "generosidade",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "Paulo agradece os filipenses por seu apoio material — 'nenhuma igreja comunicou comigo no sentido de dar e de receber, senão vós somente' (4:15-16) — como 'sacrifício aceitável a Deus'."
+    },
+    {
+      "book_id": "filipenses",
+      "theme_id": "sofrimento",
+      "relevance": "secondary",
+      "chapters": "1;3",
+      "context": "Paulo ensina que foi concedido aos crentes não apenas crer em Cristo, mas também padecer por ele (1:29), e que compartilhar dos sofrimentos de Cristo é parte do conhecê-lo (3:10)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Cristo é 'imagem do Deus invisível, primogênito de toda a criação' em quem foram criadas todas as coisas, e nele habita corporalmente toda a plenitude da divindade (1:15-16; 2:9)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "nova_criacao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo exorta a despir o velho homem e vestir o novo 'que se renova para o pleno conhecimento, segundo a imagem daquele que o criou' (3:9-10), onde Cristo é tudo em todos."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "espirito_santo",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Epafras declara o amor dos colossenses 'no Espírito' (1:8) e Paulo ora para que sejam cheios do pleno conhecimento da vontade de Deus 'em toda a sabedoria e entendimento espiritual' (1:9)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Em Cristo temos 'a redenção, a saber, a remissão dos pecados' (1:14) e Deus reconciliou os colossenses pela morte de seu Filho para apresentá-los santos e irrepreensíveis (1:22)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo instrui que 'a palavra de Cristo habite em vós ricamente' com salmos, hinos e cânticos espirituais, 'louvando a Deus com gratidão em vossos corações' (3:16)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "santificacao",
+      "relevance": "primary",
+      "chapters": "3",
+      "context": "Paulo exorta a exterminar as inclinações carnais (3:5-8) e a revestir-se de coração compassivo, humildade, mansidão e amor (3:12-14), vivendo em santidade prática."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "conhecimento_de_deus",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Paulo ora para que os colossenses sejam cheios 'do pleno conhecimento da sua vontade' (1:9), e em Cristo estão escondidos 'todos os tesouros da sabedoria e da ciência' (2:3)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "lei",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Cristo apagou o 'escrito de dívida que havia contra nós nas suas ordenanças' cravando-o na cruz (2:14), e Paulo adverte contra ordenanças humanas que são sombras das coisas de Cristo (2:16-17)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "idolatria",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Paulo inclui a avareza na lista de vícios a serem eliminados, qualificando-a como idolatria, pois serve ao desejo em vez de a Deus (3:5)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "unidade",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "No novo homem não há distinção entre grego e judeu, bárbaro ou cita, escravo ou livre — 'mas Cristo é tudo em todos' — convocando a unidade em amor (3:11)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "familia",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Paulo apresenta instruções práticas para esposas, maridos, filhos e pais, baseadas no senhorio de Cristo como fundamento das relações familiares (3:18-21)."
+    },
+    {
+      "book_id": "colossenses",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "4",
+      "context": "Paulo instrui a 'perseverar na oração, velando nela com ações de graças' e pede intercessão para que Deus abra 'porta à palavra' do mistério de Cristo (4:2-3)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "4-5",
+      "context": "Paulo exorta que os crentes não se entristem 'como os outros que não têm esperança' pelos mortos em Cristo, pois ressuscitarão (4:13-14), e cobre a esperança da salvação como capacete (5:8)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "fim_dos_tempos",
+      "relevance": "primary",
+      "chapters": "5",
+      "context": "Paulo instrui sobre 'o dia do Senhor' que virá como 'ladrão de noite', e exorta os crentes a vigiar e ser sóbrios, pois são 'filhos da luz e filhos do dia' (5:1-6)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "santificacao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "Paulo declara que 'esta é a vontade de Deus, a vossa santificação' — cada um deve possuir seu vaso em santidade e honra, abstendo-se da prostituição (4:3-4)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1-3",
+      "context": "Paulo lembra-se da 'obra de fé, trabalho de amor e firmeza de esperança' dos tessalonicenses (1:3) e envia Timóteo para fortalecer e exortar sua fé (3:2)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Paulo se recorda do 'trabalho de amor' dos tessalonicenses (1:3) e ora para que o Senhor os faça 'crescer e abundar em amor uns para com os outros e para com todos' (3:12)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "perseguicao",
+      "relevance": "secondary",
+      "chapters": "1-3",
+      "context": "Os tessalonicenses receberam a palavra 'em muita tribulação, com gozo do Espírito Santo' e se tornaram modelo para os crentes na Macedônia (1:6-7), sofrendo de seus próprios concidadãos (2:14)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "ressurreicao",
+      "relevance": "primary",
+      "chapters": "4",
+      "context": "Paulo fundamenta a esperança escatológica na ressurreição: 'se cremos que Jesus morreu e ressurgiu, assim também Deus tornará a trazer juntamente com ele os que dormem' (4:14)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "missao",
+      "relevance": "secondary",
+      "chapters": "1-2",
+      "context": "Os tessalonicenses se converteram dos ídolos a Deus vivo e verdadeiro (1:9), e sua fé se divulgou a todos os lugares sem necessidade de Pablo falar nada (1:8)."
+    },
+    {
+      "book_id": "1tessalonicenses",
+      "theme_id": "oracao",
+      "relevance": "secondary",
+      "chapters": "5",
+      "context": "Paulo exorta a orar 'sem cessar', dar graças em tudo e não extinguir o Espírito nem desprezar as profecias (5:17-20)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "fim_dos_tempos",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "Paulo descreve a apostasia futura e a revelação do 'homem do pecado, filho da perdição' que se opõe a tudo que se chama Deus antes da vinda do Senhor (2:3-4)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "juizo",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O Senhor Jesus virá 'em chama de fogo' para 'tomar vingança dos que não conhecem a Deus' que sofrerão 'perdição eterna, banidos da face do Senhor' (1:7-9)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Paulo glorifica-se da 'constância e fé' dos tessalonicenses em todas as perseguições que suportam, como prova de que são dignos do reino de Deus (1:4-5)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "Paulo agradece por Deus ter dado 'eterna consolação e boa esperança pela graça', pedindo que ela console os corações e confirme em toda boa obra (2:16-17)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "engano",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Paulo alerta sobre o iníquo que virá 'com todo o engano da injustiça' e Deus enviará operação de erro sobre os que não receberam o amor da verdade (2:10-11)."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "santificacao",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Paulo afirma que Deus escolheu os tessalonicenses 'desde o princípio para a santificação do espírito e a fé na verdade' (2:13), fundamento da esperança escatológica."
+    },
+    {
+      "book_id": "2tessalonicenses",
+      "theme_id": "fe",
+      "relevance": "secondary",
+      "chapters": "1-3",
+      "context": "A fé dos tessalonicenses cresce muitíssimo (1:3) e Paulo confia no Senhor que farão o que é ordenado, pedindo que o Senhor encaminhe seus corações no amor de Deus (3:4-5)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "ensino",
+      "relevance": "primary",
+      "chapters": "1;4-6",
+      "context": "Timóteo é exortado a aplicar-se à leitura, exortação e ensino (4:13), repreender doutrinas diversas das sãs palavras de Cristo (6:3), e apresentar-se 'como obreiro que maneja bem a palavra da verdade'."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "oracao",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "Paulo exorta que se façam 'súplicas, orações, intercessões e ações de graças por todos os homens', especialmente pelos que exercem autoridade, para que tenhamos vida tranquila e sossegada (2:1-2)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "salvacao",
+      "relevance": "primary",
+      "chapters": "1;2",
+      "context": "Paulo declara que 'Cristo Jesus veio ao mundo para salvar os pecadores' (1:15) e que Deus 'deseja que todos os homens sejam salvos e cheguem ao pleno conhecimento da verdade' (2:4)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "graca",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Paulo testemunha que foi blasfemador e perseguidor, mas alcançou misericórdia, e que 'a graça de nosso Senhor superabundou com a fé e o amor que há em Cristo Jesus' (1:14)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1;4-6",
+      "context": "Timóteo é exortado a guardar 'a fé e uma boa consciência' (1:19), 'pelejar a boa peleja da fé' e 'apoderar-se da vida eterna' (6:12)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "contentamento",
+      "relevance": "secondary",
+      "chapters": "6",
+      "context": "'Grande fonte de lucro é a piedade com o contentamento', pois nada trouxemos ao mundo e nada podemos levar — tendo alimento e vestuário, estaremos contentes (6:6-8)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "hipocrisia_religiosa",
+      "relevance": "secondary",
+      "chapters": "4;6",
+      "context": "Paulo alerta contra os que têm 'aparência de piedade', ensinam doutrinas diversas para lucro torpe (6:5), e contra falsas asceses que proibem casamento e alimentos criados por Deus (4:1-3)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "intercessao",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Paulo instrui intercessões por 'todos os homens', fundamentadas na mediação única de Cristo Jesus entre Deus e os homens (2:1-5)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "santidade",
+      "relevance": "secondary",
+      "chapters": "2-4",
+      "context": "Paulo exorta a orar com 'mãos santas, sem ira nem contenda' (2:8), a exercitar-se na piedade (4:7), e que Timóteo seja 'exemplo para os fiéis na palavra, no amor, na fé, na pureza' (4:12)."
+    },
+    {
+      "book_id": "1timoteo",
+      "theme_id": "vida_eterna",
+      "relevance": "secondary",
+      "chapters": "1;6",
+      "context": "Cristo mostra longanimidade para que Paulo sirva de exemplo 'aos que haviam de crer nele para a vida eterna' (1:16); Timóteo é exortado a 'apoderar-se da vida eterna' (6:12)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "lideranca",
+      "relevance": "primary",
+      "chapters": "2;4",
+      "context": "Paulo exorta Timóteo a se apresentar aprovado como 'obreiro que maneja bem a palavra da verdade' (2:15), a cumprir seu ministério (4:5) e a transmitir o que ouviu a homens fiéis que sejam idôneos para ensinar (2:2)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "ensino",
+      "relevance": "primary",
+      "chapters": "2-4",
+      "context": "Paulo instrui sobre a autoridade das Escrituras — 'toda Escritura é divinamente inspirada e proveitosa para ensinar, repreender, corrigir, instruir em justiça' (3:16-17) — e a pregar a palavra a tempo e fora de tempo (4:2)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Paulo, ao fim de sua vida, declara: 'Combati o bom combate, acabei a carreira, guardei a fé' (4:7), exortando Timóteo a sofrer como bom soldado de Cristo Jesus (2:3)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "palavra_de_deus",
+      "relevance": "primary",
+      "chapters": "2-3",
+      "context": "Paulo afirma que mesmo estando preso 'a palavra de Deus não está presa' (2:9), e que toda Escritura é inspirada e suficiente para o homem de Deus estar perfeitamente preparado (3:16-17)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "fe",
+      "relevance": "primary",
+      "chapters": "1-4",
+      "context": "Paulo celebra a fé não fingida de Timóteo herdada de sua avó e mãe (1:5), e ao concluir a carta afirma que guardou a fé (4:7) e aguarda a coroa da justiça."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "fim_dos_tempos",
+      "relevance": "secondary",
+      "chapters": "3-4",
+      "context": "Paulo descreve os 'tempos penosos' dos últimos dias com homens amantes de si mesmos, blasfemos e com aparência de piedade (3:1-5), e o tempo em que 'não suportarão a sã doutrina' (4:3)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "santificacao",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Aquele que se purificar das coisas desonrosas será 'vaso para honra, santificado e útil ao Senhor, preparado para toda boa obra' (2:21)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "ressurreicao",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Paulo exorta Timóteo a lembrar-se de 'Jesus Cristo, ressurgido dentre os mortos' (2:8), base do evangelho pelo qual sofre, e adverte que Himeneu e Fileto negaram a ressurreição futura (2:17-18)."
+    },
+    {
+      "book_id": "2timoteo",
+      "theme_id": "vocacao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "Deus 'nos salvou e chamou com uma santa vocação, não segundo nossas obras, mas segundo seu próprio propósito e a graça dada em Cristo antes dos tempos eternos' (1:9)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "ensino",
+      "relevance": "primary",
+      "chapters": "1-2",
+      "context": "Tito deve 'falar o que convém à sã doutrina' (2:1), instruindo diferentes grupos etários e repreendendo os que ensinam o que não convém nas igrejas (1:10-11)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "santificacao",
+      "relevance": "primary",
+      "chapters": "2",
+      "context": "A graça de Deus ensina 'a renunciar à impiedade e às paixões mundanas, vivendo no presente mundo sóbria, justa e piamente' (2:12)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "segunda_vinda",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Os crentes devem viver santamente 'aguardando a bem-aventurada esperança e o aparecimento da glória do nosso grande Deus e Salvador Cristo Jesus' (2:13)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "fe",
+      "relevance": "secondary",
+      "chapters": "1;3",
+      "context": "Tito é 'verdadeiro filho segundo a fé comum' (1:4) e Paulo instrui que os crentes sejam fiéis e se dediquem às boas obras (3:8), evitando debates inúteis acerca da lei (3:9)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "novo_nascimento",
+      "relevance": "secondary",
+      "chapters": "3",
+      "context": "Deus nos salvou 'mediante o lavar da regeneração e renovação pelo Espírito Santo, que derramou abundantemente sobre nós por Jesus Cristo' (3:5-6)."
+    },
+    {
+      "book_id": "tito",
+      "theme_id": "integridade",
+      "relevance": "secondary",
+      "chapters": "2",
+      "context": "Tito deve ser exemplo de boas obras mostrando 'integridade, sobriedade e linguagem sã e irrepreensível, para que o adversário se confunda' (2:7-8)."
+    },
+    {
+      "book_id": "filemon",
+      "theme_id": "dignidade",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "O evangelho transforma o estatuto social — Onésimo, antes escravo inútil, é agora 'irmão amado', igual a Paulo no Senhor, e Filêmon é exortado a tratá-lo como tal (v.11;16)."
+    },
+    {
+      "book_id": "filemon",
+      "theme_id": "amor",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Paulo apela 'por esse teu amor' (v.9) e fundamenta todo o pedido no amor de Filêmon pelos santos (v.5), esperando que seja espontâneo e não coercitivo (v.14)."
+    },
+    {
+      "book_id": "filemon",
+      "theme_id": "intercessao",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "A carta inteira é uma intercessão de Paulo a favor de Onésimo — Paulo se coloca como fiador ('lança-o minha conta', v.18) e usa seu relacionamento para mediar a restauração."
+    },
+    {
+      "book_id": "filemon",
+      "theme_id": "comunidade",
+      "relevance": "secondary",
+      "chapters": "1",
+      "context": "A situação envolve não apenas dois indivíduos, mas a igreja que se reúne na casa de Filêmon (v.2), indicando que a reconciliação tem dimensão comunitária."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "sacrificio",
+      "relevance": "primary",
+      "chapters": "9-10",
+      "context": "Cristo entrou 'uma vez por todas no santo lugar, havendo obtido uma eterna redenção' pelo seu próprio sangue, contrastado com os sacrifícios repetidos da lei que nunca podiam tirar pecados (9:12; 10:4)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "nova_alianca",
+      "relevance": "primary",
+      "chapters": "8-9",
+      "context": "O autor cita Jeremias 31 — Deus estabelecerá um novo pacto escrevendo suas leis nos corações — e afirma que Cristo é mediador deste novo pacto (8:6-13; 9:15)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "lei",
+      "relevance": "primary",
+      "chapters": "7-10",
+      "context": "A lei levítica era sombra dos bens futuros e não podia aperfeiçoar os que se aproximavam (10:1); com Cristo, o sacerdócio muda e consequentemente a lei muda também (7:12)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "perseveranca",
+      "relevance": "primary",
+      "chapters": "10-12",
+      "context": "O autor exorta: 'necessitais de perseverança, para que, depois de haverdes feito a vontade de Deus, alcanceis a promessa' (10:36), e convoca a 'correr com perseverança a carreira que está proposta' (12:1)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "adoracao",
+      "relevance": "primary",
+      "chapters": "12-13",
+      "context": "O autor exorta a servir a Deus 'agradavelmente, com reverência e temor' (12:28) e a oferecer 'sempre a Deus sacrifício de louvor, isto é, o fruto dos lábios que confessam o seu nome' (13:15)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "identidade_de_deus",
+      "relevance": "primary",
+      "chapters": "1",
+      "context": "Cristo é 'o resplendor da glória de Deus e a expressa imagem do seu Ser', constituído herdeiro de todas as coisas e muito mais excelente que os anjos (1:2-4)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "esperanca",
+      "relevance": "primary",
+      "chapters": "6",
+      "context": "A esperança é apresentada como 'âncora da alma, segura e firme, que penetra até o interior do véu' (6:19), fundamentada nas promessas imutáveis de Deus a Abraão."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "redencao",
+      "relevance": "primary",
+      "chapters": "9",
+      "context": "Cristo, pelo seu próprio sangue, 'entrou uma vez por todas no santo lugar, havendo obtido uma eterna redenção' e purifica nossa consciência para servir ao Deus vivo (9:12-14)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "obediencia",
+      "relevance": "secondary",
+      "chapters": "3-5",
+      "context": "O autor contrasta a desobediência de Israel no deserto — que impediu a entrada no descanso (3:18-19) — com a obediência de Cristo, que se tornou 'autor de eterna salvação para todos os que lhe obedecem' (5:9)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "templo",
+      "relevance": "secondary",
+      "chapters": "8-10",
+      "context": "O autor contrasta o tabernáculo terrestre, 'figura e sombra das coisas celestiais' (8:5), com o verdadeiro santuário celeste no qual Cristo ministrou entrando pelo seu próprio sangue (9:11-12)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "fidelidade_de_deus",
+      "relevance": "secondary",
+      "chapters": "6;10",
+      "context": "As promessas de Deus são garantidas por duas coisas imutáveis nas quais 'é impossível que Deus minta' (6:18), e ele é 'fiel' aquele que prometeu (10:23)."
+    },
+    {
+      "book_id": "hebreus",
+      "theme_id": "santificacao",
+      "relevance": "secondary",
+      "chapters": "10;12",
+      "context": "'Com uma só oferta tem aperfeiçoado para sempre os que estão sendo santificados' (10:14), e o autor exorta a seguir 'a santificação, sem a qual ninguém verá o Senhor' (12:14)."
     }
   ]
 }

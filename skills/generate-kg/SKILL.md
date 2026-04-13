@@ -98,7 +98,13 @@ Book object schema:
 
 Rules:
 - chapter_map must cover ALL chapters in the book (group related chapters together)
-- covers_edges: 5–20 per book, only where the book has meaningful content for that theme
+- covers_edges: aim for 10–25 per book. Short letters (2João, Filemom) may have fewer; major books (gospels, Paul's main letters, Salmos, Isaías, Jeremias) must have 15 or more. Be thorough — a reader should be able to find this book from any theme it genuinely addresses
+- covers_edges completeness check: before finalising, scan the full theme list and ask yourself for each theme: "does this book have meaningful content on this topic?" Add a "secondary" edge if yes. Common gaps to watch for:
+    - Gospels (Mateus, Marcos, Lucas, João): must include dinheiro, oracao, fe, cura, misericordia, arrependimento, salvacao, lei (or lei-related), vida_eterna, nova_alianca, amor, tentacao
+    - Paul's letters (Romanos, 1Corintios, 2Corintios, Galatas, Efesios, Filipenses, Colossenses): must include fe, graca, salvacao, pecado, espirito_santo, nova_alianca, transformacao, amor, misericordia
+    - Psalms: must include ansiedade, luto, oracao, louvor, adoracao, confianca, esperanca, paz, depressao, saudade_de_deus, protecao_divina, palavra_de_deus
+    - OT history books (2Reis, 2Cronicas, Jeremias): must include exilio when the exile is narrated
+    - Hebreus: must include sacrificio, fe, nova_alianca, lei, sacerdocio (use adoracao or lei), perseveranca
 - "primary" = a reader searching this theme would specifically seek this book
 - "secondary" = theme appears but is not the book's main focus
 - All theme ids and era ids must be from the lists above — no exceptions

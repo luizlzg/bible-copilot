@@ -199,7 +199,9 @@ The Bible Knowledge Graph (`src/kg/data/bible_index.json`) is the navigational c
 
 - **Book content maps** — every book has a chapter-by-chapter index: what each section covers, what themes surface, and why a reader would go there
 - **Timeline** — era nodes (Creation → Patriarchs → Exodus → ... → End Times) anchor the narrative spine so the agent can answer historical and context questions
-- **Thematic trails** — broad theological themes (salvation, covenant, grace) and life-situation themes (anxiety, grief, betrayal, purpose) connect to the specific books and passages where they're addressed, with aliases covering the natural-language words users actually type
+- **Thematic trails** — 186 themes (57 broad theological + 129 life-situation) connect to the specific books and passages where they're addressed, with aliases covering the natural-language terms users actually type
+
+Current scale: **66 books**, **186 themes**, **12 eras**, **~1000 covers_edges** averaging 15 per book.
 
 The KG turns a broad search across 66 books into a targeted lookup. The agent consults it before opening any file.
 
@@ -212,6 +214,7 @@ A Claude Code skill is included to regenerate the KG from scratch if books are a
 ```
 
 The skill is defined in `skills/generate-kg/SKILL.md`.
+
 
 ---
 

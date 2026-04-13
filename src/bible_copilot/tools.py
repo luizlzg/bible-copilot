@@ -313,9 +313,10 @@ def save_biblical_response(
             - chapter (int): chapter number
             - verse_start (int, optional): first verse number
             - verse_end (int, optional): last verse number — equals verse_start for a single verse
-        interpretation: Optional exegetical analysis of the cited passages —
-            literary context, historical background, theological significance.
-            Only reference passages listed in biblical_references.
+        interpretation: Explanation of the answer grounded in the cited verses —
+            walk through what each passage actually says about the question,
+            quoting or paraphrasing key phrases from the text you read.
+            Always populate this field when biblical_references is non-empty.
         web_sources: List of web sources used. Each entry:
             - title (str): page title
             - url (str): full URL
