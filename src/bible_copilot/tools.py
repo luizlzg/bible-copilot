@@ -334,12 +334,23 @@ def save_biblical_response(
         else:
             refs.append(ref)
 
+    # Sanitize web source URLs — strip whitespace/newlines the model may include
+    clean_sources = []
+    for s in (web_sources or []):
+        if isinstance(s, dict):
+            s = dict(s)
+            if s.get("url"):
+                s["url"] = s["url"].strip()
+            clean_sources.append(s)
+        else:
+            clean_sources.append(s)
+
     return Command(update={
         "bible_response": {
             "message": "",  # filled from final AI message in the node
             "biblical_references": refs,
             "interpretation": interpretation,
-            "web_sources": web_sources or [],
+            "web_sources": clean_sources,
         },
         "messages": [ToolMessage(
             content="Referências, interpretação e fontes web salvas.",

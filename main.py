@@ -49,7 +49,8 @@ from src.config import BIBLE_DATA_DIR, MESSAGE_HISTORY_DIR, KG_PATH, BibleCopilo
 from src.utils.logger import LOGGER  # noqa: E402
 from src.utils.observability import setup_langsmith_tracing  # noqa: E402
 from src.utils.supabase_client import get_supabase  # noqa: E402
-from src.utils.usage import extract_usage, build_context_snapshot  # noqa: E402
+from src.utils.usage import build_context_snapshot  # noqa: E402
+from src.utils.pricing import compute_cost  # noqa: E402
 
 REQUIRED_ENV_VARS = ["OPENROUTER_API_KEY", "SUPABASE_DB_URL", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY", "SERPER_API_KEY"]
 
@@ -84,6 +85,8 @@ def _persist_to_supabase(
     user_message: str,
     ai_response: dict,
     result_messages: list,
+    pre_turn_messages: list,
+    usage: dict,
     time_to_first_token_s: float,
     model_name: str,
     device_info: dict | None = None,
@@ -109,8 +112,15 @@ def _persist_to_supabase(
             return
 
         user_id = session_row.data["user_id"]
-        usage = extract_usage(result_messages)
-        context_snapshot = build_context_snapshot(result_messages)
+        context_snapshot = build_context_snapshot(pre_turn_messages, result_messages)
+
+        cost = compute_cost(
+            model_id=model_name,
+            input_tokens=usage.get("input_tokens") or 0,
+            output_tokens=usage.get("output_tokens") or 0,
+            cache_read_tokens=usage.get("cache_read_tokens") or 0,
+            cache_creation_tokens=usage.get("cache_creation_tokens") or 0,
+        )
 
         # Insert message record (use pre-generated message_id if provided)
         insert_data = {
@@ -122,6 +132,13 @@ def _persist_to_supabase(
             "model_name": model_name,
             "input_tokens": usage["input_tokens"],
             "output_tokens": usage["output_tokens"],
+            "cache_read_tokens": usage.get("cache_read_tokens"),
+            "cache_creation_tokens": usage.get("cache_creation_tokens"),
+            "input_cost": cost["input_cost"],
+            "output_cost": cost["output_cost"],
+            "cache_read_cost": cost["cache_read_cost"],
+            "cache_write_cost": cost["cache_write_cost"],
+            "total_cost": cost["total_cost"],
             "num_tool_calls": usage["num_tool_calls"],
             "context": context_snapshot,
             "time_to_first_token": round(time_to_first_token_s, 3),
@@ -279,6 +296,16 @@ async def chat(request: ChatRequest) -> StreamingResponse:
         t0 = time.perf_counter()
         t_first_token: float | None = None
         final_node_output: dict | None = None
+        # Per-turn usage — captured from events so we only count this turn's LLM calls,
+        # not the accumulated history that result_messages carries from all previous turns.
+        last_input_tokens = 0       # last LLM call — full context size (input re-sends all previous tokens)
+        last_cache_read_tokens = 0  # last LLM call — cache hits grow with context, not additive
+        last_cache_creation_tokens = 0
+        turn_output_tokens = 0      # sum — each call generates new output tokens (no overlap)
+        turn_tool_calls = 0
+        # Full message state at node entry — before the agent runs and before any
+        # summarization that may happen during this turn.
+        pre_turn_messages: list = []
 
         try:
             async for event in _graph.astream_events(
@@ -293,9 +320,15 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 if metadata.get("langgraph_node") == "SummarizationMiddleware.before_model":
                     continue
 
-                if kind == "on_tool_start":
+                if kind == "on_chain_start" and metadata.get("langgraph_node") == "search_response":
+                    pre_turn_messages = (event.get("data", {}).get("input") or {}).get("messages", [])
+
+                elif kind == "on_tool_start":
                     input_data = event.get("data", {}).get("input", {})
                     yield _sse("tool_start", {"tool": name, "input": input_data})
+
+                elif kind == "on_tool_end":
+                    turn_tool_calls += 1
 
                 elif kind == "on_chat_model_stream":
                     chunk = event["data"].get("chunk")
@@ -307,11 +340,44 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                                 t_first_token = time.perf_counter()
                             yield _sse("token", {"token": content})
 
+                elif kind == "on_chat_model_end":
+                    output_msg = event.get("data", {}).get("output")
+                    if output_msg:
+                        um = getattr(output_msg, "usage_metadata", None) or {}
+                        in_tok = um.get("input_tokens", 0)
+                        out_tok = um.get("output_tokens", 0)
+                        details = um.get("input_token_details") or {}
+                        cache_read = details.get("cache_read", 0) or 0
+                        cache_creation = details.get("cache_creation", 0) or 0
+                        last_input_tokens = in_tok
+                        last_cache_read_tokens = cache_read
+                        last_cache_creation_tokens = cache_creation
+                        turn_output_tokens += out_tok
+                        LOGGER.info(
+                            f"[{request.thread_id}] LLM call — "
+                            f"input={in_tok} output={out_tok} "
+                            f"cache_read={cache_read} cache_creation={cache_creation}"
+                        )
+
                 elif kind == "on_chain_end" and metadata.get("langgraph_node") == "search_response":
                     final_node_output = event.get("data", {}).get("output") or {}
 
             time_to_first_token_s = (t_first_token - t0) if t_first_token is not None else (time.perf_counter() - t0)
             thread_id = request.thread_id
+
+            turn_cost = compute_cost(
+                model_id=model_name,
+                input_tokens=last_input_tokens,
+                output_tokens=turn_output_tokens,
+                cache_read_tokens=last_cache_read_tokens,
+                cache_creation_tokens=last_cache_creation_tokens,
+            )
+            LOGGER.info(
+                f"[{thread_id}] Turn cost — "
+                f"input=${turn_cost['input_cost']} output=${turn_cost['output_cost']} "
+                f"cache_read=${turn_cost['cache_read_cost']} cache_write=${turn_cost['cache_write_cost']} "
+                f"total=${turn_cost['total_cost']}"
+            )
 
             if not final_node_output or final_node_output.get("invalid_input"):
                 err = (final_node_output or {}).get("error_message", "Erro interno.")
@@ -374,12 +440,22 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 "interpretation": response.interpretation,
                 "web_sources": [s.model_dump() for s in (response.web_sources or [])],
             }
+            turn_usage = {
+                "input_tokens": last_input_tokens or None,
+                "output_tokens": turn_output_tokens or None,
+                "cache_read_tokens": last_cache_read_tokens or None,
+                "cache_creation_tokens": last_cache_creation_tokens or None,
+                "num_tool_calls": turn_tool_calls or None,
+                **turn_cost,
+            }
             asyncio.create_task(asyncio.to_thread(
                 _persist_to_supabase,
                 thread_id,
                 request.message,
                 ai_response_dict,
                 result_messages,
+                pre_turn_messages,
+                turn_usage,
                 time_to_first_token_s,
                 model_name,
                 request.device_info,
