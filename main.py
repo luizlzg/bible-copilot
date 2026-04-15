@@ -49,7 +49,6 @@ from src.config import BIBLE_DATA_DIR, MESSAGE_HISTORY_DIR, KG_PATH, BibleCopilo
 from src.utils.logger import LOGGER  # noqa: E402
 from src.utils.observability import setup_langsmith_tracing  # noqa: E402
 from src.utils.supabase_client import get_supabase  # noqa: E402
-from src.utils.usage import build_context_snapshot  # noqa: E402
 from src.utils.pricing import compute_cost  # noqa: E402
 
 REQUIRED_ENV_VARS = ["OPENROUTER_API_KEY", "SUPABASE_DB_URL", "SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY", "SERPER_API_KEY"]
@@ -84,8 +83,6 @@ def _persist_to_supabase(
     thread_id: str,
     user_message: str,
     ai_response: dict,
-    result_messages: list,
-    pre_turn_messages: list,
     usage: dict,
     time_to_first_token_s: float,
     model_name: str,
@@ -101,7 +98,8 @@ def _persist_to_supabase(
             db.table("sessions")
             .select(
                 "user_id, num_user_messages, num_ai_messages, mean_time_to_first_token, "
-                "total_input_tokens, total_output_tokens, num_tool_calls, conversation_history"
+                "total_input_tokens, total_output_tokens, num_tool_calls, total_summarizations, "
+                "conversation_history"
             )
             .eq("session_id", thread_id)
             .maybe_single()
@@ -112,7 +110,8 @@ def _persist_to_supabase(
             return
 
         user_id = session_row.data["user_id"]
-        context_snapshot = build_context_snapshot(pre_turn_messages, result_messages)
+        context_snapshot = usage.get("context_snapshot") or []
+        summarization_count = usage.get("summarization_count", 0)
 
         cost = compute_cost(
             model_id=model_name,
@@ -140,6 +139,7 @@ def _persist_to_supabase(
             "cache_write_cost": cost["cache_write_cost"],
             "total_cost": cost["total_cost"],
             "num_tool_calls": usage["num_tool_calls"],
+            "summarization_count": summarization_count,
             "context": context_snapshot,
             "time_to_first_token": round(time_to_first_token_s, 3),
             "device_type": device_info.get("type") if device_info else None,
@@ -186,6 +186,7 @@ def _persist_to_supabase(
             "total_input_tokens": (session_row.data["total_input_tokens"] or 0) + (usage["input_tokens"] or 0),
             "total_output_tokens": (session_row.data["total_output_tokens"] or 0) + (usage["output_tokens"] or 0),
             "num_tool_calls": (session_row.data["num_tool_calls"] or 0) + (usage["num_tool_calls"] or 0),
+            "total_summarizations": (session_row.data.get("total_summarizations") or 0) + summarization_count,
             "conversation_history": new_history,
             "updated_at": "now()",
         }).eq("session_id", thread_id).execute()
@@ -298,15 +299,11 @@ async def chat(request: ChatRequest) -> StreamingResponse:
         final_node_output: dict | None = None
         # Per-turn usage — captured from events so we only count this turn's LLM calls,
         # not the accumulated history that result_messages carries from all previous turns.
-        last_input_tokens = 0       # last LLM call — full context size (input re-sends all previous tokens)
-        last_cache_read_tokens = 0  # last LLM call — cache hits grow with context, not additive
-        last_cache_creation_tokens = 0
+        peak_input_tokens = 0       # peak across LLM calls — represents max context size (grows before summarization)
+        peak_cache_read_tokens = 0  # peak across LLM calls
+        peak_cache_creation_tokens = 0
         turn_output_tokens = 0      # sum — each call generates new output tokens (no overlap)
         turn_tool_calls = 0
-        # Full message state at node entry — before the agent runs and before any
-        # summarization that may happen during this turn.
-        pre_turn_messages: list = []
-
         try:
             async for event in _graph.astream_events(
                 {"messages": [HumanMessage(content=request.message)]},
@@ -319,9 +316,6 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 metadata = event.get("metadata", {})
                 if metadata.get("langgraph_node") == "SummarizationMiddleware.before_model":
                     continue
-
-                if kind == "on_chain_start" and metadata.get("langgraph_node") == "search_response":
-                    pre_turn_messages = (event.get("data", {}).get("input") or {}).get("messages", [])
 
                 elif kind == "on_tool_start":
                     input_data = event.get("data", {}).get("input", {})
@@ -349,9 +343,9 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                         details = um.get("input_token_details") or {}
                         cache_read = details.get("cache_read", 0) or 0
                         cache_creation = details.get("cache_creation", 0) or 0
-                        last_input_tokens = in_tok
-                        last_cache_read_tokens = cache_read
-                        last_cache_creation_tokens = cache_creation
+                        peak_input_tokens = max(peak_input_tokens, in_tok)
+                        peak_cache_read_tokens = max(peak_cache_read_tokens, cache_read)
+                        peak_cache_creation_tokens = max(peak_cache_creation_tokens, cache_creation)
                         turn_output_tokens += out_tok
                         LOGGER.info(
                             f"[{request.thread_id}] LLM call — "
@@ -367,10 +361,10 @@ async def chat(request: ChatRequest) -> StreamingResponse:
 
             turn_cost = compute_cost(
                 model_id=model_name,
-                input_tokens=last_input_tokens,
+                input_tokens=peak_input_tokens,
                 output_tokens=turn_output_tokens,
-                cache_read_tokens=last_cache_read_tokens,
-                cache_creation_tokens=last_cache_creation_tokens,
+                cache_read_tokens=peak_cache_read_tokens,
+                cache_creation_tokens=peak_cache_creation_tokens,
             )
             LOGGER.info(
                 f"[{thread_id}] Turn cost — "
@@ -384,8 +378,11 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 yield _sse("error", {"error": err})
                 return
 
-            result_messages = final_node_output.get("messages", [])
             bible_response = coerce_bible_response(final_node_output.get("bible_response"))
+            turn_summarization_count = final_node_output.get("summarization_count", 0)
+            turn_context_snapshot = final_node_output.get("context_snapshot") or []
+            # result_messages still needed for the fallback response message
+            result_messages = final_node_output.get("messages", [])
 
             if bible_response:
                 refs = [
@@ -441,11 +438,13 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 "web_sources": [s.model_dump() for s in (response.web_sources or [])],
             }
             turn_usage = {
-                "input_tokens": last_input_tokens or None,
+                "input_tokens": peak_input_tokens or None,
                 "output_tokens": turn_output_tokens or None,
-                "cache_read_tokens": last_cache_read_tokens or None,
-                "cache_creation_tokens": last_cache_creation_tokens or None,
+                "cache_read_tokens": peak_cache_read_tokens or None,
+                "cache_creation_tokens": peak_cache_creation_tokens or None,
                 "num_tool_calls": turn_tool_calls or None,
+                "summarization_count": turn_summarization_count,
+                "context_snapshot": turn_context_snapshot,
                 **turn_cost,
             }
             asyncio.create_task(asyncio.to_thread(
@@ -453,8 +452,6 @@ async def chat(request: ChatRequest) -> StreamingResponse:
                 thread_id,
                 request.message,
                 ai_response_dict,
-                result_messages,
-                pre_turn_messages,
                 turn_usage,
                 time_to_first_token_s,
                 model_name,
