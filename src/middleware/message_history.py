@@ -23,20 +23,40 @@ class MessageHistoryMiddleware(AgentMiddleware):
     """
     Tracks message IDs across model calls. When IDs disappear (indicating
     summarization), saves the accumulated message history as Markdown.
+
+    Also maintains a full chronological record of every message ever seen
+    (including messages summarized away) for use as the context snapshot.
     """
 
     def __init__(self) -> None:
+        # --- disk-save state (reset after each summarization) ---
         self._known_ids: set[str] = set()
         self._message_accumulator: list[Any] = []
+
+        # --- full context (never reset) ---
+        self._all_messages: list[Any] = []
+        self._all_seen_ids: set[str] = set()
+
+        # --- per-turn metrics ---
+        self._summarization_count: int = 0
+
         self._thread_id: str | None = None
         self._message_history_dir: str | None = None
 
+    # ── Public accessors ───────────────────────────────────────────────────────
+
+    @property
+    def summarization_count(self) -> int:
+        return self._summarization_count
+
+    @property
+    def all_messages(self) -> list[Any]:
+        return list(self._all_messages)
+
+    # ── Helpers ────────────────────────────────────────────────────────────────
+
     def _extract_ids(self, messages: list[Any]) -> set[str]:
-        ids = set()
-        for msg in messages:
-            if hasattr(msg, "id") and msg.id:
-                ids.add(msg.id)
-        return ids
+        return {msg.id for msg in messages if getattr(msg, "id", None)}
 
     def _format_message_as_markdown(self, msg: Any) -> str:
         if isinstance(msg, HumanMessage):
@@ -111,6 +131,7 @@ class MessageHistoryMiddleware(AgentMiddleware):
         current_ids = self._extract_ids(messages)
 
         # Detect disappearing IDs → summarization happened
+        summarization_occurred = False
         if self._known_ids:
             disappeared = self._known_ids - current_ids
             if disappeared:
@@ -119,15 +140,30 @@ class MessageHistoryMiddleware(AgentMiddleware):
                     f"summarization triggered, saving history..."
                 )
                 self._save_history()
-                # Reset accumulator after saving
+                # Reset disk-save batch; _all_messages is NEVER reset
                 self._message_accumulator = []
                 self._known_ids = set()
+                self._summarization_count += 1
+                summarization_occurred = True
 
-        # Accumulate: add messages we haven't seen before
+        # Accumulate to disk-save batch (resets after each save)
         for msg in messages:
             msg_id = getattr(msg, "id", None)
             if msg_id and msg_id not in self._known_ids:
                 self._message_accumulator.append(msg)
                 self._known_ids.add(msg_id)
 
+        # Accumulate to full history — original messages first, then summary
+        # messages as they appear (in chronological order, never reset)
+        for msg in messages:
+            msg_id = getattr(msg, "id", None)
+            if msg_id and msg_id not in self._all_seen_ids:
+                self._all_messages.append(msg)
+                self._all_seen_ids.add(msg_id)
+
+        if summarization_occurred:
+            # Use self._summarization_count (instance var) — state.get() would
+            # always read the initial value because middleware return values are
+            # not reflected back in the state dict passed to subsequent calls.
+            return {"summarization_count": self._summarization_count}
         return None

@@ -40,10 +40,27 @@ def _make_llm(model_name: str) -> ChatOpenAI:
     )
 
 
+def _serialize_messages(messages: list[Any]) -> list[dict]:
+    """Convert LangChain message objects to JSON-serializable dicts for storage."""
+    result = []
+    for msg in messages:
+        role = type(msg).__name__.replace("Message", "").lower()
+        content = msg.content if isinstance(msg.content, str) else str(msg.content)
+        entry: dict[str, Any] = {"role": role, "content": content}
+        tool_calls = getattr(msg, "tool_calls", None)
+        if tool_calls:
+            entry["tool_calls"] = [{"name": tc.get("name", "")} for tc in tool_calls]
+        result.append(entry)
+    return result
+
+
 # ── Search + Response Agent ───────────────────────────────────────────────────
 
 
-def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: str):
+def create_search_response_agent(
+    model_name: str, bible_data_dir: str, kg_path: str
+) -> tuple:
+    """Returns (agent, history_middleware) so the node can read per-turn metrics."""
     llm = _make_llm(model_name)
 
     summarization = SummarizationMiddleware(
@@ -62,13 +79,14 @@ def create_search_response_agent(model_name: str, bible_data_dir: str, kg_path: 
         current_date=current_date,
     )
 
-    return create_agent(
+    agent = create_agent(
         model=llm,
         tools=SEARCH_RESPONSE_TOOLS,
         system_prompt=system_prompt,
         state_schema=GraphState,
         middleware=[summarization, history, save_validator],
     )
+    return agent, history
 
 
 async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotContext]) -> dict:
@@ -85,11 +103,13 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
     retry_count = 0
     while retry_count <= MAX_RETRIES:
         try:
-            agent = create_search_response_agent(model_name, bible_data_dir=bible_data_dir, kg_path=kg_path)
+            agent, history_mw = create_search_response_agent(
+                model_name, bible_data_dir=bible_data_dir, kg_path=kg_path
+            )
             LOGGER.info(f"Invoking Search Response Agent (attempt {retry_count + 1}/{MAX_RETRIES + 1})...")
 
-            # Clear bible_response so old turn data doesn't bleed if the tool isn't called
-            state = {**state, "bible_response": {}}
+            # Clear per-turn fields so previous turn data doesn't bleed into this turn
+            state = {**state, "bible_response": {}, "summarization_count": 0, "context_snapshot": None}
 
             result = None
             async for event in agent.astream(state, stream_mode="values"):
@@ -125,8 +145,19 @@ async def search_response_node(state: GraphState, runtime: Runtime[BibleCopilotC
                 "web_sources": saved_data.get("web_sources", []),
             }
 
+            # Read per-turn metrics from the middleware instance (not from state,
+            # because middleware return values are not reflected back in subsequent
+            # before_model state dicts).
+            summarization_count = history_mw.summarization_count
+            context_snapshot = _serialize_messages(history_mw.all_messages)
+
             LOGGER.info("Search Response Agent completed successfully.")
-            return {"messages": new_messages, "bible_response": bible_response}
+            return {
+                "messages": new_messages,
+                "bible_response": bible_response,
+                "summarization_count": summarization_count,
+                "context_snapshot": context_snapshot,
+            }
 
         except StructuredOutputValidationError as e:
             retry_count += 1

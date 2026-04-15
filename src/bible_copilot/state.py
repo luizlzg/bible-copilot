@@ -28,6 +28,8 @@ class GraphState(AgentState):
     invalid_input: bool
     error_message: str
     bible_response: Optional[BibleResponse]
+    summarization_count: int
+    context_snapshot: Optional[list]
 
 
 def coerce_bible_response(response: Any) -> BibleResponse:
